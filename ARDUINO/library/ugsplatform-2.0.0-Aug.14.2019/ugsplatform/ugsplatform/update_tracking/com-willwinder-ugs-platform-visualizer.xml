@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.willwinder.ugs.platform.visualizer">
+    <module_version install_time="1565788930259" last="true" origin="installer" specification_version="2.0.0.2019.08.14.13.18">
+        <file crc="2497449639" name="config/Modules/com-willwinder-ugs-platform-visualizer.xml"/>
+        <file crc="3799949494" name="modules/com-willwinder-ugs-platform-visualizer.jar"/>
+    </module_version>
+</module>
