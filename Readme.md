@@ -44,7 +44,14 @@ The Python code [here](./PYTHON/opentrons_xy.py) gives a very simple xyz scan.
 
 |  Type | Details  |  Price | Link  |
 |---|---|---|---|
-| Linear Bearing | Igus Drylin rj4jp-01-06, inner diameter 6mm! |  4 € | [Amazon](https://www.amazon.de/-/en/Upgrade-Bearings-instead-Printer-RJ4JP-01-08/dp/B07MCPZ8KP/ref=pd_lpo_60_t_1/258-0350583-5681770?_encoding=UTF8&pd_rd_i=B07MCPZ8KP&pd_rd_r=2ee44f97-c7b3-4e8c-ae48-a6095f439df0&pd_rd_w=F5EFL&pd_rd_wg=wuDuQ&pf_rd_p=d5c9797d-0238-4119-b220-af4cc3420918&pf_rd_r=BXAHKMVH6RH4B413EET0&psc=1&refRID=BXAHKMVH6RH4B413EET0)  |
+| Wellplate Base | Carries the MTP and performs coarse focus using springloaded screws|  4 € | [Amazon](./STL/04_OPENTRONS_Microscope_wellplate_base.stl)  |
+| Spring for CCTV lens | Realizes low-cost refocusing (print at 100µm layer height) |  4 € | [Amazon](./STL/01_Autofocus_CCTV12mm_spring_1.stl)  |
+| Magnet holder | Carries the focusing unit and the camera |  4 € | [Amazon](./STL/01_Autofocus_Magnet_holder_v0.stl)  |
+| Slide X  | Moving in X direction |  4 € | [Amazon](./STL/01_Slide_camera_x_v0.stl)  |
+| Slide Y |  Moving in Y direction |  4 € | [Amazon](./STL/01_Slide_camera_y_v0.stl)  |
+| Base for microscope  | Holds everything together |  4 € | [Amazon](./STL/02_Opentrons_Microscope_Base_v0.stl)  |
+
+
 
 
 
