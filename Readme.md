@@ -19,6 +19,7 @@ Of course this microscope can be used in a different setting as well.
 - All 3D printed + off-the-shelf components 
 - Minimum of tools required 
 
+The idea to use a CCTV lens as a microscope objective lens was further described e.g. in this publication free to read on [PLoS One](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194063)
 
 
 
@@ -80,22 +81,34 @@ Kupferlackdraht W210 - Ø 0,20 bis 1,18mm - 100g / Spule Kupfer Trafo Motor CU
 
 ### Assemble the XY-stage 
 
+These are more-less all components you would need for the XY-stage to operate. The Z-focus assembly is explained below
 
 <p align="left">
 <a href="#logo" name="logo"><img src="./IMAGES/Opentrons_6.jpg" width="400"></a>
 </p>
 
+Insert the linear Bearings (e.g. IGUS Drylin). If your printer adds to much extra air you can make the bearings larger by using some tape such that they fit in the wholes very very stiff. You can use 2 per hole. Mount the metal washer for the spindel drive. 
+
+The "imaging unit" which has the raspberry pi camera, the CCTV lens and the focusing mechanism will be explained in a dedicated tutorial below. 
+
 <p align="left">
 <a href="#logo" name="logo"><img src="./IMAGES/Opentrons_7.jpg" width="400"></a>
 </p>
+
+
+In case the holes for the 6mm rods are not large enough widen them a bit with e.g. a screwdriver. 
 
 <p align="left">
 <a href="#logo" name="logo"><img src="./IMAGES/Opentrons_8.jpg" width="400"></a>
 </p>
 
+Same with the holes for the motor
+
 <p align="left">
 <a href="#logo" name="logo"><img src="./IMAGES/Opentrons_9.jpg" width="400"></a>
 </p>
+
+Add the clutch to the the stepper motor (NEMA 11) and mount on to the Baseplate as such:
 
 <p align="left">
 <a href="#logo" name="logo"><img src="./IMAGES/Opentrons_10.jpg" width="400"></a>
@@ -234,6 +247,10 @@ Kupferlackdraht W210 - Ø 0,20 bis 1,18mm - 100g / Spule Kupfer Trafo Motor CU
 <p align="left">
 <a href="#logo" name="logo"><img src="./IMAGES/Z-Stack.gif" width="400"></a>
 </p>
+
+## Plate leveling
+
+Since 3D printers are not really reliable in terms of accuracy and the stage is rather not really flat, I added springs to each corner of the base which holds the well plate. Similar to 3D printer plate leveling, you need to adjust the hight of the plate in the first run manually. This is necessary since the focus range so far is only ~1 mm I would say. I need to improve this ;-) 
 
 
 
