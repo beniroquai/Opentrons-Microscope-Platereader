@@ -1,133 +1,241 @@
+
+# Opentrons Imaging Unit (XYZ)
+
+This device is supposed to help you automatically imaging a multiwell plate using a very simple [GRBL](https://github.com/grbl/grbl)-based Arduino Shield controlled by a Raspberry Pi, which also captures images. Curious how this looks like? Scroll to the very end of the page.
+
+Of course this microscope can be used in a different setting as well.
+
+
 <p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/UC2_logo_text.png" width="400"></a>
+<a href="#logo" name="logo"><img src="./IMAGES/Assembly_Opentrons_Imagingunit_v0.png" width="600"></a>
 </p>
 
-# **UC2 - Open and Modular Optical Toolbox**
+***Features:***
 
----
-
-**New**: The [Microscopy, Optical Alignment and Abbe Diffraction experiment](./TheBOX/CourseBOX/ALIGNMENT_InfOptics) were added to the CourseBOX. You can also watch a demonstration of the [Abbe Experiment on YouTube](https://youtu.be/NrkINpx6IMo)
-
-**New**: The [Lens Holder](./CAD/ASSEMBLY_CUBE_Lens_v2) works now for lenses with the diameter up to 50 mm!
-
-**New**: New module: [Rectangular Aperture](./CAD/ASSEMBLY_CUBE_Aperture_Rectangular_v2); Simpler and better modules: [Mechanical Z-stage](./CAD/ASSEMBLY_CUBE_Z-STAGE_mechanical_v2), [Sample-stage for light sheet microscope](./CAD/ASSEMBLY_CUBE_S-STAGE_new_v2), [Magnetic Sample Holder](./CAD/ASSEMBLY_CUBE_Sample_Holder_v2) and [openSCAD Lens Holder](./CAD/ASSEMBLY_CUBE_Lens_v2)
-
+- Move camera in XY
+- Move CCTV lens as microscope objective in Z using a voice coil motor
+- Fast
+- Costs ~200-300 €
+- All 3D printed + off-the-shelf components 
+- Minimum of tools required 
 
 
-[<img src="./IMAGES/sitemap.png" height=50 align="right">](./SITEMAP.md)
-
-[<img src="./IMAGES/UC2_Logo.png" height=40>](https://www.useetoo.org) [<img src="./IMAGES/icon_git.png" width=40>](https://github.com/bionanoimaging/UC2-GIT) [<img src="./IMAGES/icon_UC2Software.png" height=40>](https://github.com/bionanoimaging/UC2-Software-GIT) [<img src="./IMAGES/icon_tw.png" width=40>](https://twitter.com/openuc2)  [<img src="./IMAGES/icon_yt.png" width=40>](https://www.youtube.com/channel/UCcHFzXTdC1Ro0OMnHS_54UA) [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
-Cite this repository: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4041339.svg)](https://doi.org/10.5281/zenodo.4041339)
 
----
+## Software
 
-# <a href="#icon01" name="icon01"><img src="./IMAGES/signpost.png" width=30></a> Start here! Everything is open-source - simply join!
+We use the GLBR code to control the microscope - so you can use it from any computer equipped with a serial (e.g. USB) connection. 
 
-## Steps to reproduce and use the toolbox:
-<p align="center">
- <a href="https://github.com/bionanoimaging/UC2-GIT/tree/master/TUTORIALS"><img src="./IMAGES/UC2_Reproduce_Scheme.png" width="800"></a>
+In order to use the CNC Shield, download the [GRBL](https://github.com/grbl/grbl) library and flash it onto the Arduino. 
+
+The Python code [here](./PYTHON/opentrons_xy.py) gives a very simple xyz scan.
+
+ 
+
+
+## Bill of material
+
+
+
+## HARDWARE
+
+### 3D printing files 
+
+|  Type | Details  |  Price | Link  |
+|---|---|---|---|
+| Linear Bearing | Igus Drylin rj4jp-01-06, inner diameter 6mm! |  4 € | [Amazon](https://www.amazon.de/-/en/Upgrade-Bearings-instead-Printer-RJ4JP-01-08/dp/B07MCPZ8KP/ref=pd_lpo_60_t_1/258-0350583-5681770?_encoding=UTF8&pd_rd_i=B07MCPZ8KP&pd_rd_r=2ee44f97-c7b3-4e8c-ae48-a6095f439df0&pd_rd_w=F5EFL&pd_rd_wg=wuDuQ&pf_rd_p=d5c9797d-0238-4119-b220-af4cc3420918&pf_rd_r=BXAHKMVH6RH4B413EET0&psc=1&refRID=BXAHKMVH6RH4B413EET0)  |
+
+
+
+### Bill of material
+
+This is used in the current version of the setup
+
+|  Type | Details  |  Price | Link  |
+|---|---|---|---|
+| Linear Bearing | Igus Drylin rj4jp-01-06, inner diameter 6mm! |  4 € | [Amazon](https://www.amazon.de/-/en/Upgrade-Bearings-instead-Printer-RJ4JP-01-08/dp/B07MCPZ8KP/ref=pd_lpo_60_t_1/258-0350583-5681770?_encoding=UTF8&pd_rd_i=B07MCPZ8KP&pd_rd_r=2ee44f97-c7b3-4e8c-ae48-a6095f439df0&pd_rd_w=F5EFL&pd_rd_wg=wuDuQ&pf_rd_p=d5c9797d-0238-4119-b220-af4cc3420918&pf_rd_r=BXAHKMVH6RH4B413EET0&psc=1&refRID=BXAHKMVH6RH4B413EET0)  |
+| 4x Rod 6 mm diameter | e.g. Thorlabs (or alike) |  15 € | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER12)  |
+| 2x Stepper Motor  | Nema 11  |  15 € | [Ebay](https://www.ebay.de/itm/Nema-11-Mini-Stepper-Motor-Schrittmotor-6Ncm-0-67A-31mm-4-Draht-fur-3D-Drucker/392191218406?hash=item5b506b12e6:g:P9wAAOSwlB1fmTgi)  |
+| 2x Spindle drive  | T8 Trapezgewindespindel Messingmutter 3D Drucker Fräse Spindel Mutter 300mm |  8 € | [Ebay](https://www.ebay.de/itm/T8-Trapezgewindespindel-Messingmutter-3D-Drucker-Fr%C3%A4se-Spindel-Mutter-100-1000MM/153427964107?ssPageName=STRK%3AMEBIDX%3AIT&var=453365285064&_trksid=p2057872.m2749.l2649)  |
+| CNC Shield |  CNC V3 Shield + UNO R3 + A4988 Driver Module Board für Arduino 3D Drucker |  15 € | [Ebay](-Module-Board-fur-Arduino-3D-Drucker/362683690575?_trkparms=ispr%3D1&hash=item5471a1ee4f:g:GnYAAOSwiTNdLvRk&amdata=enc%3AAQAFAAACYBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkBSh1VzQSTzkTiSV5EE%252FHQdv468Xx0js2egPJhqf0j7fywX70Ijgo0L0ajyjNlmeJWy1dONTLs09E8PgyaqbxKiU%252FQPg7DG%252BFdK1XmUoG4gBLxaztxVEPttqeK6XH%252FwDKE1XxkL%252F%252F5YUIn7KgrwcPrtVZuPrl%252Bhvl4xRV9MdCbSaZ9nlfiVzZqC9mmdYPwcKYYKvADiSZ%252FKVPyKQ6AO%252FV4OW0Hu48Z3fYCmWOBHbF7wa3VxbHlx4HHlyfi4NkEmtrhpMdGa9EiEKbzcPUwCwaSxxMAOkcOKdLTYIDb1buAqzqqLSU2KftABdQM1HGVs6dhxRTzW9uWl6GGindn%252FFkgQ1PuoIaXF23QCZqf1GtIgYlMjOWfQhvQJ0wePxaGRI61t9ujegpfIgJenPJISPJZ1wWMl2BEBSt0oEzBxzQFAqTwgCj9MAzkM1XS%252F5jsoTbG7Zk15nd1%252BSrci036YFTrfQVWSsgstiQ9vz2hXJNOvrKiG4k82ydvDNYn2k2fvWeB%252BluRc%252FE8Rn4vZeLV%252F5A9JCMMrua%252Ba6fRM63scpIUUF7P%252Fn5w6IWp8Vc2TgAM6TZGELuvXd5KbPGIeApY7A%252BuFGBDpQLRnGTUA439YsUi584qmW7e2RwSaeGBv310JlpZrcb7DiN318VgcJWQ3m7e5D5Lj77FPVafIUH3WsesKyiVWBfVCcr5MMhU7oUCa7ZawFmJxMKyK3%252BNVTriUtEte8xrWU5eLFAXU%252F0yi5nOKHP%252BqT%252FIL%252BHJvn4x6t6eP3X%7Ccksum%3A3626836905753a6171c7ac06403fa89107608cac8b83%7Campid%3APL_CLK%7Cclp%3A2334524)  |
+| M3, M4 Screws | Screw Set |  12 € | [Ebay](https://www.ebay.de/itm/Schrauben-Set-520tlg-Edelstahl-Schrauben-Muttern-M3-M4-M5-Linsenkopfschrauben/383726480774?_trkparms=ispr%3D1&hash=item5957e16d86:g:G5sAAOSwVFpfZIpI&amdata=enc%3AAQAFAAACcBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkxFtV7J5P58ubuVigtBH%252Fe6pb1LxAKCnCULXdvRrl4LVsR3MjfE7wqRxrrBJlBysxXCQuNVptPKS9BmNaHKDLIeQv9NKj6IvrJW%252FufTTddFXGF8U%252BnasvpahEx2Fwxrry8XZyS4eQQvsN4mA59aRp9J7k6D4K06%252FFcobu4rHnfQ1VDPT8wflsYId3xtETX7pohjCj3dUHx%252B2xdTjlELu04rULIiL6TUEAeM14OltNcoB1t2%252Fh8V8LKjZEnZdlr%252F%252FRXMuJEQYYDBP%252BBnRL5njzYMyjhWI4zWNk15%252BO1Dp35UhzgbADwjZ0qAo99s3c3Ti6IYmF969jgsb%252BGsP1O7z0Hr%252BpldAp1SHfquGj6eFoy%252FGQNJEId0Py85H1LaFn6Hyci2zHqyBgOacd3mquWr7LNT%252F%252FwpC%252FdQKhGyC2IC0Em1d%252BmmZ6ooQu3vmdiJsgBl3Xo3aLS%252BgW8Wt9gV9q8CMkm20NLpQ6jZyrsf%252FIuilQiHFyzw1J4VLI9n0%252BL6%252FBAH3YJmF%252B73OfglDgtfXR6JsIfmQWs%252FZHZiL3amLq0SmiL8EMrSxXt%252BIJ%252BiGbRoPXdxz3szICKQI4q9q%252FD722ZzcNie8%252FzhMVivT30E1KgYJfz%252FAfU7gvNCXLVDGSFbcWoPzhKkeHwScOm%252BdH7lynZeiltxRDBO87crSnuH9QoeU7MYThFdOChZ32I32GDoDan46MhW38X80oeXGp6BhDrkOgATOEQNgh3vOFRSl5P2ew7vYL%252Bv4da0aJy2ThL5WfIGHbt9qjkwQjEBY4JexecOA7qQ%253D%253D%7Ccksum%3A38372648077480f9cf3eb2fe485292adf88c008d37c8%7Campid%3APL_CLK%7Cclp%3A2334524)  |
+| Ringmagnet | 3x Sehr starke Neodym Ring Magnete Magnetring mit Bohrung Loch viele Größen Günstig, 25mm x 20mm x 3mm |  12 € | [Ebay](ebay.de/itm/Sehr-starke-Neodym-Ring-Magnete-Magnetring-mit-Bohrung-Loch-viele-Grosen-Gunstig/181545269073?hash=item2a44f0f751:g:oNUAAOSwLIJe~EdO)  |
+| CCTV Linse | 2X( fisheye cctv lens 5MP 1.8mm M12*0.5 mount 1/2.5 F2.0 180 degree for vi M1L |  7 € | [Ebay](https://www.ebay.de/itm/2X-fisheye-cctv-lens-5MP-1-8mm-M12-0-5-mount-1-2-5-F2-0-180-degree-for-vi-M1L/233627838476?_trkparms=ispr%3D1&hash=item36654de80c:g:lggAAOSwk2Je8f7Z&amdata=enc%3AAQAFAAACcBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkai8xCwosGKpC0NWj85e%252FB3gZJ%252BzvB9vRXVstqDLegnsuCOGZnsnJp%252Bj0lq7sKTqGXdULH6axJTXPdh4mGpXhhchRTZY3XnXT5QxRrPdibXHXZQpAOVZw1Tl9juT9TLD4F72%252Bo1GRyiayCRSe6UW%252B78CU1wf7CdE%252BpR4uii84et%252B228t7fWwr7kXd1DvW2xpTILVtXaMN%252BXenzkegNQ7bTlmJQTFGj76SXEKYzCRsOn9RbGLlebFdeWI3pqME9rM5upUqAXGUSRkF2fNJhHU2GdiY3SBGI7osdpBCXtvkq34Gri48RhJcF5sapLbkoklYY8bWhjHV6tJKQI1ARj5KSodDP976xUEoVlzvlG%252BckVPaLzi39s8UY97L4Zvh%252BnW4rnuCvCXSJBbIhve%252FTwjU3XyweNiS%252B%252B8Ws1E%252BixsBfh90Bi%252FfAtjSFzBIIldnbKr9HYzccb49plDaznWb2zEozsgf3kZsPiYQeTj4qb5R70FiE1duWjLBl9133r%252FlGJuNo1O6vDTEzVJPbWGqENO42mMOxeRTjFIJ%252BTEjUmoe4XwIKfSkM3ThHKmjHWxm77iwfbu1sgkecHrdUJ76Cmm2lAtMq7qb0%252BLRRKimJBfnoXKvWMOJneUmh1C%252Ff48BgxhspnJnqAw%252BfKZTB3U%252F%252FmCKClL6rlqGINGyOCT4mroqH%252FNriqUqPDLDcP62eVl38MWE2qAnhaTRChCgG6%252FKsexK7%252FY1oDpFUw6PADoFCSSLfrIpt9HS%252Bz7LYpzGghQi%252BbGdESsQ3jYCgUs6zjfu4jFI%252Bw%253D%253D%7Ccksum%3A23362783847651c1e01e73064f05bca70ac0d279fb0b%7Campid%3APL_CLK%7Cclp%3A2334524)  |
+| Wires  |  Various |  10 € | [ebay]()  |
+| Powersupply  | 5V, 3A, Various |  10 € | [ebay]()  |
+| Powersupply  | 12V, 3A, Various |  10 € | [ebay]()  |
+| Raspberry Pi + SD + Powersupply + Housing  | Raspberry Pi 3 Set /Bundle: 16GB SD-Karte, HDMI, original Netzteil und Gehäuse | 70 € | [ebay](https://www.ebay.de/itm/Raspberry-Pi-3-Set-Bundle-16GB-SD-Karte-HDMI-original-Netzteil-und-Geh%C3%A4use/152322890678)  |
+| Camera | Raspberry Pi Camera v2.1 | 22 € | [ebay](https://www.ebay.de/itm/Original-Raspberry-Pi-Camera-Module-V2-8-MP-Megapixel-v2-1-Kamera-Webcam/402312752484?epid=1169173168&hash=item5dabb56d64:g:Mu8AAOSwpnRe~EQ-)  | PLA filament | Prusament, space black, 1.75mm  | 22,50 € | [ebay](https://www.ebay.de/itm/3D-Drucker-Filament-1kg-PLA-1-75mm-Durchmesser-Spule-Rolle-1000g-Made-in-DE/401619975552?var=671364352133)  |
+| Isolated Copper Wire | Kupferlackdraht W210 - Ø 0,20 bis 1,18mm - 100g / Spule Kupfer Trafo Motor CU, 0.1 mm  | 22,50 € | [ebay](https://www.ebay.de/itm/Kupferlackdraht-W210-0-20-bis-1-18mm-100g-Spule-Kupfer-Trafo-Motor-CU/254195767797?var=553567555457&_trkparms=ispr%3D1&hash=item3b2f3f99f5:g:JskAAOSwK~ldoDFU&amdata=enc%3AAQAFAAACcBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkrDx%252B2NLp21dg6hHbHAkGMWoIimBVQNvAzC1tMUTz8GC9HAJ6S1TK1Yh%252BZ9TUiE85b4EyGRRJVrka3wJmHhuKUeHv%252Fxtg1hAoPzYis%252BYBzY%252FlR5eiKBVcXEC%252BlXPzurjQs7xmGQopoVnxLiquqIjjcwQkRAayxfr1fJSOWtzYp0rwfgnSnqbC0wm7%252FNXbaEzdKlmRtuqJZIdzv58NZ2J5zM%252Fc3bqrpqBJaxP7ujek1X%252FVvVfxCbkmOGvgF6j%252FrQnK%252BRxFQvlfuPPBUIb%252FdsRCCy7X5BSSqg0ztNX0KAtzkJlcwgRbDEqNYXptn4T7kVDF2dsd9qqxO1I28vMCnFPOrD0BnK9MjOTpd%252FtLJLAFdYGukDdl%252FH9mqvBpRQ%252FVtZmh%252BlwgJkVpX6OXdxeLBCV%252B7VSLg8R%252FoVa%252BZ2OZQb9dLExUKFN7l8k%252Bwv7IiV%252FvUTNTNrt6ijENKZRtRpPeZyRLFXQ13UfaBHuPhkvUcgqrwk9qOIJGUe1BbWWJ%252FOfHaLQYMpSrbuZ5cH3BQnxEqUD65bn1cDjEvFkKKmu52JNSAzAS3iebtvKqMEWu%252BprqOoSzAa4%252FapaHIB6zlC3qswk5kEtFwmmIeRpqYGlrmWfbjBsfEfgH%252BnCEKHikYJgeUMhqHUC6tnZJIy9MXOWy6LG1XeUNHnhaTt%252FOagRSTXCaPmsH5yZotCIu2OGAF37raSSurz40VMMaOWOK%252B3T5pbzck75%252BWNUICHVswn7aUhdVT213HGkHBrXLxuC%252FDxoG8Cnf1LNxLCxWAOgOvLT3l2Sahg%253D%253D%7Ccksum%3A254195767797ff9db643371141fcaf3aa2c7b44e47d1%7Campid%3APL_CLK%7Cclp%3A2334524)  |
+
+Kupferlackdraht W210 - Ø 0,20 bis 1,18mm - 100g / Spule Kupfer Trafo Motor CU
+
+### Assemble the XY-stage 
+
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_6.jpg" width="400"></a>
 </p>
 
-## Too many new things? Follow our tutorials [<img src="./IMAGES/BtP.png" width="60"> From a Beginner to a Professional](./TUTORIALS)!
-
-## Already familiar? Click here if you are looking for...
-TheBOX | General toolbox  | Specific setup |Workshops
-:------:|:------:|:------:|:------:
-[<img src="./IMAGES/UC2_theBox.jpg" height="150" hspace="20">](./TheBOX)|[<img src="./IMAGES/UC2_Cube_Store.jpg" height="150">](./CAD)|[<img src="./IMAGES/UC2_application.jpg" height="150">](./APPLICATIONS)|[<img src="./IMAGES/UC2_workshop.jpg" height="150">](./WORKSHOP)
-[Choose a version and build your own BOX.](./TheBOX) | [Explore the toolbox and its applications.](./CAD) | [Alternatives for many Microscopy methods... and more.](./APPLICATIONS) | [Host or join a UC2 workshop.](./WORKSHOP)
-
-## [Get Involved! Contribute to the project!](CONTRIBUTING.md)
-
-## ... or keep on reading to learn more!
-
----
-
-## Making **open-science** great again!
-
-**UC2** is a general-purpose modular framework for making interactive (electro)-optical projects. Most optical systems such as microscopes follow a simple **4f** or Fourier-optical principle, where lenses are aligned such that focal-planes of adjacent components overlap to limit the amount of aberrations as much as possible and to be able to predict the system-behavior easily using Fourier-transforms.
-
-Following this idea, a microscope as shown in **Fig 1** creates an angular magnification depending on the focal lenghts of the objective f<sub>obj</sub> and tube lens f<sub>tube</sub>:
-
-***M<sub>4f</sub>=  f<sub>tube</sub>/f<sub>obj</sub>***
-
-<p align="center">
-<img src="./IMAGES/UC2_simplemicroscope.png" width="800">
-<br> Fig. 1: Fourier-Optical Setup; Koehler Illumination where the illumination plane is conjugate to the objective pupil plane (BFP)
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_7.jpg" width="400"></a>
 </p>
 
-Besides optical components, the **UC2** building blocks can also host electronics such as **Arduinos** or **ESP32s** to create ''smart'' functions like LED array illumination, Z-stages, et cetera. Communication can be granted through the wired **I²** BUS or the wireless **MQTT** protocol.
-
-**UC2** is in active development. It is meant to be used not only by beginners, but also for professionals dealing with optical setups on a daily basis. Its magnetic click-and-go concept simplifies the process of aligning and adjusting the parts giving new tools acting as rapid-prototyping devices. It also comes with a series of open-source workshops (in the future) explaining the theory behind optics.
-
-People are also encouraged to share their work. We are curious what the community is doing with our little blocks. All necessary details to modify the design of the blocks are given in the sub-folders of the specific folders. Share your ideas through our [@openUC2-Twitter account](https://twitter.com/openuc2).
-
-A full cube + base-plate looks like that:
-<p align="center">
-<img src="./IMAGES/UC2_Explosion_v2.png" height="300">
-<br> Fig. 2: Assembly of the cube + base-plate; A set of ferro-magnetic screws hold the lid and base-cube in place and connect to four 5mm Neodym ballmagnets sitting in the base-plate; Optical components find their place inside the cube.
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_8.jpg" width="400"></a>
 </p>
 
-**UC2** can be used with cameras from the Raspberry Pi world, but creates even more beautiful images with your cellphone. Thus making cutting edge-research not only affordable, but also available.
-A more in-detail project description can be found in the [UC2 White-Paper](./TUTORIALS/DOCUMENTS/UC2_Whitepaper.pdf)
-
-## UC2 as an "open-standard"
-
-The idea is to use **UC2** as an open-standard or bridge to external hardware components and devices such as cameras or lenses. An already existing or customized adapter/insert creates the link to the **UC2** eco-system. A variety of ready-to-use adapters can be found in the folder [CAD](./CAD).
-
-<p align="center">
-<img src="./IMAGES/UC2_openstandard.png" width="550">
-<br> Fig. 3: The structure of any UC2 assembly follows the green lines; A basic cube can hold an insert thus adapting to different components (i.e. lenses, etc.); A number of assembled cube-modules can form a complex optical system here called application
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_9.jpg" width="400"></a>
 </p>
 
-A more in-detail description of the **MDK** (**M**odular **D**eveloper **K**it) which explains how ***your idea*** can be adapted to the module system can be found in the [MDK](./MDK)-folder.
-
-If you have a new part, we are eager to see it. Please feel free to share it on available websites like Twitter, Thingiverse, Github or any other platform of choice!
-
-### Read more about the project in our papers:
-All data from the paper is available in [Zenodo](https://doi.org/10.5281/zenodo.4018965) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4018965.svg)](https://doi.org/10.5281/zenodo.4018965)  
-Our Pre-print  is available on [Biorxiv](https://www.biorxiv.org/content/10.1101/2020.03.02.973073v1)  [![DOI:10.1101/2020.03.02.973073](http://img.shields.io/badge/DOI-10.1101/2020.03.02.973073-B31B1B.svg)](https://doi.org/10.1101/2020.03.02.973073)  
-The COSI conference paper is out on [OSA](https://www.osapublishing.org/abstract.cfm?uri=ISA-2019-ITh3B.5)  [![DOI:10.1364/ISA.2019.ITh3B.5](http://img.shields.io/badge/DOI-10.1364/ISA.2019.ITh3B.5-36449F.svg)](https://doi.org/10.1364/ISA.2019.ITh3B.5)
-
-Where next? [<img src="./IMAGES/sitemap.png" height=50>](./SITEMAP.md)
-
-### Complete overview of setups, modules, parts to buy and parts to print
-Find a complete shopping'n'printing list including estimated prices for all modules and setups in this [BILL OF MATERIALS](https://docs.google.com/spreadsheets/d/1U1MndGKRCs0LKE5W8VGreCv9DJbQVQv7O6kgLlB6ZmE/edit?usp=sharing)!
-
-### List of available Setups
-
-Our goal is to make as many setups as possible available, so that people can play with it. Basically everything's possible, you just need to think in blocks! Please have a look in the [APPLICATIONS](./APPLICATIONS/Readme.md) folder for the up to date list of the setups.
-
-<p align="center">
-<img src="./IMAGES/UC2_Holography.png" width="300">
-<br> Fig. 4: In-line holographic microscope
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_10.jpg" width="400"></a>
 </p>
 
-### Repositories
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_11.jpg" width="400"></a>
+</p>
 
-Currently, **UC2** consists of the following repositories:
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_12.jpg" width="400"></a>
+</p>
 
- - [UC2 Hardware Repo (core)](https://github.com/bionanoimaging/UC2-GIT/) (this repository) - [SITEMAP](./SITEMAP.md)
- - [UC2 Software Control Repo](https://github.com/bionanoimaging/UC2-Software-GIT)
- - [UC2+ImJoy Image Processing Repo](https://github.com/bionanoimaging/UC2-ImJoy-Plugins)
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_13.jpg" width="400"></a>
+</p>
 
-### Software
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_14.jpg" width="400"></a>
+</p>
 
-There is a GitHub repository dedicated for the UC2 software. It can be found [here](https://github.com/bionanoimaging/UC2-Software-GIT).
-It supports you with controller APPS for the Raspberry Pi and Android Cellphones.
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_15.jpg" width="400"></a>
+</p>
 
-### Workshops
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_16.jpg" width="400"></a>
+</p>
 
-The documented workshops can be found in the folder [WORKSHOP](./WORKSHOP) and give a step-by-step introduction into the system. We have done multiple workshops together with the HHMI Janelia Farm, UiO Oslo, Lichtwerkstatt Jena and Leibniz IPHT Jena e.V.  
-If you're interested we are happy to host one near you!
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_17.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_18.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_19.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_20.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_20.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_21.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_22.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_23.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_24.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_25.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_26.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_27.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_28.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_29.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_30.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_31.jpg" width="400"></a>
+</p>
+
+
+
+### Build the voicecoil motor (VCM) driven focusing unit 
+
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_1.jpg" width="400"></a>
+</p>
+
+
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_2.jpg" width="400"></a>
+</p>
+
+
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_3.jpg" width="400"></a>
+</p>
+
+
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_4.jpg" width="400"></a>
+</p>
+
+## XYZ Stage in Action
+
+### Scanning microscope in XY inside the Opentrons OT2
+
+*Focusing to one position with the VCM*
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_XY1.gif" width="400"></a>
+</p>
+
+*Focus-stacking and moving the microscope*
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Openrons_XY2.gif" width="400"></a>
+</p>
+
+*Focus-stacking (full range)*
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/Z-Stack.gif" width="400"></a>
+</p>
+
+
 
 ## Get Involved
 
 This project is open so that anyone can get involved. You don't even have to learn CAD designing or programming. Find ways you can contribute in  [CONTRIBUTING](CONTRIBUTING.md)
 
 
-## Kits, License and Collaboration
+## License and Collaboration
 
 This project is open-source and is released under the CERN open hardware license. Our aim is to make the kits commercially available.
 We encourage everyone who is using our Toolbox to share their results and ideas, so that the Toolbox keeps improving. It should serve as a easy-to-use and easy-to-access general purpose building block solution for the area of STEAM education. All the design files are generally for free, but we would like to hear from you how is it going.
@@ -140,13 +248,14 @@ REMARK: All files have been designed using Autodesk Inventor 2019 (EDUCATION)
 
 ## Showcase
 
-This is the mess you can end up during Fourier-optics session using UC2 components. Pure-fun! :-)
+This is the first manually stitched crystalized sugar on a wellplate ;-)
 
 <p align="center">
-<img src="./IMAGES/UC2_workshop.jpg" width="400">
+<img src="./IMAGES/Stitch1.jpeg" width="400">
 </p>
+
+
 
 ## Credits
 If you find this project useful, please like this repository, follow us on Twitter and cite the webpage! :-)
 
-*B. Diederich, R. Lachmann, B. Marsikova, E. Bingöl, S. Carlstedt, X. Uwurukundo, H. Wang, R. Heintzmann, Lichtwerkstatt, IPHT Jena, HHMI Janelia Farm, UiO Oslo, NorMic  and many more*
