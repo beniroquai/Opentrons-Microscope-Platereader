@@ -253,6 +253,76 @@ Add the clutch to the the stepper motor (NEMA 11) and mount on to the Baseplate 
 Since 3D printers are not really reliable in terms of accuracy and the stage is rather not really flat, I added springs to each corner of the base which holds the well plate. Similar to 3D printer plate leveling, you need to adjust the hight of the plate in the first run manually. This is necessary since the focus range so far is only ~1 mm I would say. I need to improve this ;-) 
 
 
+### ATTEMPT: Fluorescence Imaging 
+
+We try to integrate an LED ring (Adafruit Neopixel), which is controlled by the Raspberry Pi. We currently don't know yet if there is any fluorescent signal visible by the Picamera. 
+
+Steps to make the LED array work are the [following](https://detlef-huettemann.com/post/adafruit-neopixel-raspberry/). 
+
+Install the library:
+
+```
+sudo apt-get install build-essential python-dev git scons swig
+
+gi    t clone https://github.com/jgarff/rpi_ws281x.git
+cd rpi_ws281x
+scons
+
+cd python
+sudo python setup.py install
+```
+
+Now we want to connect the LED ring to the Raspberry Pi. Therefore we need to supply it with 5V, GND and the data pin. It goes as follows:
+
+| LED Panel Pin | Raspberry Pi Pin  |
+|---|---|
+| 5V (in) | 5V (#4) |
+| GND (in) | GND (#6) |
+| Data (in) | GPIO13 (#33) |
+
+<p align="center">
+<img src="https://docs.microsoft.com/de-de/windows/iot-core/media/pinmappingsrpi/rp2_pinout.png" width="500">
+</p>
+
+Sample Code from this [github repo](https://github.com/detman/simple-neopixel-clock/blob/master/led_0.py):
+
+```py
+#!/usr/bin/python
+
+import time, sys
+import datetime
+
+from neopixel import *
+
+LED_COUNT      = 12      # Number of LED pixels.
+LED_CHANNEL    = 0       # PWM Channel (set to 1 when LED_PIN is 13 or 19, else 0)
+LED_PIN        = 13      # GPIO pin connected to the pixels (must support PWM!).
+LED_FREQ_HZ    = 800000  # LED signal frequency in hertz (usually 800khz)
+LED_DMA        = 5       # DMA channel to use for generating signal (try 5)
+LED_BRIGHTNESS = 100     # Set to 0 for darkest and 255 for brightest
+LED_INVERT     = False   # True to invert the signal (when using NPN transistor level shift)
+
+## main
+
+strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS, LED_CHANNEL)
+strip.begin()
+
+
+strip.setPixelColor(0,Color(0,0,255))
+strip.show()
+
+try:
+    while True:
+        time.sleep(0.1)
+
+except KeyboardInterrupt:
+    for i in range(strip.numPixels()):
+        strip.setPixelColor(i, 0)
+    strip.show()
+    sys.exit()
+```
+
+
 
 ## Get Involved
 
