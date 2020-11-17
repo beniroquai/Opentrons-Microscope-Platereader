@@ -337,18 +337,27 @@ Which is nice, is that the RGB LEDs spectrum for the red, green and blue LED see
 
 *Red*
 <p align="center">
-<img src="https://docs.microsoft.com/de-de/windows/iot-core/media/pinmappingsrpi/Spectrometer_Neopixel_ring_onlyRed.PNG" width="600">
+<img src="./IMAGES/Spectrometer_Neopixel_ring_onlyRed.PNG" width="600">
 </p>
 
 *Green*
 <p align="center">
-<img src="https://docs.microsoft.com/de-de/windows/iot-core/media/pinmappingsrpi/Spectrometer_Neopixel_ring_onlyGreen.PNG" width="600">
+<img src="./IMAGES/Spectrometer_Neopixel_ring_onlyGreen.PNG" width="600">
 </p>
 
 *Blue*
 <p align="center">
-<img src="https://docs.microsoft.com/de-de/windows/iot-core/media/pinmappingsrpi/Spectrometer_Neopixel_ring_onlyBlue.PNG" width="600">
+<img src="./IMAGES/Spectrometer_Neopixel_ring_onlyBlue.png" width="600">
 </p>
+
+
+With the RING it looks like this here:
+
+<p align="center">
+<img src="./IMAGES/FIG_Fluo_ring.jpg" width="400">
+</p>
+
+One can observe some fluorescent signal from the stained paper d
 
 
 ## Get Involved
