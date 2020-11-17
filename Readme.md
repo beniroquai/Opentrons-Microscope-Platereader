@@ -33,6 +33,10 @@ In order to use the CNC Shield, download the [GRBL](https://github.com/grbl/grbl
 The Python code [here](./PYTHON/opentrons_xy.py) gives a very simple xyz scan.
 
  
+#### Adapting GLBR
+
+Adjust the PWM Frequency:
+https://github.com/grbl/grbl/issues/914
 
 
 ## Bill of material
