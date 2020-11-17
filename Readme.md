@@ -331,6 +331,24 @@ except KeyboardInterrupt:
     sys.exit()
 ```
 
+***ATTENTION:*** This is currently not working on the Raspi unfortunately. Need to investigate it a bit. 
+
+Which is nice, is that the RGB LEDs spectrum for the red, green and blue LED seem to match some Fluorescent spectra quiet well:
+
+*Red*
+<p align="center">
+<img src="https://docs.microsoft.com/de-de/windows/iot-core/media/pinmappingsrpi/Spectrometer_Neopixel_ring_onlyRed.PNG" width="600">
+</p>
+
+*Green*
+<p align="center">
+<img src="https://docs.microsoft.com/de-de/windows/iot-core/media/pinmappingsrpi/Spectrometer_Neopixel_ring_onlyGreen.PNG" width="600">
+</p>
+
+*Blue*
+<p align="center">
+<img src="https://docs.microsoft.com/de-de/windows/iot-core/media/pinmappingsrpi/Spectrometer_Neopixel_ring_onlyBlue.PNG" width="600">
+</p>
 
 
 ## Get Involved
