@@ -264,12 +264,15 @@ Install the library:
 ```
 sudo apt-get install build-essential python-dev git scons swig
 
-gi    t clone https://github.com/jgarff/rpi_ws281x.git
+git clone https://github.com/jgarff/rpi_ws281x.git
 cd rpi_ws281x
 scons
 
 cd python
-sudo python setup.py install
+sudo python3 setup.py build
+sudo python3 setup.py install
+sudo pip3 install rpi_ws281x
+sudo pip3 install adafruit-circuitpython-neopixel
 ```
 
 Now we want to connect the LED ring to the Raspberry Pi. Therefore we need to supply it with 5V, GND and the data pin. It goes as follows:
@@ -278,7 +281,7 @@ Now we want to connect the LED ring to the Raspberry Pi. Therefore we need to su
 |---|---|
 | 5V (in) | 5V (#4) |
 | GND (in) | GND (#6) |
-| Data (in) | GPIO13 (#33) |
+| Data (in) | GPIO18 (#12) |
 
 <p align="center">
 <img src="https://docs.microsoft.com/de-de/windows/iot-core/media/pinmappingsrpi/rp2_pinout.png" width="500">
@@ -286,17 +289,19 @@ Now we want to connect the LED ring to the Raspberry Pi. Therefore we need to su
 
 Sample Code from this [github repo](https://github.com/detman/simple-neopixel-clock/blob/master/led_0.py):
 
+You need to run the code as ROOT in order to access the GPIO pins!
+
 ```py
 #!/usr/bin/python
 
 import time, sys
 import datetime
 
-from neopixel import *
+from rpi_ws281x import *
 
-LED_COUNT      = 12      # Number of LED pixels.
+LED_COUNT      = 16      # Number of LED pixels.
 LED_CHANNEL    = 0       # PWM Channel (set to 1 when LED_PIN is 13 or 19, else 0)
-LED_PIN        = 13      # GPIO pin connected to the pixels (must support PWM!).
+LED_PIN        = 18      # GPIO pin connected to the pixels (must support PWM!).
 LED_FREQ_HZ    = 800000  # LED signal frequency in hertz (usually 800khz)
 LED_DMA        = 5       # DMA channel to use for generating signal (try 5)
 LED_BRIGHTNESS = 100     # Set to 0 for darkest and 255 for brightest
