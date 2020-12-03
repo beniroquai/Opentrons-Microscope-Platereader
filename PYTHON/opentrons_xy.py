@@ -40,11 +40,11 @@ myoffsetx = 0  # offset steps for the x dirrection
 myoffsety = 0 # offset steps for the y dirrection
 mybacklashx = 7
 mybacklashy = 45 # this is required to offset the stage from the non-moving rim
-Nx = 15
-Ny = 15
-stepsizeZ = 500
-z_min = 8500
-z_max = 9000
+Nx = 50
+Ny = 50
+stepsizeZ =150
+z_min = 500
+z_max =  600
 
 
 # create folder for measurements
@@ -76,7 +76,7 @@ try:
             stepy = stepsize_y*iy+myoffsety
             
             Stepper_XY.go_to(stepx, stepy)
-            time.sleep(1.5)
+            time.sleep(.5)
     	    # grab a frame and wait until the camera settles
     	    #print('Grabbing frame')
             for iz in range(z_min,z_max,stepsizeZ):

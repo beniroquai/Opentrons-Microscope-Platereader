@@ -6,11 +6,11 @@ Created on Wed May 27 13:46:54 2020
 """
 from scipy.ndimage import  gaussian_filter
 import tifffile as tif
-import cv2
+import cv2 
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib as mpl
-import matplotlib
+import matplotlib  
 from scipy.optimize import curve_fit
 import serial
 import time
@@ -51,7 +51,7 @@ from fractions import Fraction
 cam.framerate = Fraction(5,1)
 cam.shutter_speed = 100000
 
-# parameters for the x/y stage
+# parameters for the x/y stage 
 stepsize_x = 0.03 # One STEPSIZE in X/Y of the cheap-stage  is 17.27 µm
 stepsize_y = 0.023 # One STEPSIZE in X/Y of the cheap-stage  is 17.27 µm
 myoffsetx = 0  # offset steps for the x dirrection
@@ -60,7 +60,7 @@ mybacklashx = 7
 mybacklashy = 45 # this is required to offset the stage from the non-moving rim
 Nx = 2
 Ny = 2
-stepsizeZ = 15 # 10
+stepsizeZ = 5 # 10
 z_min = 500
 z_max = 700
 
@@ -78,7 +78,7 @@ try:
             # go to xy-step
             stepx = stepsize_x*ix+myoffsetx
             stepy = stepsize_y*iy+myoffsety
-
+            
             Stepper_XY.go_to(stepx, stepy)
             time.sleep(.5)
             # grab a frame and wait until the camera settles
@@ -87,7 +87,7 @@ try:
             myzstepsall = []
             #background = np.empty((Npix_y, Npix_x, 3), dtype=np.uint8)
             #cam.capture(background, 'bgr')
-
+                
             for iz in range(z_min,z_max,stepsizeZ):
                 Stepper_XY.go_to_z(iz)
                 time.sleep(0.)
@@ -103,11 +103,11 @@ try:
                 #cv2.imwrite(filename, image)
                 mystdall.append(mystd)
                 myzstepsall.append(iz)
-
+                
                 print(str(iscan)+ " STDV: " + str(mystd))
-            #Stepper_XY.go_to_z(0)
+            #Stepper_XY.go_to_z(0)     
     # Reset position of X/Y stepper
-            # fitting
+            # fitting 
             mystd = np.squeeze(np.array(mystdall))
             myallz = np.squeeze(np.array(myzstepsall))
 
@@ -122,7 +122,7 @@ try:
             xdata = np.linspace(0,1,mystd.shape[0])
             p0 = [1., np.mean(mystd), 2.]
             coeff, var_matrix = curve_fit(gauss, xdata, mystd, p0=p0)
-
+            
             # Get the fitted curve
             gauss_fit = gauss(xdatafit, coeff[0], coeff[1], coeff[2])
             gaussmax = coeff[1] # np.argmax(gauss_fit)
@@ -141,7 +141,7 @@ try:
 
 
 
-except Exception as e:
+except Exception as e: 
     print(e)
     cam.stop_preview()
     Stepper_XY.go_to_z(0)

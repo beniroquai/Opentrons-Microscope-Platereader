@@ -141,6 +141,7 @@ bool capture_still() {
 }
 
 //  Different kernels:
+// http://blog.dzl.dk/2019/06/08/compact-gaussian-interpolation-for-small-displays/
 //Sigma=1
 #define P0 (0.077847)
 #define P1 (0.123317+0.077847)
@@ -203,6 +204,11 @@ bool convolve_gaussian() {
       }
     }
   }
+#if 0 // DEBUG
+  Serial.println("PRocessed frame:");
+  print_frame(proc_frame);
+  Serial.println("---------------");
+#endif
 }
 
 
@@ -232,7 +238,9 @@ void find_max_pix() {
 void print_frame(uint16_t frame[H][W]) {
   for (int y = 0; y < H; y++) {
     for (int x = 0; x < W; x++) {
-      Serial.print(frame[y][x]);
+      int myval = 0;
+      if (frame[y][x] >200) myval = frame[y][x];
+      Serial.print(myval);
       Serial.print('\t');
     }
 
