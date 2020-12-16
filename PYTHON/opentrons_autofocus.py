@@ -20,6 +20,17 @@ import picamera
 import numpy
 import cv2
 
+
+## TESTING autofocus 
+import serial
+
+# connect to the focussensor
+focussensor = "/dev/cu.SLAB_USBtoUART"
+ser = serial.Serial(focussensor, 115200, bytesize=8, stopbits=serial.STOPBITS_ONE, parity=serial.PARITY_NONE)
+ser.flushInput()
+
+
+
 # GLOBAL PARAMETERS
 myfolder = './RESULTS/'
 

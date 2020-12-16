@@ -1885,3 +1885,388 @@
 #=#=#=# Syncrun started 2020-12-06T12:39:59Z
 #=#=#=#=# Propagation starts 2020-12-06T12:39:59Z (last step: 597 msec, total: 597 msec)
 #=#=#=# Syncrun finished 2020-12-06T12:40:00Z (last step: 111 msec, total: 709 msec)
+#=#=#=# Syncrun started 2020-12-06T14:40:04Z
+#=#=#=#=# Propagation starts 2020-12-06T14:40:05Z (last step: 685 msec, total: 685 msec)
+#=#=#=# Syncrun finished 2020-12-06T14:40:05Z (last step: 109 msec, total: 794 msec)
+#=#=#=# Syncrun started 2020-12-06T16:40:10Z
+#=#=#=#=# Propagation starts 2020-12-06T16:40:10Z (last step: 506 msec, total: 506 msec)
+#=#=#=# Syncrun finished 2020-12-06T16:40:10Z (last step: 107 msec, total: 614 msec)
+#=#=#=# Syncrun started 2020-12-06T18:40:15Z
+#=#=#=#=# Propagation starts 2020-12-06T18:40:15Z (last step: 555 msec, total: 555 msec)
+#=#=#=# Syncrun finished 2020-12-06T18:40:15Z (last step: 111 msec, total: 667 msec)
+#=#=#=# Syncrun started 2020-12-06T20:41:39Z
+#=#=#=#=# Propagation starts 2020-12-06T20:41:40Z (last step: 596 msec, total: 596 msec)
+#=#=#=# Syncrun finished 2020-12-06T20:41:40Z (last step: 118 msec, total: 715 msec)
+#=#=#=# Syncrun started 2020-12-06T20:41:41Z
+#=#=#=#=# Propagation starts 2020-12-06T20:41:41Z (last step: 130 msec, total: 130 msec)
+#=#=#=# Syncrun finished 2020-12-06T20:41:41Z (last step: 18 msec, total: 148 msec)
+#=#=#=# Syncrun started 2020-12-06T22:41:45Z
+#=#=#=#=# Propagation starts 2020-12-06T22:41:45Z (last step: 578 msec, total: 578 msec)
+#=#=#=# Syncrun finished 2020-12-06T22:41:46Z (last step: 113 msec, total: 692 msec)
+#=#=#=# Syncrun started 2020-12-07T00:41:50Z
+#=#=#=#=# Propagation starts 2020-12-07T00:41:51Z (last step: 565 msec, total: 565 msec)
+#=#=#=# Syncrun finished 2020-12-07T00:41:51Z (last step: 104 msec, total: 670 msec)
+#=#=#=# Syncrun started 2020-12-07T02:41:55Z
+#=#=#=#=# Propagation starts 2020-12-07T02:41:56Z (last step: 549 msec, total: 549 msec)
+#=#=#=# Syncrun finished 2020-12-07T02:41:56Z (last step: 113 msec, total: 663 msec)
+#=#=#=# Syncrun started 2020-12-07T04:42:00Z
+#=#=#=#=# Propagation starts 2020-12-07T04:42:01Z (last step: 637 msec, total: 637 msec)
+#=#=#=# Syncrun finished 2020-12-07T04:42:01Z (last step: 121 msec, total: 758 msec)
+#=#=#=# Syncrun started 2020-12-07T06:42:05Z
+#=#=#=#=# Propagation starts 2020-12-07T06:42:06Z (last step: 587 msec, total: 587 msec)
+#=#=#=# Syncrun finished 2020-12-07T06:42:06Z (last step: 105 msec, total: 693 msec)
+#=#=#=# Syncrun started 2020-12-07T08:42:10Z
+#=#=#=#=# Propagation starts 2020-12-07T08:42:11Z (last step: 659 msec, total: 659 msec)
+#=#=#=# Syncrun finished 2020-12-07T08:42:11Z (last step: 123 msec, total: 782 msec)
+#=#=#=# Syncrun started 2020-12-07T10:42:15Z
+#=#=#=#=# Propagation starts 2020-12-07T10:42:16Z (last step: 637 msec, total: 637 msec)
+#=#=#=# Syncrun finished 2020-12-07T10:42:16Z (last step: 121 msec, total: 759 msec)
+#=#=#=# Syncrun started 2020-12-07T12:42:20Z
+#=#=#=#=# Propagation starts 2020-12-07T12:42:21Z (last step: 672 msec, total: 672 msec)
+#=#=#=# Syncrun finished 2020-12-07T12:42:21Z (last step: 111 msec, total: 783 msec)
+#=#=#=# Syncrun started 2020-12-07T14:42:26Z
+#=#=#=#=# Propagation starts 2020-12-07T14:42:26Z (last step: 659 msec, total: 659 msec)
+#=#=#=# Syncrun finished 2020-12-07T14:42:26Z (last step: 108 msec, total: 767 msec)
+#=#=#=# Syncrun started 2020-12-07T16:42:31Z
+#=#=#=#=# Propagation starts 2020-12-07T16:42:31Z (last step: 661 msec, total: 661 msec)
+#=#=#=# Syncrun finished 2020-12-07T16:42:31Z (last step: 121 msec, total: 782 msec)
+#=#=#=# Syncrun started 2020-12-07T18:42:36Z
+#=#=#=#=# Propagation starts 2020-12-07T18:42:36Z (last step: 606 msec, total: 606 msec)
+#=#=#=# Syncrun finished 2020-12-07T18:42:37Z (last step: 68 msec, total: 675 msec)
+#=#=#=# Syncrun started 2020-12-07T20:42:41Z
+#=#=#=#=# Propagation starts 2020-12-07T20:42:42Z (last step: 634 msec, total: 634 msec)
+#=#=#=# Syncrun finished 2020-12-07T20:42:42Z (last step: 70 msec, total: 704 msec)
+#=#=#=# Syncrun started 2020-12-07T22:42:46Z
+#=#=#=#=# Propagation starts 2020-12-07T22:42:47Z (last step: 614 msec, total: 614 msec)
+#=#=#=# Syncrun finished 2020-12-07T22:42:47Z (last step: 69 msec, total: 684 msec)
+#=#=#=# Syncrun started 2020-12-08T00:42:51Z
+#=#=#=#=# Propagation starts 2020-12-08T00:42:52Z (last step: 662 msec, total: 662 msec)
+#=#=#=# Syncrun finished 2020-12-08T00:42:52Z (last step: 72 msec, total: 734 msec)
+#=#=#=# Syncrun started 2020-12-08T02:42:56Z
+#=#=#=#=# Propagation starts 2020-12-08T02:42:57Z (last step: 679 msec, total: 679 msec)
+#=#=#=# Syncrun finished 2020-12-08T02:42:57Z (last step: 70 msec, total: 749 msec)
+#=#=#=# Syncrun started 2020-12-08T04:43:01Z
+#=#=#=#=# Propagation starts 2020-12-08T04:43:02Z (last step: 656 msec, total: 656 msec)
+#=#=#=# Syncrun finished 2020-12-08T04:43:02Z (last step: 74 msec, total: 731 msec)
+#=#=#=# Syncrun started 2020-12-08T06:43:06Z
+#=#=#=#=# Propagation starts 2020-12-08T06:43:07Z (last step: 750 msec, total: 750 msec)
+#=#=#=# Syncrun finished 2020-12-08T06:43:07Z (last step: 71 msec, total: 822 msec)
+#=#=#=# Syncrun started 2020-12-08T08:43:11Z
+#=#=#=#=# Propagation starts 2020-12-08T08:43:12Z (last step: 803 msec, total: 803 msec)
+#=#=#=# Syncrun finished 2020-12-08T08:43:12Z (last step: 75 msec, total: 879 msec)
+#=#=#=# Syncrun started 2020-12-08T10:43:17Z
+#=#=#=#=# Propagation starts 2020-12-08T10:43:17Z (last step: 745 msec, total: 745 msec)
+#=#=#=# Syncrun finished 2020-12-08T10:43:17Z (last step: 77 msec, total: 822 msec)
+#=#=#=# Syncrun started 2020-12-08T12:43:22Z
+#=#=#=#=# Propagation starts 2020-12-08T12:43:23Z (last step: 869 msec, total: 869 msec)
+#=#=#=# Syncrun finished 2020-12-08T12:43:23Z (last step: 79 msec, total: 949 msec)
+#=#=#=# Syncrun started 2020-12-08T14:43:27Z
+#=#=#=#=# Propagation starts 2020-12-08T14:43:28Z (last step: 824 msec, total: 824 msec)
+#=#=#=# Syncrun finished 2020-12-08T14:43:28Z (last step: 74 msec, total: 899 msec)
+#=#=#=# Syncrun started 2020-12-08T16:43:32Z
+#=#=#=#=# Propagation starts 2020-12-08T16:43:33Z (last step: 835 msec, total: 835 msec)
+#=#=#=# Syncrun finished 2020-12-08T16:43:33Z (last step: 79 msec, total: 915 msec)
+#=#=#=# Syncrun started 2020-12-08T18:43:37Z
+#=#=#=#=# Propagation starts 2020-12-08T18:43:38Z (last step: 853 msec, total: 853 msec)
+#=#=#=# Syncrun finished 2020-12-08T18:43:38Z (last step: 82 msec, total: 935 msec)
+#=#=#=# Syncrun started 2020-12-08T20:43:42Z
+#=#=#=#=# Propagation starts 2020-12-08T20:43:43Z (last step: 813 msec, total: 813 msec)
+#=#=#=# Syncrun finished 2020-12-08T20:43:43Z (last step: 78 msec, total: 892 msec)
+#=#=#=# Syncrun started 2020-12-08T22:43:47Z
+#=#=#=#=# Propagation starts 2020-12-08T22:43:48Z (last step: 797 msec, total: 797 msec)
+#=#=#=# Syncrun finished 2020-12-08T22:43:48Z (last step: 79 msec, total: 877 msec)
+#=#=#=# Syncrun started 2020-12-09T00:43:52Z
+#=#=#=#=# Propagation starts 2020-12-09T00:43:53Z (last step: 817 msec, total: 817 msec)
+#=#=#=# Syncrun finished 2020-12-09T00:43:53Z (last step: 78 msec, total: 896 msec)
+#=#=#=# Syncrun started 2020-12-09T02:43:57Z
+#=#=#=#=# Propagation starts 2020-12-09T02:43:58Z (last step: 878 msec, total: 878 msec)
+#=#=#=# Syncrun finished 2020-12-09T02:43:58Z (last step: 84 msec, total: 963 msec)
+#=#=#=# Syncrun started 2020-12-09T04:44:02Z
+#=#=#=#=# Propagation starts 2020-12-09T04:44:03Z (last step: 939 msec, total: 939 msec)
+#=#=#=# Syncrun finished 2020-12-09T04:44:03Z (last step: 83 msec, total: 1023 msec)
+#=#=#=# Syncrun started 2020-12-09T06:44:07Z
+#=#=#=#=# Propagation starts 2020-12-09T06:44:08Z (last step: 929 msec, total: 929 msec)
+#=#=#=# Syncrun finished 2020-12-09T06:44:08Z (last step: 78 msec, total: 1008 msec)
+#=#=#=# Syncrun started 2020-12-09T08:45:36Z
+#=#=#=#=# Propagation starts 2020-12-09T08:45:37Z (last step: 937 msec, total: 937 msec)
+#=#=#=# Syncrun finished 2020-12-09T08:45:37Z (last step: 85 msec, total: 1022 msec)
+#=#=#=# Syncrun started 2020-12-09T10:47:51Z
+#=#=#=#=# Propagation starts 2020-12-09T10:47:52Z (last step: 936 msec, total: 936 msec)
+#=#=#=# Syncrun finished 2020-12-09T10:47:52Z (last step: 84 msec, total: 1021 msec)
+#=#=#=# Syncrun started 2020-12-09T12:44:51Z
+#=#=#=#=# Propagation starts 2020-12-09T12:44:52Z (last step: 921 msec, total: 921 msec)
+#=#=#=# Syncrun finished 2020-12-09T12:44:52Z (last step: 91 msec, total: 1012 msec)
+#=#=#=# Syncrun started 2020-12-09T14:47:19Z
+#=#=#=#=# Propagation starts 2020-12-09T14:47:20Z (last step: 1030 msec, total: 1030 msec)
+#=#=#=# Syncrun finished 2020-12-09T14:47:20Z (last step: 87 msec, total: 1118 msec)
+#=#=#=# Syncrun started 2020-12-09T15:44:37Z
+#=#=#=#=# Propagation starts 2020-12-09T15:44:38Z (last step: 510 msec, total: 510 msec)
+#=#=#=# Syncrun finished 2020-12-09T15:44:38Z (last step: 24 msec, total: 535 msec)
+#=#=#=# Syncrun started 2020-12-09T17:44:39Z
+#=#=#=#=# Propagation starts 2020-12-09T17:44:40Z (last step: 982 msec, total: 982 msec)
+#=#=#=# Syncrun finished 2020-12-09T17:44:40Z (last step: 80 msec, total: 1062 msec)
+#=#=#=# Syncrun started 2020-12-09T19:44:44Z
+#=#=#=#=# Propagation starts 2020-12-09T19:44:45Z (last step: 919 msec, total: 919 msec)
+#=#=#=# Syncrun finished 2020-12-09T19:44:45Z (last step: 75 msec, total: 995 msec)
+#=#=#=# Syncrun started 2020-12-09T21:44:49Z
+#=#=#=#=# Propagation starts 2020-12-09T21:44:50Z (last step: 857 msec, total: 857 msec)
+#=#=#=# Syncrun finished 2020-12-09T21:44:50Z (last step: 76 msec, total: 934 msec)
+#=#=#=# Syncrun started 2020-12-09T23:44:54Z
+#=#=#=#=# Propagation starts 2020-12-09T23:44:55Z (last step: 926 msec, total: 926 msec)
+#=#=#=# Syncrun finished 2020-12-09T23:44:55Z (last step: 77 msec, total: 1004 msec)
+#=#=#=# Syncrun started 2020-12-10T01:45:00Z
+#=#=#=#=# Propagation starts 2020-12-10T01:45:01Z (last step: 991 msec, total: 991 msec)
+#=#=#=# Syncrun finished 2020-12-10T01:45:01Z (last step: 77 msec, total: 1069 msec)
+#=#=#=# Syncrun started 2020-12-10T03:45:05Z
+#=#=#=#=# Propagation starts 2020-12-10T03:45:06Z (last step: 964 msec, total: 964 msec)
+#=#=#=# Syncrun finished 2020-12-10T03:45:06Z (last step: 76 msec, total: 1040 msec)
+#=#=#=# Syncrun started 2020-12-10T05:45:10Z
+#=#=#=#=# Propagation starts 2020-12-10T05:45:11Z (last step: 911 msec, total: 911 msec)
+#=#=#=# Syncrun finished 2020-12-10T05:45:11Z (last step: 79 msec, total: 990 msec)
+#=#=#=# Syncrun started 2020-12-10T07:45:15Z
+#=#=#=#=# Propagation starts 2020-12-10T07:45:16Z (last step: 988 msec, total: 988 msec)
+#=#=#=# Syncrun finished 2020-12-10T07:45:16Z (last step: 80 msec, total: 1069 msec)
+#=#=#=# Syncrun started 2020-12-10T09:45:20Z
+#=#=#=#=# Propagation starts 2020-12-10T09:45:21Z (last step: 1033 msec, total: 1033 msec)
+#=#=#=# Syncrun finished 2020-12-10T09:45:21Z (last step: 87 msec, total: 1120 msec)
+#=#=#=# Syncrun started 2020-12-10T11:45:22Z
+#=#=#=#=# Propagation starts 2020-12-10T11:45:23Z (last step: 959 msec, total: 959 msec)
+#=#=#=# Syncrun finished 2020-12-10T11:45:23Z (last step: 78 msec, total: 1038 msec)
+#=#=#=# Syncrun started 2020-12-10T13:45:27Z
+#=#=#=#=# Propagation starts 2020-12-10T13:45:28Z (last step: 1152 msec, total: 1152 msec)
+#=#=#=# Syncrun finished 2020-12-10T13:45:28Z (last step: 82 msec, total: 1235 msec)
+#=#=#=# Syncrun started 2020-12-10T15:45:32Z
+#=#=#=#=# Propagation starts 2020-12-10T15:45:33Z (last step: 1015 msec, total: 1015 msec)
+#=#=#=# Syncrun finished 2020-12-10T15:45:33Z (last step: 79 msec, total: 1094 msec)
+#=#=#=# Syncrun started 2020-12-10T17:45:37Z
+#=#=#=#=# Propagation starts 2020-12-10T17:45:38Z (last step: 1181 msec, total: 1181 msec)
+#=#=#=# Syncrun finished 2020-12-10T17:45:38Z (last step: 93 msec, total: 1274 msec)
+#=#=#=# Syncrun started 2020-12-10T19:45:42Z
+#=#=#=#=# Propagation starts 2020-12-10T19:45:43Z (last step: 1062 msec, total: 1062 msec)
+#=#=#=# Syncrun finished 2020-12-10T19:45:43Z (last step: 79 msec, total: 1141 msec)
+#=#=#=# Syncrun started 2020-12-10T21:45:47Z
+#=#=#=#=# Propagation starts 2020-12-10T21:45:48Z (last step: 1124 msec, total: 1124 msec)
+#=#=#=# Syncrun finished 2020-12-10T21:45:48Z (last step: 87 msec, total: 1212 msec)
+#=#=#=# Syncrun started 2020-12-10T23:45:52Z
+#=#=#=#=# Propagation starts 2020-12-10T23:45:53Z (last step: 1220 msec, total: 1220 msec)
+#=#=#=# Syncrun finished 2020-12-10T23:45:53Z (last step: 86 msec, total: 1307 msec)
+#=#=#=# Syncrun started 2020-12-11T01:45:57Z
+#=#=#=#=# Propagation starts 2020-12-11T01:45:58Z (last step: 1135 msec, total: 1135 msec)
+#=#=#=# Syncrun finished 2020-12-11T01:45:59Z (last step: 90 msec, total: 1225 msec)
+#=#=#=# Syncrun started 2020-12-11T03:46:02Z
+#=#=#=#=# Propagation starts 2020-12-11T03:46:04Z (last step: 1084 msec, total: 1084 msec)
+#=#=#=# Syncrun finished 2020-12-11T03:46:04Z (last step: 85 msec, total: 1170 msec)
+#=#=#=# Syncrun started 2020-12-11T05:46:07Z
+#=#=#=#=# Propagation starts 2020-12-11T05:46:09Z (last step: 1387 msec, total: 1387 msec)
+#=#=#=# Syncrun finished 2020-12-11T05:46:09Z (last step: 89 msec, total: 1477 msec)
+#=#=#=# Syncrun started 2020-12-11T07:46:13Z
+#=#=#=#=# Propagation starts 2020-12-11T07:46:14Z (last step: 1079 msec, total: 1079 msec)
+#=#=#=# Syncrun finished 2020-12-11T07:46:14Z (last step: 91 msec, total: 1171 msec)
+#=#=#=# Syncrun started 2020-12-11T09:46:18Z
+#=#=#=#=# Propagation starts 2020-12-11T09:46:19Z (last step: 1397 msec, total: 1397 msec)
+#=#=#=# Syncrun finished 2020-12-11T09:46:19Z (last step: 88 msec, total: 1486 msec)
+#=#=#=# Syncrun started 2020-12-11T11:46:23Z
+#=#=#=#=# Propagation starts 2020-12-11T11:46:24Z (last step: 1327 msec, total: 1327 msec)
+#=#=#=# Syncrun finished 2020-12-11T11:46:24Z (last step: 84 msec, total: 1411 msec)
+#=#=#=# Syncrun started 2020-12-11T13:03:53Z
+#=#=#=#=# Propagation starts 2020-12-11T13:03:53Z (last step: 608 msec, total: 608 msec)
+#=#=#=# Syncrun finished 2020-12-11T13:03:54Z (last step: 38 msec, total: 646 msec)
+#=#=#=# Syncrun started 2020-12-11T13:07:42Z
+#=#=#=#=# Propagation starts 2020-12-11T13:07:42Z (last step: 155 msec, total: 155 msec)
+#=#=#=# Syncrun finished 2020-12-11T13:07:42Z (last step: 44 msec, total: 199 msec)
+#=#=#=# Syncrun started 2020-12-11T15:07:47Z
+#=#=#=#=# Propagation starts 2020-12-11T15:07:47Z (last step: 140 msec, total: 140 msec)
+#=#=#=# Syncrun finished 2020-12-11T15:07:47Z (last step: 44 msec, total: 185 msec)
+#=#=#=# Syncrun started 2020-12-11T17:07:49Z
+#=#=#=#=# Propagation starts 2020-12-11T17:07:49Z (last step: 144 msec, total: 144 msec)
+#=#=#=# Syncrun finished 2020-12-11T17:07:49Z (last step: 44 msec, total: 189 msec)
+#=#=#=# Syncrun started 2020-12-11T19:07:54Z
+#=#=#=#=# Propagation starts 2020-12-11T19:07:54Z (last step: 158 msec, total: 158 msec)
+#=#=#=# Syncrun finished 2020-12-11T19:07:54Z (last step: 44 msec, total: 203 msec)
+#=#=#=# Syncrun started 2020-12-11T21:07:59Z
+#=#=#=#=# Propagation starts 2020-12-11T21:07:59Z (last step: 234 msec, total: 234 msec)
+#=#=#=# Syncrun finished 2020-12-11T21:07:59Z (last step: 45 msec, total: 279 msec)
+#=#=#=# Syncrun started 2020-12-11T23:08:04Z
+#=#=#=#=# Propagation starts 2020-12-11T23:08:04Z (last step: 234 msec, total: 234 msec)
+#=#=#=# Syncrun finished 2020-12-11T23:08:05Z (last step: 44 msec, total: 279 msec)
+#=#=#=# Syncrun started 2020-12-12T01:08:09Z
+#=#=#=#=# Propagation starts 2020-12-12T01:08:10Z (last step: 211 msec, total: 211 msec)
+#=#=#=# Syncrun finished 2020-12-12T01:08:10Z (last step: 45 msec, total: 257 msec)
+#=#=#=# Syncrun started 2020-12-12T03:08:14Z
+#=#=#=#=# Propagation starts 2020-12-12T03:08:15Z (last step: 211 msec, total: 211 msec)
+#=#=#=# Syncrun finished 2020-12-12T03:08:15Z (last step: 44 msec, total: 256 msec)
+#=#=#=# Syncrun started 2020-12-12T05:08:19Z
+#=#=#=#=# Propagation starts 2020-12-12T05:08:20Z (last step: 213 msec, total: 213 msec)
+#=#=#=# Syncrun finished 2020-12-12T05:08:20Z (last step: 44 msec, total: 258 msec)
+#=#=#=# Syncrun started 2020-12-12T07:08:25Z
+#=#=#=#=# Propagation starts 2020-12-12T07:08:25Z (last step: 270 msec, total: 270 msec)
+#=#=#=# Syncrun finished 2020-12-12T07:08:25Z (last step: 45 msec, total: 315 msec)
+#=#=#=# Syncrun started 2020-12-12T09:08:30Z
+#=#=#=#=# Propagation starts 2020-12-12T09:08:30Z (last step: 232 msec, total: 232 msec)
+#=#=#=# Syncrun finished 2020-12-12T09:08:30Z (last step: 44 msec, total: 276 msec)
+#=#=#=# Syncrun started 2020-12-12T11:08:35Z
+#=#=#=#=# Propagation starts 2020-12-12T11:08:35Z (last step: 240 msec, total: 240 msec)
+#=#=#=# Syncrun finished 2020-12-12T11:08:35Z (last step: 45 msec, total: 285 msec)
+#=#=#=# Syncrun started 2020-12-12T13:08:40Z
+#=#=#=#=# Propagation starts 2020-12-12T13:08:40Z (last step: 260 msec, total: 260 msec)
+#=#=#=# Syncrun finished 2020-12-12T13:08:40Z (last step: 47 msec, total: 307 msec)
+#=#=#=# Syncrun started 2020-12-12T14:24:43Z
+#=#=#=#=# Propagation starts 2020-12-12T14:24:44Z (last step: 724 msec, total: 724 msec)
+#=#=#=# Syncrun finished 2020-12-12T14:24:44Z (last step: 39 msec, total: 764 msec)
+#=#=#=# Syncrun started 2020-12-12T14:28:01Z
+#=#=#=#=# Propagation starts 2020-12-12T14:28:01Z (last step: 188 msec, total: 188 msec)
+#=#=#=# Syncrun finished 2020-12-12T14:28:01Z (last step: 45 msec, total: 234 msec)
+#=#=#=# Syncrun started 2020-12-12T16:28:02Z
+#=#=#=#=# Propagation starts 2020-12-12T16:28:02Z (last step: 142 msec, total: 142 msec)
+#=#=#=# Syncrun finished 2020-12-12T16:28:02Z (last step: 49 msec, total: 191 msec)
+#=#=#=# Syncrun started 2020-12-12T18:28:07Z
+#=#=#=#=# Propagation starts 2020-12-12T18:28:07Z (last step: 142 msec, total: 142 msec)
+#=#=#=# Syncrun finished 2020-12-12T18:28:07Z (last step: 48 msec, total: 190 msec)
+#=#=#=# Syncrun started 2020-12-12T20:28:12Z
+#=#=#=#=# Propagation starts 2020-12-12T20:28:12Z (last step: 141 msec, total: 141 msec)
+#=#=#=# Syncrun finished 2020-12-12T20:28:12Z (last step: 48 msec, total: 190 msec)
+#=#=#=# Syncrun started 2020-12-12T22:28:17Z
+#=#=#=#=# Propagation starts 2020-12-12T22:28:18Z (last step: 238 msec, total: 238 msec)
+#=#=#=# Syncrun finished 2020-12-12T22:28:18Z (last step: 49 msec, total: 287 msec)
+#=#=#=# Syncrun started 2020-12-13T00:28:22Z
+#=#=#=#=# Propagation starts 2020-12-13T00:28:23Z (last step: 234 msec, total: 234 msec)
+#=#=#=# Syncrun finished 2020-12-13T00:28:23Z (last step: 49 msec, total: 283 msec)
+#=#=#=# Syncrun started 2020-12-13T02:28:33Z
+#=#=#=#=# Propagation starts 2020-12-13T02:28:33Z (last step: 332 msec, total: 332 msec)
+#=#=#=# Syncrun finished 2020-12-13T02:28:33Z (last step: 50 msec, total: 382 msec)
+#=#=#=# Syncrun started 2020-12-13T04:28:38Z
+#=#=#=#=# Propagation starts 2020-12-13T04:28:38Z (last step: 194 msec, total: 194 msec)
+#=#=#=# Syncrun finished 2020-12-13T04:28:38Z (last step: 48 msec, total: 243 msec)
+#=#=#=# Syncrun started 2020-12-13T06:28:43Z
+#=#=#=#=# Propagation starts 2020-12-13T06:28:43Z (last step: 238 msec, total: 238 msec)
+#=#=#=# Syncrun finished 2020-12-13T06:28:43Z (last step: 48 msec, total: 286 msec)
+#=#=#=# Syncrun started 2020-12-13T08:28:48Z
+#=#=#=#=# Propagation starts 2020-12-13T08:28:48Z (last step: 249 msec, total: 249 msec)
+#=#=#=# Syncrun finished 2020-12-13T08:28:48Z (last step: 48 msec, total: 298 msec)
+#=#=#=# Syncrun started 2020-12-13T09:29:43Z
+#=#=#=#=# Propagation starts 2020-12-13T09:29:43Z (last step: 206 msec, total: 206 msec)
+09:48:19||PYTHON/opentrons_autofocus.py|64|1|1607851743|9b6fb711d5a6fe61c663036b7cf67861|5013|01135070oc10bbc458f2|4||204|4777|1606720417|c1a4cdbf-fcdc-4b8c-8ddf-5013d03e8bf5|
+#=#=#=# Syncrun finished 2020-12-13T09:29:45Z (last step: 2009 msec, total: 2216 msec)
+#=#=#=# Syncrun started 2020-12-13T09:30:28Z
+#=#=#=#=# Propagation starts 2020-12-13T09:30:28Z (last step: 196 msec, total: 196 msec)
+#=#=#=# Syncrun finished 2020-12-13T09:30:28Z (last step: 9 msec, total: 206 msec)
+#=#=#=# Syncrun started 2020-12-13T11:30:33Z
+#=#=#=#=# Propagation starts 2020-12-13T11:30:33Z (last step: 211 msec, total: 211 msec)
+#=#=#=# Syncrun finished 2020-12-13T11:30:33Z (last step: 48 msec, total: 260 msec)
+#=#=#=# Syncrun started 2020-12-13T13:30:38Z
+#=#=#=#=# Propagation starts 2020-12-13T13:30:38Z (last step: 209 msec, total: 209 msec)
+#=#=#=# Syncrun finished 2020-12-13T13:30:38Z (last step: 49 msec, total: 259 msec)
+#=#=#=# Syncrun started 2020-12-13T15:30:43Z
+#=#=#=#=# Propagation starts 2020-12-13T15:30:43Z (last step: 204 msec, total: 204 msec)
+#=#=#=# Syncrun finished 2020-12-13T15:30:43Z (last step: 48 msec, total: 252 msec)
+#=#=#=# Syncrun started 2020-12-13T17:30:48Z
+#=#=#=#=# Propagation starts 2020-12-13T17:30:48Z (last step: 242 msec, total: 242 msec)
+#=#=#=# Syncrun finished 2020-12-13T17:30:48Z (last step: 48 msec, total: 291 msec)
+#=#=#=# Syncrun started 2020-12-13T19:30:53Z
+#=#=#=#=# Propagation starts 2020-12-13T19:30:53Z (last step: 256 msec, total: 256 msec)
+#=#=#=# Syncrun finished 2020-12-13T19:30:53Z (last step: 49 msec, total: 306 msec)
+#=#=#=# Syncrun started 2020-12-13T21:31:03Z
+#=#=#=#=# Propagation starts 2020-12-13T21:31:03Z (last step: 209 msec, total: 209 msec)
+#=#=#=# Syncrun finished 2020-12-13T21:31:03Z (last step: 48 msec, total: 258 msec)
+#=#=#=# Syncrun started 2020-12-13T23:31:08Z
+#=#=#=#=# Propagation starts 2020-12-13T23:31:08Z (last step: 212 msec, total: 212 msec)
+#=#=#=# Syncrun finished 2020-12-13T23:31:09Z (last step: 48 msec, total: 260 msec)
+#=#=#=# Syncrun started 2020-12-14T01:31:13Z
+#=#=#=#=# Propagation starts 2020-12-14T01:31:14Z (last step: 231 msec, total: 231 msec)
+#=#=#=# Syncrun finished 2020-12-14T01:31:14Z (last step: 50 msec, total: 282 msec)
+#=#=#=# Syncrun started 2020-12-14T03:31:18Z
+#=#=#=#=# Propagation starts 2020-12-14T03:31:19Z (last step: 249 msec, total: 249 msec)
+#=#=#=# Syncrun finished 2020-12-14T03:31:19Z (last step: 49 msec, total: 299 msec)
+#=#=#=# Syncrun started 2020-12-14T05:31:23Z
+#=#=#=#=# Propagation starts 2020-12-14T05:31:24Z (last step: 238 msec, total: 238 msec)
+#=#=#=# Syncrun finished 2020-12-14T05:31:24Z (last step: 49 msec, total: 287 msec)
+#=#=#=# Syncrun started 2020-12-14T07:31:34Z
+#=#=#=#=# Propagation starts 2020-12-14T07:31:34Z (last step: 237 msec, total: 237 msec)
+#=#=#=# Syncrun finished 2020-12-14T07:31:34Z (last step: 48 msec, total: 286 msec)
+#=#=#=# Syncrun started 2020-12-14T09:28:51Z
+#=#=#=#=# Propagation starts 2020-12-14T09:28:51Z (last step: 274 msec, total: 274 msec)
+#=#=#=# Syncrun finished 2020-12-14T09:28:51Z (last step: 44 msec, total: 318 msec)
+#=#=#=# Syncrun started 2020-12-14T09:52:12Z
+#=#=#=#=# Propagation starts 2020-12-14T09:52:13Z (last step: 281 msec, total: 281 msec)
+#=#=#=# Syncrun finished 2020-12-14T09:52:13Z (last step: 41 msec, total: 323 msec)
+#=#=#=# Syncrun started 2020-12-14T11:52:16Z
+#=#=#=#=# Propagation starts 2020-12-14T11:52:16Z (last step: 126 msec, total: 126 msec)
+#=#=#=# Syncrun finished 2020-12-14T11:52:16Z (last step: 43 msec, total: 170 msec)
+#=#=#=# Syncrun started 2020-12-14T13:52:21Z
+#=#=#=#=# Propagation starts 2020-12-14T13:52:21Z (last step: 136 msec, total: 136 msec)
+#=#=#=# Syncrun finished 2020-12-14T13:52:21Z (last step: 43 msec, total: 179 msec)
+#=#=#=# Syncrun started 2020-12-14T15:52:26Z
+#=#=#=#=# Propagation starts 2020-12-14T15:52:27Z (last step: 275 msec, total: 275 msec)
+#=#=#=# Syncrun finished 2020-12-14T15:52:27Z (last step: 44 msec, total: 320 msec)
+#=#=#=# Syncrun started 2020-12-14T17:52:31Z
+#=#=#=#=# Propagation starts 2020-12-14T17:52:32Z (last step: 221 msec, total: 221 msec)
+#=#=#=# Syncrun finished 2020-12-14T17:52:32Z (last step: 44 msec, total: 265 msec)
+#=#=#=# Syncrun started 2020-12-14T19:52:41Z
+#=#=#=#=# Propagation starts 2020-12-14T19:52:42Z (last step: 182 msec, total: 182 msec)
+#=#=#=# Syncrun finished 2020-12-14T19:52:42Z (last step: 45 msec, total: 227 msec)
+#=#=#=# Syncrun started 2020-12-14T21:52:47Z
+#=#=#=#=# Propagation starts 2020-12-14T21:52:47Z (last step: 187 msec, total: 187 msec)
+#=#=#=# Syncrun finished 2020-12-14T21:52:47Z (last step: 44 msec, total: 232 msec)
+#=#=#=# Syncrun started 2020-12-14T23:52:52Z
+#=#=#=#=# Propagation starts 2020-12-14T23:52:52Z (last step: 216 msec, total: 216 msec)
+#=#=#=# Syncrun finished 2020-12-14T23:52:52Z (last step: 44 msec, total: 260 msec)
+#=#=#=# Syncrun started 2020-12-15T01:52:57Z
+#=#=#=#=# Propagation starts 2020-12-15T01:52:58Z (last step: 761 msec, total: 761 msec)
+#=#=#=# Syncrun finished 2020-12-15T01:52:58Z (last step: 44 msec, total: 805 msec)
+#=#=#=# Syncrun started 2020-12-15T03:53:02Z
+#=#=#=#=# Propagation starts 2020-12-15T03:53:02Z (last step: 224 msec, total: 224 msec)
+#=#=#=# Syncrun finished 2020-12-15T03:53:02Z (last step: 44 msec, total: 269 msec)
+#=#=#=# Syncrun started 2020-12-15T05:53:12Z
+#=#=#=#=# Propagation starts 2020-12-15T05:53:12Z (last step: 228 msec, total: 228 msec)
+#=#=#=# Syncrun finished 2020-12-15T05:53:12Z (last step: 44 msec, total: 273 msec)
+#=#=#=# Syncrun started 2020-12-15T07:53:17Z
+#=#=#=#=# Propagation starts 2020-12-15T07:53:17Z (last step: 195 msec, total: 195 msec)
+#=#=#=# Syncrun finished 2020-12-15T07:53:17Z (last step: 45 msec, total: 240 msec)
+#=#=#=# Syncrun started 2020-12-15T08:42:58Z
+#=#=#=#=# Propagation starts 2020-12-15T08:43:07Z (last step: 9240 msec, total: 9240 msec)
+#=#=#=# Syncrun finished 2020-12-15T08:43:07Z (last step: 7 msec, total: 9247 msec)
+#=#=#=# Syncrun started 2020-12-15T10:41:36Z
+#=#=#=#=# Propagation starts 2020-12-15T10:41:41Z (last step: 4756 msec, total: 4756 msec)
+#=#=#=# Syncrun finished 2020-12-15T10:41:41Z (last step: 47 msec, total: 4804 msec)
+#=#=#=# Syncrun started 2020-12-15T12:41:42Z
+#=#=#=#=# Propagation starts 2020-12-15T12:41:43Z (last step: 340 msec, total: 340 msec)
+#=#=#=# Syncrun finished 2020-12-15T12:41:43Z (last step: 47 msec, total: 387 msec)
+#=#=#=# Syncrun started 2020-12-15T14:41:47Z
+#=#=#=#=# Propagation starts 2020-12-15T14:41:48Z (last step: 294 msec, total: 294 msec)
+#=#=#=# Syncrun finished 2020-12-15T14:41:48Z (last step: 47 msec, total: 342 msec)
+#=#=#=# Syncrun started 2020-12-15T16:41:52Z
+#=#=#=#=# Propagation starts 2020-12-15T16:41:53Z (last step: 358 msec, total: 358 msec)
+#=#=#=# Syncrun finished 2020-12-15T16:41:53Z (last step: 49 msec, total: 408 msec)
+#=#=#=# Syncrun started 2020-12-15T18:41:57Z
+#=#=#=#=# Propagation starts 2020-12-15T18:41:58Z (last step: 300 msec, total: 300 msec)
+#=#=#=# Syncrun finished 2020-12-15T18:41:58Z (last step: 50 msec, total: 351 msec)
+#=#=#=# Syncrun started 2020-12-15T20:42:02Z
+#=#=#=#=# Propagation starts 2020-12-15T20:42:03Z (last step: 300 msec, total: 300 msec)
+#=#=#=# Syncrun finished 2020-12-15T20:42:03Z (last step: 47 msec, total: 347 msec)
+#=#=#=# Syncrun started 2020-12-15T22:42:08Z
+#=#=#=#=# Propagation starts 2020-12-15T22:42:08Z (last step: 304 msec, total: 304 msec)
+#=#=#=# Syncrun finished 2020-12-15T22:42:08Z (last step: 53 msec, total: 357 msec)
+#=#=#=# Syncrun started 2020-12-16T00:42:13Z
+#=#=#=#=# Propagation starts 2020-12-16T00:42:13Z (last step: 265 msec, total: 265 msec)
+#=#=#=# Syncrun finished 2020-12-16T00:42:13Z (last step: 46 msec, total: 311 msec)
+#=#=#=# Syncrun started 2020-12-16T02:42:18Z
+#=#=#=#=# Propagation starts 2020-12-16T02:42:18Z (last step: 312 msec, total: 312 msec)
+#=#=#=# Syncrun finished 2020-12-16T02:42:18Z (last step: 55 msec, total: 368 msec)
+#=#=#=# Syncrun started 2020-12-16T04:42:23Z
+#=#=#=#=# Propagation starts 2020-12-16T04:42:23Z (last step: 343 msec, total: 343 msec)
+#=#=#=# Syncrun finished 2020-12-16T04:42:23Z (last step: 53 msec, total: 396 msec)
+#=#=#=# Syncrun started 2020-12-16T06:42:28Z
+#=#=#=#=# Propagation starts 2020-12-16T06:42:28Z (last step: 386 msec, total: 386 msec)
+#=#=#=# Syncrun finished 2020-12-16T06:42:28Z (last step: 51 msec, total: 438 msec)
+#=#=#=# Syncrun started 2020-12-16T08:42:33Z
+#=#=#=#=# Propagation starts 2020-12-16T08:42:34Z (last step: 458 msec, total: 458 msec)
+#=#=#=# Syncrun finished 2020-12-16T08:42:34Z (last step: 58 msec, total: 516 msec)
+#=#=#=# Syncrun started 2020-12-16T10:42:38Z
+#=#=#=#=# Propagation starts 2020-12-16T10:42:39Z (last step: 402 msec, total: 402 msec)
+#=#=#=# Syncrun finished 2020-12-16T10:42:39Z (last step: 57 msec, total: 460 msec)
+#=#=#=# Syncrun started 2020-12-16T12:42:43Z
+#=#=#=#=# Propagation starts 2020-12-16T12:42:43Z (last step: 245 msec, total: 245 msec)
+#=#=#=# Syncrun finished 2020-12-16T12:42:44Z (last step: 45 msec, total: 291 msec)
+#=#=#=# Syncrun started 2020-12-16T14:42:48Z
+#=#=#=#=# Propagation starts 2020-12-16T14:42:49Z (last step: 415 msec, total: 415 msec)
+#=#=#=# Syncrun finished 2020-12-16T14:42:49Z (last step: 57 msec, total: 472 msec)
