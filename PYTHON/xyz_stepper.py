@@ -1,5 +1,6 @@
 import time
 import serial
+import numpy as np
 
 class xyzStepper:
     mycurrentposition = 0
@@ -139,8 +140,7 @@ class xyzStepper:
             except:
                 print("Save the current slice as focus position")
                 break
-            if i_meas
-        
+            
         # save them for later
         myfixfocus = focuspos
         myfixz = int(iz)
@@ -169,49 +169,54 @@ class xyzStepper:
         return focuspos, focusval
           
 
-        def hold_focus(self, aimedfocus=myfixfocus, currentz=iz, zstep=3):
-            '''
-            
-
-            Parameters
-            ----------
-            aimedfocus : TYPE, optional
-                DESCRIPTION. The default is myfixfocus.
-            currentz : TYPE, optional
-                DESCRIPTION. The default is iz.
-            zstep : TYPE, optional
-                DESCRIPTION. The default is 3.
-
-            Returns
-            -------
-            iz : TYPE
-                DESCRIPTION.
-
-            '''
-            i_meas = 0
-            N_meas = 20     # max number of search steps 
-            
-            while np.abs(myfixfocus-focuspos)>0:
-                # if the distance is positive, the curent sample is too high, hence we 
-                # we must move the focus down, which corresponds to an increased iz value
-                if (focuspos-myfixfocus)>0:
-                    iz += zstep
-                else:
-                    iz -= zstep
-                Stepper_XYZ.go_to_z(iz)
-                time.sleep(.1)
-                
-                focuspos, focusval = Stepper_XYZ.measure_focus()
-                print("Focus pos (should): "+str(myfixfocus)+", Focus pos (is):"+str(focuspos))
-                    
-                if i_meas > N_meas:
-                    print("Max number of search iterations reached, taking old value")
-                    # revert back to old values
-                    iz = currentz
-                    Stepper_XYZ.go_to_z(iz)
-                    
-                    break
-                i_meas += 1
-                
-            return iz
+    def hold_focus(self, aimedfocus, currentz, zstep=3, N_meas=25):
+        '''
         
+
+        Parameters
+        ----------
+        aimedfocus : TYPE, optional
+            DESCRIPTION. The default is myfixfocus.
+        currentz : TYPE, optional
+            DESCRIPTION. The default is iz.
+        zstep : TYPE, optional
+            DESCRIPTION. The default is 3.
+
+        Returns
+        -------
+        iz : TYPE
+            DESCRIPTION.
+
+        '''
+        i_meas = 0
+        iz = currentz
+        z_step_adapt = zstep
+        
+        # initially measure the focus value 
+        focuspos, focusval = self.measure_focus()
+            
+        while np.abs(aimedfocus-focuspos)>0:
+            # if the distance is positive, the curent sample is too high, hence we 
+            # we must move the focus down, which corresponds to an increased iz value
+            if (focuspos-aimedfocus)>0:
+                iz += (abs((focuspos-aimedfocus))*2)**2
+                
+            else:
+                iz -= (abs((focuspos-aimedfocus))*2)**2
+            self.go_to_z(iz)
+            time.sleep(.1)
+            
+            focuspos, focusval = self.measure_focus()
+            print("Focus pos (should): "+str(aimedfocus)+", Focus pos (is):"+str(focuspos))
+                
+            if i_meas > N_meas:
+                print("Max number of search iterations reached, taking old value")
+                # revert back to old values
+                iz = currentz
+                self.go_to_z(iz)
+                
+                break
+            i_meas += 1
+            
+        return iz
+    
