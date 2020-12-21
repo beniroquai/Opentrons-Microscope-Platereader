@@ -23,9 +23,6 @@ mydatafolder = './RESULTS/'
 # Initialize the USB-Serial connection
 time.sleep(1) # connect to ARduino
 
-# Wake up grbl
-serial.write("\r\n\r\n".encode())
-
 # initiliaze camera
 cam = picamera.PiCamera()
 
@@ -60,94 +57,41 @@ os.mkdir(myfolder)
 
 
 
-# Initialize position of the XY-stages
-Stepper_XY = xyz.xyStepper(myserial=serial, mycurrentposition=(0,0), mystepper='xy', backlash=mybacklashx)
+#%% Initialize position of the XY-stages
+Stepper_XYZ = xyz.xyzStepper(serial_xyz = "/dev/ttyUSB0", serial_focus = "/dev/ttyUSB1", mycurrentposition=(0,0),backlash=mybacklashx)
 
-ierror = 0
+#%% find focus manually:
+iz = 0
+ix = 0
+myfixfocus,iz=Stepper_XYZ.find_focus(iz_min=iz, iz_max=1024)
 
-# save for later use
+#%% save for later use
 myallx = []
 myally = []
 myallz = []
 
 # define scan positions
 myscanpos = np.hstack((np.arange(0,Ny),np.arange(Ny,0,-1)))
-focuspos =0 
-ix=0
-
-
-
-def find_focus(self, iz_min, iz_max=1024):
-    '''
-    find_focus will go through z-steps andasks you to find the perceptually 
-    best matching focus plane; Hit CTRL+c to stop the focus search
-    
-    
-    Parameters
-    ----------
-    iz_min : INT
-        Minimum search value.
-    iz_max : INT, optional
-        Maximum serach value. The default is 1024.
-
-    Returns
-    -------
-    TYPE
-        DESCRIPTION.
-
-    '''
-    
-    # match focal planes
-    iz = iz_min     # this should be outside the loop, I think
-    while True:    # infinite loop
-        try:
-            
-            # measure
-            ser.flushInput()  # make sure latest line is read
-            ser_bytes = ser.readline()
-            decoded_bytes = (ser_bytes[0:len(ser_bytes)-2].decode("utf-8"))
-            focuspos = int(decoded_bytes.split("pos: ")[-1])
-            focusval = int(decoded_bytes.split("Val: ")[-1].split(" at")[0])
-    
-            print("iz: "+str(iz)+", "+str(focusval))
-            
-            # move 
-            iz +=10
-            Stepper_XY.go_to_z(iz)
-            time.sleep(.2)
-            
-            if iz>iz_max:
-                break
-        except:
-            print("Save the current slice as focus position")
-            break
-    
-    # save them for later
-    myfixfocus = focuspos
-    myfixz = int(iz)
-    
-    return myfixfocus, myfixz
-
 iscan = 0
+
+
+#%%
 # drive n steps fwd and bwd, mesureocus with sensor and compare both RESULTS
 for iy in myscanpos:
     if(1):
         
-        #Stepper_XY.go_to_z(0)        
+        #Stepper_XYZ.go_to_z(0)        
 
         #print('going to position X/Y :' + str(ix)+'/'+str(iy))
         # go to xy-step
         stepx = stepsize_x*ix+myoffsetx
         stepy = stepsize_y*iy+myoffsety
 
-        Stepper_XY.go_to(stepx, stepy)
+        Stepper_XYZ.go_to(stepx, stepy)
         time.sleep(1)
 
         # Read the focus value
-        ser.flushInput()  # make sure latest line is read
-        ser_bytes = ser.readline()
-        decoded_bytes = (ser_bytes[0:len(ser_bytes)-2].decode("utf-8"))
-        focuspos = int(decoded_bytes.split("pos: ")[-1])
+        focuspos, focusval = Stepper_XYZ.measure_focus()
         
         print("stepy: "+str(stepy)+", focuspos: "+str(focuspos))
         myally.append(stepy)
@@ -156,31 +100,14 @@ for iy in myscanpos:
         filename = myfolder+'/scan_xyz_'+str(iscan) + '.jpg'
         cam.capture(filename)
         iscan +=1
-
         
         # correct focus:
-        while np.abs(myfixfocus-focuspos)>0:
-            # if the distance is positive, the curent sample is too high, hence we 
-            # we must move the focus down, which corresponds to an increased iz value
-            if (focuspos-myfixfocus)>0:
-                iz += 3
-            else:
-                iz -= 3
-            Stepper_XY.go_to_z(iz)
-            time.sleep(.2)
-            
-            # Read the focus value
-            ser.flushInput()  # make sure latest line is read
-            ser_bytes = ser.readline()
-            decoded_bytes = (ser_bytes[0:len(ser_bytes)-2].decode("utf-8"))
-            focuspos = int(decoded_bytes.split("pos: ")[-1])
-            print("Focus pos (should): "+str(myfixfocus)+", Focus pos (is):"+str(focuspos))
-
-                
+        iz = Stepper_XYZ.hold_focus(aimedfocus=myfixfocus, currentz=iz, zstep=3)
+        
                 
         
         
-Stepper_XY.go_to_z(0)        
+Stepper_XYZ.go_to_z(0)        
 
 myally = np.array(myally)
 myallz = np.array(myallz)

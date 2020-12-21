@@ -3201,3 +3201,175 @@
 #=#=#=# Syncrun started 2020-12-21T14:38:06Z
 #=#=#=#=# Propagation starts 2020-12-21T14:38:07Z (last step: 291 msec, total: 291 msec)
 #=#=#=# Syncrun finished 2020-12-21T14:38:07Z (last step: 12 msec, total: 303 msec)
+#=#=#=# Syncrun started 2020-12-21T15:16:07Z
+#=#=#=#=# Propagation starts 2020-12-21T15:16:08Z (last step: 144 msec, total: 144 msec)
+15:35:02||PYTHON/opentrons_drive_measurefocus.py|64|1|1608563765|f29d1c863dea4d11db350a62c971c494|3700|01147193oc10bbc458f2|4||204|5059|1608560002|19518ec7-44b2-40ba-9586-ff2c42118f27|
+#=#=#=# Syncrun finished 2020-12-21T15:16:09Z (last step: 970 msec, total: 1115 msec)
+#=#=#=# Syncrun started 2020-12-21T15:17:07Z
+#=#=#=#=# Propagation starts 2020-12-21T15:17:07Z (last step: 181 msec, total: 181 msec)
+#=#=#=# Syncrun finished 2020-12-21T15:17:07Z (last step: 10 msec, total: 192 msec)
+#=#=#=# Syncrun started 2020-12-21T15:21:36Z
+#=#=#=#=# Propagation starts 2020-12-21T15:21:36Z (last step: 175 msec, total: 175 msec)
+15:40:30||PYTHON/opentrons_drive_measurefocus.py|64|1|1608564094|f7cf10528d995f8dfb5eb10a9e29199f|3549|01147193oc10bbc458f2|4||204|3700|1608563765|f0e35471-3eaf-4f67-86a5-4fa2292fba04|
+#=#=#=# Syncrun finished 2020-12-21T15:21:37Z (last step: 925 msec, total: 1100 msec)
+#=#=#=# Syncrun started 2020-12-21T15:22:37Z
+#=#=#=#=# Propagation starts 2020-12-21T15:22:37Z (last step: 232 msec, total: 232 msec)
+15:41:31||PYTHON/__pycache__/xyz_stepper.cpython-36.pyc|8|2|1608564128|9cf01e0e552c6353d056de66a2d5e7f3|3820|01147776oc10bbc458f2|4||200|0|0|49cd1dd4-0334-4999-b4eb-ffb3f3b03921|
+#=#=#=# Syncrun finished 2020-12-21T15:22:37Z (last step: 319 msec, total: 551 msec)
+#=#=#=# Syncrun started 2020-12-21T15:26:55Z
+#=#=#=#=# Propagation starts 2020-12-21T15:26:55Z (last step: 93 msec, total: 93 msec)
+15:45:49||PYTHON/xyz_stepper.py|64|1|1608564413|addfc8859b26af6de73e9dad1cca8d7f|5034|01135076oc10bbc458f2|4||204|5033|1608560666|8aea0bc1-1f39-4695-ba37-e76993e0c9aa|
+#=#=#=# Syncrun finished 2020-12-21T15:26:56Z (last step: 864 msec, total: 958 msec)
+#=#=#=# Syncrun started 2020-12-21T15:27:37Z
+#=#=#=#=# Propagation starts 2020-12-21T15:27:37Z (last step: 234 msec, total: 234 msec)
+#=#=#=# Syncrun finished 2020-12-21T15:27:37Z (last step: 15 msec, total: 249 msec)
+#=#=#=# Syncrun started 2020-12-21T15:29:37Z
+#=#=#=#=# Propagation starts 2020-12-21T15:29:37Z (last step: 252 msec, total: 252 msec)
+15:48:31||PYTHON/xyz_stepper.py|64|2|1608564529|1d5e244adf1d87e6fd68de0c6dc40ca2|5036|01135076oc10bbc458f2|4||200|5034|1608564413|6c93ec67-66da-4a3a-a43d-4bec468a2184|
+15:48:31||PYTHON/__pycache__/xyz_stepper.cpython-36.pyc|64|2|1608564534|445a329f9ad8f200126183650d4061f9|3816|01147776oc10bbc458f2|4||200|3820|1608564128|4938a7fa-5d10-4d97-84f8-85482a7d468e|
+#=#=#=# Syncrun finished 2020-12-21T15:29:37Z (last step: 665 msec, total: 918 msec)
+#=#=#=# Syncrun started 2020-12-21T15:30:37Z
+#=#=#=#=# Propagation starts 2020-12-21T15:30:37Z (last step: 336 msec, total: 336 msec)
+||PYTHON/RESULTS/scan_2020-12-21_16-29-34|8|2|1608565729|5fe0c3e18153e|0|01147782oc10bbc458f2|4||0|0|0||
+||PYTHON/RESULTS/scan_2020-12-21_16-30-08|8|2|1608565763|5fe0c403dd917|0|01147784oc10bbc458f2|4||0|0|0||
+15:49:31||PYTHON/opentrons_drive_measurefocus.py|64|2|1608564604|98dce3b11a65a7943352ed200e1a4f55|3500|01147193oc10bbc458f2|4||200|3549|1608564094|dac12a90-2163-4e1c-8fad-f84569d64c83|
+#=#=#=# Syncrun finished 2020-12-21T15:30:38Z (last step: 763 msec, total: 1100 msec)
+#=#=#=# Syncrun started 2020-12-21T15:31:37Z
+#=#=#=#=# Propagation starts 2020-12-21T15:31:37Z (last step: 382 msec, total: 382 msec)
+||PYTHON/RESULTS/scan_2020-12-21_16-30-44|8|2|1608565800|5fe0c4284dca5|0|01147786oc10bbc458f2|4||0|0|0||
+||PYTHON/RESULTS/scan_2020-12-21_16-31-01|8|2|1608565818|5fe0c43aa5650|0|01147789oc10bbc458f2|4||0|0|0||
+15:50:31||PYTHON/xyz_stepper.py|64|2|1608564658|7b0717c95cef248e7bbd5ef4ba3516e9|5001|01135076oc10bbc458f2|4||200|5036|1608564529|bda528a4-63d9-42cc-9dd0-76ab4783eb2e|
+15:50:31||PYTHON/opentrons_drive_measurefocus.py|64|2|1608564640|7608d2f3573f317e7ec7175bcb772938|3526|01147193oc10bbc458f2|4||200|3500|1608564604|9babd39b-b1b7-4b29-94c3-cfa3d6886a25|
+15:50:31||PYTHON/__pycache__/xyz_stepper.cpython-36.pyc|64|2|1608564659|a99e4ce7c8ebfe8eed2cd37c67f092b6|3803|01147776oc10bbc458f2|4||200|3816|1608564534|dec3b5e7-f9f1-42ef-9ed8-fbd23a09db42|
+#=#=#=# Syncrun finished 2020-12-21T15:31:38Z (last step: 1086 msec, total: 1468 msec)
+#=#=#=# Syncrun started 2020-12-21T15:32:37Z
+#=#=#=#=# Propagation starts 2020-12-21T15:32:37Z (last step: 463 msec, total: 463 msec)
+||PYTHON/RESULTS/scan_2020-12-21_16-31-44|8|2|1608565861|5fe0c4652b224|0|01147791oc10bbc458f2|4||0|0|0||
+||PYTHON/RESULTS/scan_2020-12-21_16-32-06|8|2|1608565882|5fe0c47a437aa|0|01147794oc10bbc458f2|4||0|0|0||
+15:51:32||PYTHON/opentrons_drive_measurefocus.py|64|2|1608564722|227fa22acd76ded8a4dea7e809100506|3527|01147193oc10bbc458f2|4||200|3526|1608564640|cf038127-f291-483e-9ddb-25cf6f2d0e62|
+15:51:32||PYTHON/xyz_stepper.py|64|2|1608564700|e8f28078213f8557cec3eddb099fcea6|5238|01135076oc10bbc458f2|4||200|5001|1608564658|b1058c72-7fa2-46f9-82c9-2dbcf16b3ab7|
+15:51:32||PYTHON/__pycache__/xyz_stepper.cpython-36.pyc|64|2|1608564702|5ffd27be8f67ee5147ed2bdea609048c|3934|01147776oc10bbc458f2|4||200|3803|1608564659|2e2c63d3-7560-461f-af91-64001ddd4ad7|
+#=#=#=# Syncrun finished 2020-12-21T15:32:38Z (last step: 1084 msec, total: 1548 msec)
+#=#=#=# Syncrun started 2020-12-21T15:33:36Z
+#=#=#=#=# Propagation starts 2020-12-21T15:33:37Z (last step: 351 msec, total: 351 msec)
+||PYTHON/RESULTS/scan_2020-12-21_16-33-02|8|2|1608565938|5fe0c4b228003|0|01147796oc10bbc458f2|4||0|0|0||
+15:52:31||PYTHON/opentrons_drive_measurefocus.py|64|2|1608564763|83e13670d9e3b7959ba673755a474d61|3534|01147193oc10bbc458f2|4||200|3527|1608564722|fbca1c84-e781-467f-8cbe-ee26aa96b222|
+#=#=#=# Syncrun finished 2020-12-21T15:33:37Z (last step: 628 msec, total: 980 msec)
+#=#=#=# Syncrun started 2020-12-21T15:34:36Z
+#=#=#=#=# Propagation starts 2020-12-21T15:34:37Z (last step: 359 msec, total: 359 msec)
+||PYTHON/RESULTS/scan_2020-12-21_16-34-01|8|2|1608565996|5fe0c4ecd2996|0|01147798oc10bbc458f2|4||0|0|0||
+15:53:31||PYTHON/opentrons_drive_measurefocus.py|64|2|1608564837|4d62d7d499664a560dcab06b91476e83|3369|01147193oc10bbc458f2|4||200|3534|1608564763|2de5960a-3ea6-4c1d-b15a-379a08b938cb|
+#=#=#=# Syncrun finished 2020-12-21T15:34:37Z (last step: 617 msec, total: 976 msec)
+#=#=#=# Syncrun started 2020-12-21T15:35:36Z
+#=#=#=#=# Propagation starts 2020-12-21T15:35:37Z (last step: 375 msec, total: 375 msec)
+||PYTHON/RESULTS/scan_2020-12-21_16-34-52|8|2|1608566065|5fe0c5326653b|0|01147801oc10bbc458f2|4||0|0|0||
+15:54:31||PYTHON/RESULTS/scan_2020-12-21_16-34-01/scan_xyz_0.jpg|8|2|1608564859|6fcb765f5e0f796f8bb845276d9edadd|207516|01147799oc10bbc458f2|4||200|0|0|46cd5c4c-e015-42d1-b477-30b2e37813e2|
+15:54:31||PYTHON/opentrons_drive_measurefocus.py|64|2|1608564888|7e6c3dc4508ac5ee76fc75e8ca8eb698|3382|01147193oc10bbc458f2|4||200|3369|1608564837|1dd7400c-3097-4a18-a9dc-904eb57c2f52|
+15:54:31||PYTHON/RESULTS/scan_2020-12-21_16-34-52/scan_xyz_0.jpg|8|2|1608564910|6964fb23f415adbdbeee3cff55a70f49|205957|01147802oc10bbc458f2|4||200|0|0|7f7a68b0-4852-47cb-842a-c3c67ef23264|
+#=#=#=# Syncrun finished 2020-12-21T15:35:38Z (last step: 948 msec, total: 1323 msec)
+#=#=#=# Syncrun started 2020-12-21T15:36:36Z
+#=#=#=#=# Propagation starts 2020-12-21T15:36:37Z (last step: 396 msec, total: 396 msec)
+||PYTHON/RESULTS/scan_2020-12-21_16-36-07|8|2|1608566123|5fe0c56b0e86e|0|01147803oc10bbc458f2|4||0|0|0||
+#=#=#=# Syncrun finished 2020-12-21T15:36:37Z (last step: 188 msec, total: 585 msec)
+#=#=#=# Syncrun started 2020-12-21T15:37:36Z
+#=#=#=#=# Propagation starts 2020-12-21T15:37:37Z (last step: 416 msec, total: 416 msec)
+||PYTHON/RESULTS/scan_2020-12-21_16-37-12|8|2|1608566187|5fe0c5abceca2|0|01147805oc10bbc458f2|4||0|0|0||
+15:56:31||PYTHON/RESULTS/scan_2020-12-21_16-36-07/scan_xyz_0.jpg|8|2|1608564987|77d663c0c4ca2b6525b591b8d53f14fe|120528|01147804oc10bbc458f2|4||200|0|0|d983589b-babb-4aab-8a16-5c5298edd615|
+#=#=#=# Syncrun finished 2020-12-21T15:37:37Z (last step: 505 msec, total: 921 msec)
+#=#=#=# Syncrun started 2020-12-21T15:38:36Z
+#=#=#=#=# Propagation starts 2020-12-21T15:38:37Z (last step: 349 msec, total: 349 msec)
+15:57:31||PYTHON/RESULTS/scan_2020-12-21_16-37-12/scan_xyz_0.jpg|8|2|1608565046|f9b8bac06885a41b4a0129150687ce05|211807|01147806oc10bbc458f2|4||200|0|0|bf1c0d48-e55a-4594-8bf7-d8c473d7c6e2|
+#=#=#=# Syncrun finished 2020-12-21T15:38:37Z (last step: 502 msec, total: 851 msec)
+#=#=#=# Syncrun started 2020-12-21T15:40:07Z
+#=#=#=#=# Propagation starts 2020-12-21T15:40:07Z (last step: 375 msec, total: 375 msec)
+||PYTHON/RESULTS/scan_2020-12-21_16-39-20|8|2|1608566316|5fe0c62c30b3b|0|01147808oc10bbc458f2|4||0|0|0||
+||PYTHON/RESULTS/scan_2020-12-21_16-39-45|8|2|1608566340|5fe0c644c30fa|0|01147809oc10bbc458f2|4||0|0|0||
+15:59:01||PYTHON/opentrons_drive_measurefocus.py|64|2|1608565156|01296f972569f4144b5b3ea2784d3045|3383|01147193oc10bbc458f2|4||200|3382|1608564888|bb4378d0-7825-4d7d-962b-705f102f4d39|
+#=#=#=# Syncrun finished 2020-12-21T15:40:08Z (last step: 623 msec, total: 999 msec)
+#=#=#=# Syncrun started 2020-12-21T15:41:07Z
+#=#=#=#=# Propagation starts 2020-12-21T15:41:07Z (last step: 405 msec, total: 405 msec)
+16:00:01||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_0.jpg|8|2|1608565194|5ba8bcd37d6b502106737252e954b875|232407|01147810oc10bbc458f2|4||200|0|0|7ded9d42-2b64-4459-b317-45c77e40caa4|
+16:00:01||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_1.jpg|8|2|1608565196|0e95ab4e30625898d26182b0ebda4a7b|222261|01147811oc10bbc458f2|4||200|0|0|df7e1526-73ad-48be-9d2a-30329e4fa4de|
+16:00:01||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_10.jpg|8|2|1608565214|c7ef4d91cb1e103188072e6c4a781919|214138|01147818oc10bbc458f2|4||200|0|0|216d7faf-2b81-47b7-b8a3-a3e54f48b112|
+16:00:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_11.jpg|8|2|1608565216|770ed737b7cd968e2d4b33b06655354b|213011|01147821oc10bbc458f2|4||200|0|0|f7c0f1b3-64ff-4584-b956-abc635320aea|
+16:00:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_12.jpg|8|2|1608565217|0407b19214df5911ce8344609a09895a|204395|01147822oc10bbc458f2|4||200|0|0|857e690c-c4f2-4b04-bf90-0ca17ba0a48f|
+16:00:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_13.jpg|8|2|1608565219|c8016fa994ff7b585729fc6de9de7712|204769|01147823oc10bbc458f2|4||200|0|0|dbeb8254-3a3b-407c-a822-94f626cc1d3c|
+16:00:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_14.jpg|8|2|1608565220|790a170ca258276872d54b0f1b4a30af|194503|01147824oc10bbc458f2|4||200|0|0|98ed7e41-a22b-4be4-b119-64533d33971a|
+16:00:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_15.jpg|8|2|1608565222|b7ec12a2961794eeb82924f7ca2cb75c|189802|01147825oc10bbc458f2|4||200|0|0|ce90ca63-38a2-4b11-bfb1-aed8e4ffca3f|
+16:00:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_16.jpg|8|2|1608565229|a9c42d86f70dae1dfedeca87fbffbb4c|235602|01147826oc10bbc458f2|4||200|0|0|069d3246-2114-4932-9231-e769b034fa46|
+16:00:03||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_17.jpg|8|2|1608565232|619c6c25c4012c1d6520403e7afa5567|228762|01147827oc10bbc458f2|4||200|0|0|77471c72-5e06-401b-b6b4-8a2c31e6d9b1|
+16:00:03||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_18.jpg|8|2|1608565233|12253d980095d6f86a58c1322358ddcf|217754|01147828oc10bbc458f2|4||200|0|0|e71af5bc-66c0-407a-8626-194a43650fa6|
+16:00:03||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_19.jpg|8|2|1608565235|47e73a52798ce05b2bb8ad4d9a6968e7|212830|01147830oc10bbc458f2|4||200|0|0|03f2bbcf-9258-450f-9cab-80c192893883|
+16:00:04||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_2.jpg|8|2|1608565198|d136728f69205a93d25dc2a13af65c25|216490|01147813oc10bbc458f2|4||200|0|0|fc5878c5-419d-40a4-afe1-b28bf6a85480|
+16:00:04||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_20.jpg|8|2|1608565239|aa48fa7836a7513c9ab0b3305758e25e|226855|01147829oc10bbc458f2|4||200|0|0|794c3821-5bca-406e-9c77-e1568c0f851c|
+16:00:04||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_21.jpg|8|2|1608565240|2a69c48f286edb0781403324369d2f1a|230640|01147831oc10bbc458f2|4||200|0|0|4be12b99-cf44-4327-a379-533d1c95408b|
+16:00:05||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_22.jpg|8|2|1608565242|2ef8b0ebd79f2a5a3c5de1d362502f39|229884|01147832oc10bbc458f2|4||200|0|0|3ce69fa9-3f31-4511-b06c-331187a582d4|
+16:00:05||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_3.jpg|8|2|1608565199|c7d5cdb8d075b4c9d1121b202f55583f|212854|01147812oc10bbc458f2|4||200|0|0|10ad51f4-1ba3-4cd2-abc3-e688ea838d05|
+16:00:05||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_4.jpg|8|2|1608565201|f4a05d7513d5293abe73c1381242815e|211817|01147814oc10bbc458f2|4||200|0|0|6467facf-5541-4047-af20-f7427182a58f|
+16:00:05||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_5.jpg|8|2|1608565203|a47856d3ad995d25dd969a59c8226372|209570|01147815oc10bbc458f2|4||200|0|0|e1aeb553-8712-494d-a43e-738ded8c5171|
+16:00:05||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_6.jpg|8|2|1608565205|bca2c5f0699dc08d28bc320a528d59b0|205494|01147816oc10bbc458f2|4||200|0|0|f3805a8a-011a-481e-97c3-c34ff6b40284|
+16:00:05||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_7.jpg|8|2|1608565208|77078247588ec153afe6dabc4cb4b83c|213011|01147817oc10bbc458f2|4||200|0|0|585f15ea-bf0b-4acb-9c71-487d63cc6a06|
+16:00:06||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_8.jpg|8|2|1608565211|626d22c3c924e2aa539852f050bd818d|223929|01147820oc10bbc458f2|4||200|0|0|dfffeab6-cb13-4e2d-942d-1294b6a9e511|
+16:00:06||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_9.jpg|8|2|1608565213|f9ac8546f3c8cd1a3b79f9431d400011|222820|01147819oc10bbc458f2|4||200|0|0|9e8b06fb-c518-45bb-be5d-5a18e266570b|
+#=#=#=# Syncrun finished 2020-12-21T15:41:12Z (last step: 5416 msec, total: 5822 msec)
+#=#=#=# Syncrun started 2020-12-21T15:41:16Z
+#=#=#=#=# Propagation starts 2020-12-21T15:41:16Z (last step: 285 msec, total: 285 msec)
+16:00:11||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_23.jpg|8|2|1608565250|adb1ea7fc7f809d6d85f872255d4d1ec|224489|01147833oc10bbc458f2|4||200|0|0|ea460901-f132-4497-97d0-ac0d0ad5dd75|
+16:00:11||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_24.jpg|8|2|1608565252|9bd6cf46b6d7d80b7c1c22ae011d3ddd|227045|01147834oc10bbc458f2|4||200|0|0|01b6eff9-6cfa-4363-bdb7-8ce985c697b9|
+#=#=#=# Syncrun finished 2020-12-21T15:41:17Z (last step: 829 msec, total: 1114 msec)
+#=#=#=# Syncrun started 2020-12-21T15:41:19Z
+#=#=#=#=# Propagation starts 2020-12-21T15:41:19Z (last step: 292 msec, total: 292 msec)
+#=#=#=# Syncrun finished 2020-12-21T15:41:19Z (last step: 24 msec, total: 316 msec)
+#=#=#=# Syncrun started 2020-12-21T15:42:07Z
+#=#=#=#=# Propagation starts 2020-12-21T15:42:07Z (last step: 368 msec, total: 368 msec)
+16:01:01||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_25.jpg|8|2|1608565256|99d13ce5a774cc15204a6f2faf985732|225988|01147835oc10bbc458f2|4||200|0|0|4e7ec824-3f00-4a76-bff2-1a23fd31f35c|
+16:01:01||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_26.jpg|8|2|1608565263|afcd8fbe9b79c9f5f35ee8b204bf6bcd|211042|01147836oc10bbc458f2|4||200|0|0|2737eb4e-9953-4084-81ad-2ce8576a4e09|
+16:01:01||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_27.jpg|8|2|1608565265|d7d764c4db337dcd9d00569df07c2fdb|221505|01147837oc10bbc458f2|4||200|0|0|5d53f9be-ed55-4947-ab24-ac140741c963|
+16:01:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_28.jpg|8|2|1608565284|425b9fa62c06f994a39916fba2087156|189455|01147838oc10bbc458f2|4||200|0|0|4a563611-76eb-4f7d-bc57-674d1a6d4e5b|
+16:01:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_29.jpg|8|2|1608565286|6451edd7792ffee9b14ad6cc0a61d9da|173037|01147839oc10bbc458f2|4||200|0|0|0c9507b9-67e5-420a-8d9f-d881b6eb6832|
+#=#=#=# Syncrun finished 2020-12-21T15:42:08Z (last step: 1216 msec, total: 1585 msec)
+#=#=#=# Syncrun started 2020-12-21T15:43:07Z
+#=#=#=#=# Propagation starts 2020-12-21T15:43:07Z (last step: 376 msec, total: 376 msec)
+16:02:01||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_30.jpg|8|2|1608565310|03a7c4625d8b6a4756b990d1448aa91b|198181|01147840oc10bbc458f2|4||200|0|0|47ba25fb-ccf1-47d2-b80f-c6ac6b02e19b|
+16:02:01||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_32.jpg|8|2|1608565315|fbc58f80f53b8ee4e9248ed5ce00a3ff|214466|01147842oc10bbc458f2|4||200|0|0|3cde4fbe-859c-4902-ad15-b7f17f69158e|
+16:02:01||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_31.jpg|8|2|1608565312|1b7a7faffe5cfbe0af92220cda2d916c|208848|01147841oc10bbc458f2|4||200|0|0|be9c7fc9-178c-470d-9d4f-1a3e37676b69|
+16:02:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_33.jpg|8|2|1608565316|1ce61abeb0c0710a0a5b9018100560ae|219294|01147843oc10bbc458f2|4||200|0|0|9b0e47dc-4bc9-4d46-8c5b-2ca38b055eb5|
+16:02:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_34.jpg|8|2|1608565318|4ef8e619a9b48d77bd536c1e7d871b03|229259|01147844oc10bbc458f2|4||200|0|0|62eabb6d-05f7-4f74-8583-abd086483824|
+16:02:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_35.jpg|8|2|1608565325|d292096992d5c91228f8537b2de41a1e|207683|01147845oc10bbc458f2|4||200|0|0|b0274ef3-cce0-4262-a98c-9cb0c98d07b2|
+16:02:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_36.jpg|8|2|1608565327|b3c9bb3048c773e7188fb34663340d7a|219295|01147846oc10bbc458f2|4||200|0|0|b8216825-3092-4935-b794-8d03750a052b|
+16:02:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_37.jpg|8|2|1608565329|894098f94f9bdd63aac36ee8d0a8cff3|227517|01147847oc10bbc458f2|4||200|0|0|5bb4df20-6989-4d38-929a-885e7f56bd97|
+16:02:02||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_38.jpg|8|2|1608565331|3ecae5a9ba5ad39ea98e341851076bdf|231442|01147848oc10bbc458f2|4||200|0|0|858a7f2c-c88b-4a00-be17-4a058dd34af1|
+16:02:03||PYTHON/myscanpos_y.npy|64|2|1608565340|25d40837e2a732fb106ca0a03d265141|448|01147220oc10bbc458f2|4||200|448|1608551501|e36fdb46-56b3-474b-9c69-8a313f517c10|
+16:02:03||PYTHON/myscanpos_z.npy|64|2|1608565340|6350fde8dec756d9fb408737c3abd003|288|01147221oc10bbc458f2|4||200|288|1608551501|6df5cd1d-6a4e-47a9-830a-f25e99d65c34|
+16:02:03||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_xyz_39.jpg|8|2|1608565340|8bb92791037efdeb401f053bbe6127f6|215810|01147849oc10bbc458f2|4||200|0|0|85be0636-8d5f-477f-bd1d-e3641dc897d0|
+#=#=#=# Syncrun finished 2020-12-21T15:43:09Z (last step: 2436 msec, total: 2813 msec)
+#=#=#=# Syncrun started 2020-12-21T15:53:01Z
+#=#=#=#=# Propagation starts 2020-12-21T15:53:01Z (last step: 293 msec, total: 293 msec)
+||PYTHON/xyz_stepper.py|64|1|1608565980|e8f28078213f8557cec3eddb099fcea6|6877|01135076oc10bbc458f2|3|Local file changed during sync.|0|5238|1608564700||
+16:11:55||PYTHON/opentrons_drive_measurefocus.py|64|1|1608565979|c72b0e73c1279541c651e0b28aa8ec75|2901|01147193oc10bbc458f2|4||204|3383|1608565156|a23ec16a-bc7a-4dc0-8b4b-308112c39903|
+#=#=#=# Syncrun finished 2020-12-21T15:53:02Z (last step: 1012 msec, total: 1305 msec)
+#=#=#=# Syncrun started 2020-12-21T15:53:04Z
+#=#=#=#=# Propagation starts 2020-12-21T15:53:04Z (last step: 176 msec, total: 176 msec)
+16:11:58||PYTHON/xyz_stepper.py|64|1|1608565980|9e771dd5cd1969a5e7b8f90a81020615|6877|01135076oc10bbc458f2|4||204|5238|1608564700|a2a577b2-d2e6-4b55-95c7-5c675f442684|
+#=#=#=# Syncrun finished 2020-12-21T15:53:05Z (last step: 1014 msec, total: 1190 msec)
+#=#=#=# Syncrun started 2020-12-21T15:53:19Z
+#=#=#=#=# Propagation starts 2020-12-21T15:53:19Z (last step: 235 msec, total: 235 msec)
+16:12:13||PYTHON/opentrons_drive_measurefocus.py|64|1|1608565997|3e57ff03f662c5e2bc67f4ea8f474fa3|2904|01147193oc10bbc458f2|4||204|2901|1608565979|8b91b7a6-3d49-4166-8943-e1c249db8f24|
+#=#=#=# Syncrun finished 2020-12-21T15:53:20Z (last step: 1065 msec, total: 1301 msec)
+#=#=#=# Syncrun started 2020-12-21T15:54:07Z
+#=#=#=#=# Propagation starts 2020-12-21T15:54:07Z (last step: 234 msec, total: 234 msec)
+#=#=#=# Syncrun finished 2020-12-21T15:54:07Z (last step: 14 msec, total: 249 msec)
+#=#=#=# Syncrun started 2020-12-21T15:55:38Z
+#=#=#=#=# Propagation starts 2020-12-21T15:55:38Z (last step: 312 msec, total: 312 msec)
+16:14:33||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_2020-12-21_16-39-45 kept stack.gif|8|1|1608566136|880790f9c3e5774d7d3062e0fbc80a1f|8117945|01147855oc10bbc458f2|4||201|0|0|d5ff50e7-7629-41d5-bb3a-b7aec307dada|
+#=#=#=# Syncrun finished 2020-12-21T15:55:41Z (last step: 2551 msec, total: 2863 msec)
+#=#=#=# Syncrun started 2020-12-21T15:56:36Z
+#=#=#=#=# Propagation starts 2020-12-21T15:56:37Z (last step: 398 msec, total: 398 msec)
+#=#=#=# Syncrun finished 2020-12-21T15:56:37Z (last step: 29 msec, total: 428 msec)
+#=#=#=# Syncrun started 2020-12-21T15:59:25Z
+#=#=#=#=# Propagation starts 2020-12-21T15:59:26Z (last step: 303 msec, total: 303 msec)
+16:18:20||PYTHON/RESULTS/scan_2020-12-21_16-39-45/scan_2020-12-21_16-39-45 kept stack.gif|64|1|1608566364|f63b27370d1de4a180ef16905b5ad60f|8117945|01147855oc10bbc458f2|4||204|8117945|1608566136|9aeecd09-eb97-4817-89dc-c2d8bc8526aa|
+#=#=#=# Syncrun finished 2020-12-21T15:59:28Z (last step: 2672 msec, total: 2975 msec)
+#=#=#=# Syncrun started 2020-12-21T16:00:07Z
+#=#=#=#=# Propagation starts 2020-12-21T16:00:07Z (last step: 365 msec, total: 365 msec)
+#=#=#=# Syncrun finished 2020-12-21T16:00:07Z (last step: 18 msec, total: 383 msec)

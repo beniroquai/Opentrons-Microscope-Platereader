@@ -7,7 +7,7 @@ class xyzStepper:
     mystepper = 'x'
     backlash = 0
     highspeed = 2500
-    lowspeed = 2500
+    lowspeed = 2500 
     '''
     X -> backwards
     x -> forwards
@@ -17,7 +17,6 @@ class xyzStepper:
                  mycurrentposition=0, backlash=0):
 
         self.mycurrentposition = mycurrentposition
-        self.mystepper = mystepper
         self.backlash = backlash
         
         print('Initializing XYZ-stepper')
@@ -28,7 +27,7 @@ class xyzStepper:
         
         print('Initializing Focus Sensor')
         self.serial_focus = serial.Serial("/dev/ttyUSB1", 115200, bytesize=8, stopbits=serial.STOPBITS_ONE, parity=serial.PARITY_NONE)
-        se.serial_focus.flushInput()
+        self.serial_focus.flushInput()
 
 
     def go_to_z(self, pos_z):
@@ -103,68 +102,116 @@ class xyzStepper:
 
 
 
-def find_focus(self, iz_min, iz_max=1024):
-    '''
-    find_focus will go through z-steps andasks you to find the perceptually 
-    best matching focus plane; Hit CTRL+c to stop the focus search
-    
-    
-    Parameters
-    ----------
-    iz_min : INT
-        Minimum search value.
-    iz_max : INT, optional
-        Maximum serach value. The default is 1024.
+    def find_focus(self, iz_min, iz_max=1024):
+        '''
+        find_focus will go through z-steps andasks you to find the perceptually 
+        best matching focus plane; Hit CTRL+c to stop the focus search
+        
+        
+        Parameters
+        ----------
+        iz_min : INT
+            Minimum search value.
+        iz_max : INT, optional
+            Maximum serach value. The default is 1024.
 
-    Returns
-    -------
-    TYPE
-        DESCRIPTION.
+        Returns
+        -------
+        TYPE
+            DESCRIPTION.
 
-    '''
-    
-    # match focal planes
-    iz = iz_min     # this should be outside the loop, I think
-    while True:    # infinite loop
-        try:
-            focuspos,focusval = self.measure_focus()
-            print("iz: "+str(iz)+", "+str(focusval))
-            
-            # move 
-            iz +=10
-            self.go_to_z(iz)
-            time.sleep(.2)
-            
-            if iz>iz_max:
+        '''
+        
+        # match focal planes
+        iz = iz_min     # this should be outside the loop, I think
+        while True:    # infinite loop
+            try:
+                focuspos,focusval = self.measure_focus()
+                print("iz: "+str(iz)+", "+str(focusval))
+                
+                # move 
+                iz +=10
+                self.go_to_z(iz)
+                time.sleep(.2)
+                
+                if iz>iz_max:
+                    break
+            except:
+                print("Save the current slice as focus position")
                 break
-        except:
-            print("Save the current slice as focus position")
-            break
-    
-    # save them for later
-    myfixfocus = focuspos
-    myfixz = int(iz)
-    
-    return myfixfocus, myfixz
+            if i_meas
+        
+        # save them for later
+        myfixfocus = focuspos
+        myfixz = int(iz)
+        
+        return myfixfocus, myfixz
 
 
-def measure_focus(self):
-    '''
-    measure the focus which is just coming over the serial..
+    def measure_focus(self):
+        '''
+        measure the focus which is just coming over the serial..
 
-    Returns
-    -------
-    focuspos : TYPE
-        Value of the focus
-    focusval : TYPE
-        Intensity of the focus position
+        Returns
+        -------
+        focuspos : TYPE
+            Value of the focus
+        focusval : TYPE
+            Intensity of the focus position
 
-    '''
-    
-    self.serial_focus.flushInput()  # make sure latest line is read
-    ser_bytes = self.serial_focus.readline()
-    decoded_bytes = (ser_bytes[0:len(ser_bytes)-2].decode("utf-8"))
-    focuspos = int(decoded_bytes.split("pos: ")[-1])
-    focusval = int(decoded_bytes.split("Val: ")[-1].split(" at")[0])
-    return focuspos, focusval
-      
+        '''
+        
+        self.serial_focus.flushInput()  # make sure latest line is read
+        ser_bytes = self.serial_focus.readline()
+        decoded_bytes = (ser_bytes[0:len(ser_bytes)-2].decode("utf-8"))
+        focuspos = int(decoded_bytes.split("pos: ")[-1])
+        focusval = int(decoded_bytes.split("Val: ")[-1].split(" at")[0])
+        return focuspos, focusval
+          
+
+        def hold_focus(self, aimedfocus=myfixfocus, currentz=iz, zstep=3):
+            '''
+            
+
+            Parameters
+            ----------
+            aimedfocus : TYPE, optional
+                DESCRIPTION. The default is myfixfocus.
+            currentz : TYPE, optional
+                DESCRIPTION. The default is iz.
+            zstep : TYPE, optional
+                DESCRIPTION. The default is 3.
+
+            Returns
+            -------
+            iz : TYPE
+                DESCRIPTION.
+
+            '''
+            i_meas = 0
+            N_meas = 20     # max number of search steps 
+            
+            while np.abs(myfixfocus-focuspos)>0:
+                # if the distance is positive, the curent sample is too high, hence we 
+                # we must move the focus down, which corresponds to an increased iz value
+                if (focuspos-myfixfocus)>0:
+                    iz += zstep
+                else:
+                    iz -= zstep
+                Stepper_XYZ.go_to_z(iz)
+                time.sleep(.1)
+                
+                focuspos, focusval = Stepper_XYZ.measure_focus()
+                print("Focus pos (should): "+str(myfixfocus)+", Focus pos (is):"+str(focuspos))
+                    
+                if i_meas > N_meas:
+                    print("Max number of search iterations reached, taking old value")
+                    # revert back to old values
+                    iz = currentz
+                    Stepper_XYZ.go_to_z(iz)
+                    
+                    break
+                i_meas += 1
+                
+            return iz
+        
