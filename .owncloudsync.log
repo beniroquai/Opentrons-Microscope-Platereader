@@ -2270,3 +2270,934 @@
 #=#=#=# Syncrun started 2020-12-16T14:42:48Z
 #=#=#=#=# Propagation starts 2020-12-16T14:42:49Z (last step: 415 msec, total: 415 msec)
 #=#=#=# Syncrun finished 2020-12-16T14:42:49Z (last step: 57 msec, total: 472 msec)
+#=#=#=# Syncrun started 2020-12-16T15:38:47Z
+#=#=#=#=# Propagation starts 2020-12-16T15:38:47Z (last step: 335 msec, total: 335 msec)
+15:57:32||INVENTOR/OldVersions/09_Opentrons_Autofocus_LED_Module.0006.ipt|8|1|1607003536|57468a9ddfed85871d1f074e4f6025b1|323072|01140485oc10bbc458f2|4||201|0|0|e1d55493-a434-472d-9974-42787e9bca1a|
+15:57:32||INVENTOR/09_Opentrons_Autofocus_LED_Module.ipt|64|1|1608133125|9cbd38910acb24562ccf4cbba885d008|349696|01135015oc10bbc458f2|4||204|323072|1607003536|40ada408-2391-446e-90b7-460ac67ca1c1|
+15:57:31||INVENTOR/OldVersions/09_Opentrons_Autofocus_LED_Module.0005.ipt|2|1|1606738220|97fc71d93786f1c0039bd2c2e7e42308|333824|01136587oc10bbc458f2|4||204|333824|1606738220|c642d7f1-0650-4621-aea7-c39d5ebc608d|
+#=#=#=# Syncrun finished 2020-12-16T15:38:57Z (last step: 9246 msec, total: 9581 msec)
+#=#=#=# Syncrun started 2020-12-16T15:39:20Z
+#=#=#=#=# Propagation starts 2020-12-16T15:39:20Z (last step: 322 msec, total: 322 msec)
+15:58:04||INVENTOR/00_Beampath_Autofocus - Copy.ipt|8|1|1606737796|8795d33f0b1be2f034ce135ff433710b|114688|01140487oc10bbc458f2|4||201|0|0|c28bae66-6cdb-4f91-9ef1-0ca336d4febb|
+#=#=#=# Syncrun finished 2020-12-16T15:39:21Z (last step: 849 msec, total: 1172 msec)
+#=#=#=# Syncrun started 2020-12-16T15:39:26Z
+#=#=#=#=# Propagation starts 2020-12-16T15:39:27Z (last step: 233 msec, total: 233 msec)
+15:58:11||INVENTOR/00_Beampath_Autofocus - Copy.ipt -> INVENTOR/00_Beampath_Autofocus _2.ipt|4|1|1606737796|8795d33f0b1be2f034ce135ff433710b|114688|01140487oc10bbc458f2|4||201|0|0|6fa956a3-1ac9-4731-90c2-7170517cf7d5|
+#=#=#=# Syncrun finished 2020-12-16T15:39:28Z (last step: 1245 msec, total: 1478 msec)
+#=#=#=# Syncrun started 2020-12-16T15:40:08Z
+#=#=#=#=# Propagation starts 2020-12-16T15:40:08Z (last step: 241 msec, total: 241 msec)
+#=#=#=# Syncrun finished 2020-12-16T15:40:08Z (last step: 16 msec, total: 257 msec)
+#=#=#=# Syncrun started 2020-12-16T15:44:40Z
+#=#=#=#=# Propagation starts 2020-12-16T15:44:41Z (last step: 439 msec, total: 439 msec)
+16:03:25||INVENTOR/OldVersions/00_Beampath_Autofocus _2.0006.ipt|8|1|1606737796|0717b4a106612f9f9ce0c4cff40ed70b|114688|01140488oc10bbc458f2|4||201|0|0|87e00c50-28db-4fd1-a556-5cc627340abc|
+16:03:25||INVENTOR/00_Beampath_Autofocus _2.ipt|64|1|1608133478|0ed2445a666d5fe1f39912fbb283d73c|101376|01140487oc10bbc458f2|4||204|114688|1606737796|41e1c7ea-df83-4245-9b0d-b865831c1c83|
+#=#=#=# Syncrun finished 2020-12-16T15:44:42Z (last step: 1387 msec, total: 1827 msec)
+#=#=#=# Syncrun started 2020-12-16T15:45:38Z
+#=#=#=#=# Propagation starts 2020-12-16T15:45:38Z (last step: 308 msec, total: 308 msec)
+#=#=#=# Syncrun finished 2020-12-16T15:45:38Z (last step: 14 msec, total: 322 msec)
+#=#=#=# Syncrun started 2020-12-16T15:47:05Z
+#=#=#=#=# Propagation starts 2020-12-16T15:47:05Z (last step: 411 msec, total: 411 msec)
+||INVENTOR/00_opticalpath.ipt|64|1|1608133624|66ece5763903a721a50b63707a79086a|125952|01134989oc10bbc458f2|3|Local file changed during sync.|0|116736|1607003536||
+||INVENTOR/00_ESP32_Camera_only.ipt|8|1|1608133624||105472||3|Local file changed during sync.|0|0|0||
+||INVENTOR/01_Slide_camera_x_v1.ipt|64|1|1608133624|ec5f608b2245fa5df9a20b2c51e1854c|233984|01135000oc10bbc458f2|3|Local file changed during sync.|0|216576|1605895920||
+||INVENTOR/Assembly_Opentrons_Autofocus_v1.newVer.iam|8|1|1608133624||409600||3|Local file changed during sync.|0|0|0||
+16:05:49||INVENTOR/OldVersions/00_Beampath_Autofocus _2.0007.ipt|8|1|1608133478|b4597237ae5bfa89ce5db450790878a4|101376|01140492oc10bbc458f2|4||201|0|0|a6e7db1e-552c-4d5f-92e5-e530c0d7cc96|
+16:05:49||INVENTOR/00_Beampath_Autofocus _2.ipt|64|1|1608133623|4b631bfcb4d5711afc08104aeb79e93a|110592|01140487oc10bbc458f2|4||204|101376|1608133478|54ae6d04-fd36-43b4-a541-7c9a10e75f91|
+16:05:49||INVENTOR/09_Opentrons_Autofocus_LED_Module.ipt|64|1|1608133623|bf8a19df4195379ec96f007cdac08c9f|350208|01135015oc10bbc458f2|4||204|349696|1608133125|2d712776-fdae-4750-af4d-c12e959ec794|
+16:05:49||INVENTOR/OldVersions/00_Beampath_Autofocus _2.0006.ipt|2|1|1606737796|0717b4a106612f9f9ce0c4cff40ed70b|114688|01140488oc10bbc458f2|4||204|114688|1606737796|1b332251-817e-4982-bb20-9d6e64db27dc|
+16:05:51||INVENTOR/OldVersions/00_opticalpath.0006.ipt|8|1|1607003536|669196de435ede2b09bed3f28f1919af|116736|01140493oc10bbc458f2|4||201|0|0|c03c3a64-9b49-4f9c-9e40-9eb7dad719c0|
+16:05:51||INVENTOR/OldVersions/00_opticalpath.0005.ipt|2|1|1606737797|f1fe481281dd07bd92b955caac1eab6f|116736|01136586oc10bbc458f2|4||204|116736|1606737797|57722fc2-c365-4385-8dff-6905d43c0fbb|
+16:05:51||INVENTOR/OldVersions/01_Slide_camera_x_v1.0009.ipt|8|1|1605895920|2f1d2b579898488aca738bc3f1591e7d|216576|01140494oc10bbc458f2|4||201|0|0|48c30e10-46be-4512-b4f9-c97ef367020f|
+16:05:51||INVENTOR/OldVersions/01_Slide_camera_x_v1.0008.ipt|2|1|1605879249|c8bb912c3016e2346e3f3656eca6ade2|200704|01134948oc10bbc458f2|4||204|200704|1605879249|95b28307-8108-41be-b10c-7306f53b011b|
+16:05:52||INVENTOR/OldVersions/09_Opentrons_Autofocus_LED_Module.0007.ipt|8|1|1608133125|adf08b998e3f3fcae518cd4d21ac296c|349696|01140495oc10bbc458f2|4||201|0|0|db594afc-efb5-4ae2-9c73-41812e1a5959|
+16:05:51||INVENTOR/OldVersions/09_Opentrons_Autofocus_LED_Module.0006.ipt|2|1|1607003536|57468a9ddfed85871d1f074e4f6025b1|323072|01140485oc10bbc458f2|4||204|323072|1607003536|c9a68845-aca5-4659-900c-6429ec7e6728|
+#=#=#=# Syncrun finished 2020-12-16T15:47:09Z (last step: 4035 msec, total: 4447 msec)
+#=#=#=# Syncrun started 2020-12-16T15:47:13Z
+#=#=#=#=# Propagation starts 2020-12-16T15:47:13Z (last step: 318 msec, total: 318 msec)
+16:05:57||INVENTOR/00_ESP32_Camera_only.ipt|8|1|1608133624|2ed13619c79586331037899a2de44681|105472|01140497oc10bbc458f2|4||201|0|0|2952f576-97d6-41c7-a030-41dd8976cf06|
+16:05:57||INVENTOR/OldVersions/Assembly_Opentrons_Autofocus_v1.0019.iam|8|1|1607003538|4c1a8233c333836ac6e5743a0840bdc8|432128|01140496oc10bbc458f2|4||201|0|0|f6588f61-47d5-4193-8107-af19a517ea50|
+16:05:57||INVENTOR/00_opticalpath.ipt|64|1|1608133624|07110b0a1f78770111d10d6cee2f3b20|125952|01134989oc10bbc458f2|4||204|116736|1607003536|500c8184-eb13-4680-b3f4-57ac7fb4c579|
+16:05:57||INVENTOR/OldVersions/Assembly_Opentrons_Autofocus_v1.0018.iam|2|1|1606738226|fe836fb357db0bcac70949a5e958d5cf|402944|01136590oc10bbc458f2|4||204|402944|1606738226|f0e11f57-b124-4e86-882f-01c763f660d9|
+16:05:58||INVENTOR/01_Slide_camera_x_v1.ipt|64|1|1608133624|edc2f49adf1da2fcf9d87ef7bd0e3a63|233984|01135000oc10bbc458f2|4||204|216576|1605895920|c88892ec-5e8e-4a11-8cf2-8a2b0d3695d0|
+16:05:58||INVENTOR/Assembly_Opentrons_Autofocus_v1.iam|64|1|1608133630|701563c2924e0ffb59fe1923c7991d2e|443904|01135025oc10bbc458f2|4||204|432128|1607003538|487f6555-c0bb-4202-a34d-bf377bd8be86|
+#=#=#=# Syncrun finished 2020-12-16T15:47:16Z (last step: 2761 msec, total: 3080 msec)
+#=#=#=# Syncrun started 2020-12-16T15:48:08Z
+#=#=#=#=# Propagation starts 2020-12-16T15:48:08Z (last step: 300 msec, total: 300 msec)
+#=#=#=# Syncrun finished 2020-12-16T15:48:08Z (last step: 17 msec, total: 317 msec)
+#=#=#=# Syncrun started 2020-12-16T15:56:02Z
+#=#=#=#=# Propagation starts 2020-12-16T15:56:03Z (last step: 520 msec, total: 520 msec)
+16:14:47||INVENTOR/00_objectivelens_10x.ipt|64|1|1608134160|690a9b81a4d7a7bcaf9a10f58570cb47|114688|01134988oc10bbc458f2|4||204|104960|1605873977|163f6e2d-cb3f-4bfc-9c7f-573f21e2b8cd|
+||INVENTOR/Assembly_Opentrons_Autofocus_v1.newVer.iam|8|1|-3600||442368||3|File Removed|0|0|0||
+16:14:47||INVENTOR/00_Beampath_Autofocus _2.ipt|64|1|1608134160|f06bfaf39927e3ea3c22389e4abab044|113152|01140487oc10bbc458f2|4||204|110592|1608133623|6e530fb6-e6a4-4797-9b11-7afd7fd5742d|
+16:14:47||INVENTOR/01_Slide_camera_x_v1.ipt|64|1|1608134161|efca6e8eba8c0f40b5ecb5a6144233b2|243712|01135000oc10bbc458f2|4||204|233984|1608133624|fd4440b2-95e0-413c-94c8-797e625db7a5|
+16:14:50||INVENTOR/OldVersions/00_objectivelens_10x.0001.ipt|8|1|1605873977|e76c15bbfdd4c6b929eaac8513662542|104960|01140703oc10bbc458f2|4||201|0|0|ca09a215-3b6b-41b4-9596-67dcb3a6aba2|
+16:14:50||INVENTOR/OldVersions/00_Beampath_Autofocus _2.0008.ipt|8|1|1608133623|3b101bca79befa4197fda25cae519f54|110592|01140702oc10bbc458f2|4||201|0|0|cd02b95d-c206-4e01-a134-9a406c2cd7b6|
+16:14:50||INVENTOR/OldVersions/00_Beampath_Autofocus _2.0007.ipt|2|1|1608133478|b4597237ae5bfa89ce5db450790878a4|101376|01140492oc10bbc458f2|4||204|101376|1608133478|6839e73b-05b8-4273-ba32-0630f56a68bf|
+16:14:50||INVENTOR/OldVersions/01_Slide_camera_x_v1.0009.ipt|2|1|1605895920|2f1d2b579898488aca738bc3f1591e7d|216576|01140494oc10bbc458f2|4||204|216576|1605895920|f2bd8bba-a45b-41b7-b3eb-c752df7c2732|
+16:14:52||INVENTOR/OldVersions/01_Slide_camera_x_v1.0010.ipt|8|1|1608133624|ccab4fe6628ef893ffbac54839182b70|233984|01140704oc10bbc458f2|4||201|0|0|ed6055d6-dadc-430c-ab7d-21193690d73e|
+#=#=#=# Syncrun finished 2020-12-16T15:56:09Z (last step: 6318 msec, total: 6839 msec)
+#=#=#=# Syncrun started 2020-12-16T15:56:13Z
+#=#=#=#=# Propagation starts 2020-12-16T15:56:14Z (last step: 424 msec, total: 424 msec)
+16:14:58||INVENTOR/OldVersions/Assembly_Opentrons_Autofocus_v1.0020.iam|8|1|1608133630|30f879b1bc91630c99ae6cc0944363b8|443904|01140705oc10bbc458f2|4||201|0|0|e328f58a-2531-4fce-b5f1-965a185b73e2|
+16:14:58||INVENTOR/Assembly_Opentrons_Autofocus_v1.iam|64|1|1608134166|8fdbfb884e9f02034b71eb8f6fd66c65|445440|01135025oc10bbc458f2|4||204|443904|1608133630|970c1b37-73dc-4d28-bfe9-178b85b9070f|
+16:14:58||INVENTOR/OldVersions/Assembly_Opentrons_Autofocus_v1.0019.iam|2|1|1607003538|4c1a8233c333836ac6e5743a0840bdc8|432128|01140496oc10bbc458f2|4||204|432128|1607003538|f6ef200b-12e0-4dab-a14b-f4a33aa862c3|
+#=#=#=# Syncrun finished 2020-12-16T15:56:16Z (last step: 2012 msec, total: 2436 msec)
+#=#=#=# Syncrun started 2020-12-16T15:57:08Z
+#=#=#=#=# Propagation starts 2020-12-16T15:57:08Z (last step: 364 msec, total: 364 msec)
+#=#=#=# Syncrun finished 2020-12-16T15:57:08Z (last step: 16 msec, total: 381 msec)
+#=#=#=# Syncrun started 2020-12-16T16:12:17Z
+#=#=#=#=# Propagation starts 2020-12-16T16:12:17Z (last step: 197 msec, total: 197 msec)
+16:31:02||INVENTOR/13_Opentrons_Autofocus_Objectivering_Laser_Cam.ipt|8|1|1608135135|a3839a45379832e2acbc87fb5742d5c8|147968|01140707oc10bbc458f2|4||201|0|0|affeef8a-6a17-49f4-9d57-0b6c1b05df66|
+#=#=#=# Syncrun finished 2020-12-16T16:12:18Z (last step: 857 msec, total: 1054 msec)
+#=#=#=# Syncrun started 2020-12-16T16:13:08Z
+#=#=#=#=# Propagation starts 2020-12-16T16:13:08Z (last step: 240 msec, total: 240 msec)
+#=#=#=# Syncrun finished 2020-12-16T16:13:08Z (last step: 16 msec, total: 256 msec)
+#=#=#=# Syncrun started 2020-12-16T16:21:35Z
+#=#=#=#=# Propagation starts 2020-12-16T16:21:35Z (last step: 322 msec, total: 322 msec)
+16:40:19||INVENTOR/OldVersions/13_Opentrons_Autofocus_Objectivering_Laser_Cam.0001.ipt|8|1|1608135135|491536daceb39403907c9f78435368a1|147968|01140709oc10bbc458f2|4||201|0|0|3bc03c0a-e49a-4e7b-972f-24ef186963da|
+16:40:19||INVENTOR/13_Opentrons_Autofocus_Objectivering_Laser_Cam.ipt|64|1|1608135693|2d7e5e99bb404d19efefb6d6bc213c72|176640|01140707oc10bbc458f2|4||204|147968|1608135135|b7695ddb-4586-44c9-b738-2b68b5155413|
+#=#=#=# Syncrun finished 2020-12-16T16:21:37Z (last step: 1492 msec, total: 1815 msec)
+#=#=#=# Syncrun started 2020-12-16T16:22:08Z
+#=#=#=#=# Propagation starts 2020-12-16T16:22:08Z (last step: 303 msec, total: 303 msec)
+#=#=#=# Syncrun finished 2020-12-16T16:22:08Z (last step: 17 msec, total: 320 msec)
+#=#=#=# Syncrun started 2020-12-16T16:26:03Z
+#=#=#=#=# Propagation starts 2020-12-16T16:26:04Z (last step: 355 msec, total: 355 msec)
+16:44:48||INVENTOR/Assembly_Opentrons_Autofocus_v1.newVer.iam|8|1|1608135962|fdfb7697ba027e10730563faad273d83|491520|01140711oc10bbc458f2|4||201|0|0|4479fd12-cfe1-4ac5-984d-0daf29662144|
+16:44:48||INVENTOR/13_Opentrons_Autofocus_Objectivering_Laser_Cam.ipt|64|1|1608135962|944f3cba5e9738824d0c13379a959bb7|219136|01140707oc10bbc458f2|4||204|176640|1608135693|1d669ded-5102-4a3b-98ad-5202540540d1|
+16:44:48||INVENTOR/01_Slide_camera_x_v1.ipt|64|1|1608135962|16469c372b6f0f8db633a1a1bf31dd50|253952|01135000oc10bbc458f2|4||204|243712|1608134161|4ac776b7-8490-45b9-8604-4ee0f3603b47|
+16:44:49||INVENTOR/OldVersions/01_Slide_camera_x_v1.0011.ipt|8|1|1608134161|a9398817d29b0c1d34759f08461398e8|243712|01140714oc10bbc458f2|4||201|0|0|36481759-a069-4987-a4de-30505f69cbcb|
+16:44:49||INVENTOR/OldVersions/01_Slide_camera_x_v1.0010.ipt|2|1|1608133624|ccab4fe6628ef893ffbac54839182b70|233984|01140704oc10bbc458f2|4||204|233984|1608133624|e403f6e0-3595-4dab-adb8-be45b86682d5|
+16:44:49||INVENTOR/OldVersions/13_Opentrons_Autofocus_Objectivering_Laser_Cam.0002.ipt|8|1|1608135693|5e46a57a1a64dc14ed76746b4ceffa20|176640|01140715oc10bbc458f2|4||201|0|0|87a783f4-dc76-4695-bb7b-57880c0513c6|
+16:44:49||INVENTOR/OldVersions/13_Opentrons_Autofocus_Objectivering_Laser_Cam.0001.ipt|2|1|1608135135|491536daceb39403907c9f78435368a1|147968|01140709oc10bbc458f2|4||204|147968|1608135135|f22dde40-aa9b-4fa9-b06a-b00ced8ccf94|
+#=#=#=# Syncrun finished 2020-12-16T16:26:07Z (last step: 3108 msec, total: 3464 msec)
+#=#=#=# Syncrun started 2020-12-16T16:26:10Z
+#=#=#=#=# Propagation starts 2020-12-16T16:26:10Z (last step: 278 msec, total: 278 msec)
+16:44:54||INVENTOR/OldVersions/Assembly_Opentrons_Autofocus_v1.0021.iam|8|1|1608134166|79f0954dea1dd13cc8d14680ff8433be|445440|01140717oc10bbc458f2|4||201|0|0|70470c41-9d59-471f-b182-cd16d217b44c|
+16:44:54||INVENTOR/Assembly_Opentrons_Autofocus_v1.iam|64|1|1608135967|26e8446f4110a077ac8f280dd17c3c48|494592|01135025oc10bbc458f2|4||204|445440|1608134166|9cd09355-79bf-45a8-a67b-c0af97af3b9d|
+16:44:54||INVENTOR/Assembly_Opentrons_Autofocus_v1.newVer.iam|2|1|1608135962|fdfb7697ba027e10730563faad273d83|491520|01140711oc10bbc458f2|4||204|491520|1608135962|e2705e42-39c6-4d63-a814-cd50aee3480b|
+16:44:54||INVENTOR/OldVersions/Assembly_Opentrons_Autofocus_v1.0020.iam|2|1|1608133630|30f879b1bc91630c99ae6cc0944363b8|443904|01140705oc10bbc458f2|4||204|443904|1608133630|2bd2fa3d-6c94-4566-b56e-0287a593ea49|
+#=#=#=# Syncrun finished 2020-12-16T16:26:12Z (last step: 2020 msec, total: 2299 msec)
+#=#=#=# Syncrun started 2020-12-16T16:27:08Z
+#=#=#=#=# Propagation starts 2020-12-16T16:27:08Z (last step: 276 msec, total: 276 msec)
+#=#=#=# Syncrun finished 2020-12-16T16:27:08Z (last step: 19 msec, total: 296 msec)
+#=#=#=# Syncrun started 2020-12-16T16:30:59Z
+#=#=#=#=# Propagation starts 2020-12-16T16:30:59Z (last step: 354 msec, total: 354 msec)
+16:49:43||INVENTOR/OldVersions/01_Slide_camera_x_v1.0012.ipt|8|1|1608135962|f8a90b151ca943731b2c74a94986c209|253952|01140718oc10bbc458f2|4||201|0|0|6b3a2094-4fd0-4bb0-862f-48b7b8678e6b|
+16:49:43||INVENTOR/01_Slide_camera_x_v1.ipt|64|1|1608136257|f62fd2a905c250e9d10782c04c7832df|262144|01135000oc10bbc458f2|4||204|253952|1608135962|09dd4f9c-a5e6-48be-9145-92cadbc302e3|
+16:49:43||INVENTOR/OldVersions/01_Slide_camera_x_v1.0011.ipt|2|1|1608134161|a9398817d29b0c1d34759f08461398e8|243712|01140714oc10bbc458f2|4||204|243712|1608134161|83b3efca-e724-4102-8d4d-e566c86af737|
+#=#=#=# Syncrun finished 2020-12-16T16:31:01Z (last step: 1593 msec, total: 1947 msec)
+#=#=#=# Syncrun started 2020-12-16T16:31:38Z
+#=#=#=#=# Propagation starts 2020-12-16T16:31:38Z (last step: 322 msec, total: 322 msec)
+#=#=#=# Syncrun finished 2020-12-16T16:31:39Z (last step: 18 msec, total: 340 msec)
+#=#=#=# Syncrun started 2020-12-16T16:32:56Z
+#=#=#=#=# Propagation starts 2020-12-16T16:32:56Z (last step: 268 msec, total: 268 msec)
+16:51:40||INVENTOR/13_Opentrons_Autofocus_Objectivering_Laser_Cam.stl|8|1|1608136374|4343c050ce2b565297c697d4ed7e63b0|252584|01140721oc10bbc458f2|4||201|0|0|76c92ab0-c0a2-4fec-874d-d4e31ede299f|
+#=#=#=# Syncrun finished 2020-12-16T16:32:57Z (last step: 767 msec, total: 1035 msec)
+#=#=#=# Syncrun started 2020-12-16T16:33:38Z
+#=#=#=#=# Propagation starts 2020-12-16T16:33:38Z (last step: 234 msec, total: 234 msec)
+#=#=#=# Syncrun finished 2020-12-16T16:33:38Z (last step: 16 msec, total: 250 msec)
+#=#=#=# Syncrun started 2020-12-16T16:33:59Z
+#=#=#=#=# Propagation starts 2020-12-16T16:33:59Z (last step: 292 msec, total: 292 msec)
+16:52:43||INVENTOR/01_Slide_camera_x_v1.stl|8|1|1608136437|c63eef39d084e48b6321b024a118a063|310684|01140723oc10bbc458f2|4||201|0|0|e1ff356a-fd03-4e92-990f-53a7880b2fc8|
+#=#=#=# Syncrun finished 2020-12-16T16:34:00Z (last step: 1081 msec, total: 1374 msec)
+#=#=#=# Syncrun started 2020-12-16T16:34:38Z
+#=#=#=#=# Propagation starts 2020-12-16T16:34:38Z (last step: 238 msec, total: 238 msec)
+#=#=#=# Syncrun finished 2020-12-16T16:34:38Z (last step: 13 msec, total: 251 msec)
+#=#=#=# Syncrun started 2020-12-16T18:34:44Z
+#=#=#=#=# Propagation starts 2020-12-16T18:34:44Z (last step: 507 msec, total: 507 msec)
+#=#=#=# Syncrun finished 2020-12-16T18:34:44Z (last step: 65 msec, total: 572 msec)
+#=#=#=# Syncrun started 2020-12-16T20:34:49Z
+#=#=#=#=# Propagation starts 2020-12-16T20:34:49Z (last step: 434 msec, total: 434 msec)
+#=#=#=# Syncrun finished 2020-12-16T20:34:49Z (last step: 64 msec, total: 498 msec)
+#=#=#=# Syncrun started 2020-12-16T22:34:54Z
+#=#=#=#=# Propagation starts 2020-12-16T22:34:54Z (last step: 493 msec, total: 493 msec)
+#=#=#=# Syncrun finished 2020-12-16T22:34:54Z (last step: 65 msec, total: 558 msec)
+#=#=#=# Syncrun started 2020-12-17T00:34:59Z
+#=#=#=#=# Propagation starts 2020-12-17T00:34:59Z (last step: 376 msec, total: 376 msec)
+#=#=#=# Syncrun finished 2020-12-17T00:34:59Z (last step: 49 msec, total: 425 msec)
+#=#=#=# Syncrun started 2020-12-17T02:35:04Z
+#=#=#=#=# Propagation starts 2020-12-17T02:35:04Z (last step: 506 msec, total: 506 msec)
+#=#=#=# Syncrun finished 2020-12-17T02:35:05Z (last step: 64 msec, total: 570 msec)
+#=#=#=# Syncrun started 2020-12-17T04:35:09Z
+#=#=#=#=# Propagation starts 2020-12-17T04:35:09Z (last step: 406 msec, total: 406 msec)
+#=#=#=# Syncrun finished 2020-12-17T04:35:10Z (last step: 64 msec, total: 470 msec)
+#=#=#=# Syncrun started 2020-12-17T06:35:14Z
+#=#=#=#=# Propagation starts 2020-12-17T06:35:15Z (last step: 497 msec, total: 497 msec)
+#=#=#=# Syncrun finished 2020-12-17T06:35:15Z (last step: 66 msec, total: 564 msec)
+#=#=#=# Syncrun started 2020-12-17T08:18:37Z
+#=#=#=#=# Propagation starts 2020-12-17T08:18:38Z (last step: 623 msec, total: 623 msec)
+08:37:23||INVENTOR/Assembly_Opentrons_Autofocus_v1.newVer.iam|8|1|1608193115|68953538ddf88a015ca09370983631c7|442368|01140871oc10bbc458f2|4||201|0|0|128f39d3-743a-4c63-ab08-cf5f17bdc37c|
+08:37:23||INVENTOR/OldVersions/13_Opentrons_Autofocus_Objectivering_Laser_Cam.0003.ipt|8|1|1608135962|6dd4d3bb92b3adc089a5cd76c3829005|219136|01140873oc10bbc458f2|4||201|0|0|e94eb9cb-b0ad-41f4-be94-8561f642127f|
+08:37:23||INVENTOR/13_Opentrons_Autofocus_Objectivering_Laser_Cam.ipt|64|1|1608193115|13fdbd68a6bc1d4aff2271124160f116|233984|01140707oc10bbc458f2|4||204|219136|1608135962|ca14a1c5-65ea-4614-b7fc-ffed8ab94e7b|
+08:37:23||INVENTOR/OldVersions/13_Opentrons_Autofocus_Objectivering_Laser_Cam.0002.ipt|2|1|1608135693|5e46a57a1a64dc14ed76746b4ceffa20|176640|01140715oc10bbc458f2|4||204|176640|1608135693|7d873da3-788a-48d6-b6a3-f0998cb1b470|
+#=#=#=# Syncrun finished 2020-12-17T08:18:40Z (last step: 2934 msec, total: 3557 msec)
+#=#=#=# Syncrun started 2020-12-17T08:18:43Z
+#=#=#=#=# Propagation starts 2020-12-17T08:18:44Z (last step: 374 msec, total: 374 msec)
+08:37:29||INVENTOR/Assembly_Opentrons_Autofocus_v1.newVer.iam|2|1|1608193115|68953538ddf88a015ca09370983631c7|442368|01140871oc10bbc458f2|4||204|442368|1608193115|74dc1b78-1cdd-447b-aa1e-bc6b19d323a9|
+08:37:29||INVENTOR/OldVersions/Assembly_Opentrons_Autofocus_v1.0022.iam|8|1|1608135967|02604fca764db8bb3bc790aae47e7062|494592|01140874oc10bbc458f2|4||201|0|0|7c1108d6-46cd-4fde-96a5-c281f187f5f1|
+08:37:29||INVENTOR/OldVersions/Assembly_Opentrons_Autofocus_v1.0021.iam|2|1|1608134166|79f0954dea1dd13cc8d14680ff8433be|445440|01140717oc10bbc458f2|4||204|445440|1608134166|0e35a9f4-dd65-42cf-a809-6902540a5580|
+08:37:29||INVENTOR/Assembly_Opentrons_Autofocus_v1.iam|64|1|1608193121|aabcecc02b6b9dfd24fe184cd15e2430|447488|01135025oc10bbc458f2|4||204|494592|1608135967|6d862c11-0139-4d48-b5cb-974441b3c836|
+#=#=#=# Syncrun finished 2020-12-17T08:18:46Z (last step: 2072 msec, total: 2446 msec)
+#=#=#=# Syncrun started 2020-12-17T08:18:50Z
+#=#=#=#=# Propagation starts 2020-12-17T08:18:51Z (last step: 324 msec, total: 324 msec)
+08:37:36||INVENTOR/Assembly_Opentrons_Imagingunit_v1.newVer.iam|8|1|1608193128|5f369b9b5bb6f43779379b5989a0e671|2473984|01140876oc10bbc458f2|4||201|0|0|54a60142-ae0c-4cea-a1a3-97c34fb66c8b|
+#=#=#=# Syncrun finished 2020-12-17T08:18:51Z (last step: 871 msec, total: 1196 msec)
+#=#=#=# Syncrun started 2020-12-17T08:18:57Z
+#=#=#=#=# Propagation starts 2020-12-17T08:18:57Z (last step: 341 msec, total: 341 msec)
+08:37:42||INVENTOR/Assembly_Opentrons_Imagingunit_v1.newVer.iam|2|1|1608193128|5f369b9b5bb6f43779379b5989a0e671|2473984|01140876oc10bbc458f2|4||204|2473984|1608193128|e2ad8cba-93ba-4f84-938f-bbe9d1957a61|
+08:37:42||INVENTOR/OldVersions/Assembly_Opentrons_Imagingunit_v1.0004.iam|2|1|1606205202|f01ff01fa7a7b46d349763662457e7a8|2378752|01135177oc10bbc458f2|4||204|2378752|1606205202|f1a86e62-0694-499a-83a3-8ee112d84871|
+08:37:42||INVENTOR/Assembly_Opentrons_Imagingunit_v1.iam|64|1|1608193135|04fc633a61018ac695be3724e4560e32|2477568|01135027oc10bbc458f2|4||204|2380288|1606731647|25cc56b0-c070-4730-9f8e-c0a68e617259|
+08:37:42||INVENTOR/OldVersions/Assembly_Opentrons_Imagingunit_v1.0005.iam|8|1|1606731647|ce4958d11640e00ae31b1368fbf7dcec|2380288|01140878oc10bbc458f2|4||201|0|0|afa86d74-c37a-417c-9018-f7c6b773bea3|
+#=#=#=# Syncrun finished 2020-12-17T08:19:00Z (last step: 3044 msec, total: 3386 msec)
+#=#=#=# Syncrun started 2020-12-17T08:19:39Z
+#=#=#=#=# Propagation starts 2020-12-17T08:19:39Z (last step: 285 msec, total: 285 msec)
+#=#=#=# Syncrun finished 2020-12-17T08:19:39Z (last step: 21 msec, total: 307 msec)
+#=#=#=# Syncrun started 2020-12-17T08:35:12Z
+#=#=#=#=# Propagation starts 2020-12-17T08:35:13Z (last step: 231 msec, total: 231 msec)
+#=#=#=# Syncrun finished 2020-12-17T08:35:13Z (last step: 18 msec, total: 249 msec)
+#=#=#=# Syncrun started 2020-12-17T10:35:14Z
+#=#=#=#=# Propagation starts 2020-12-17T10:35:15Z (last step: 489 msec, total: 489 msec)
+#=#=#=# Syncrun finished 2020-12-17T10:35:15Z (last step: 61 msec, total: 551 msec)
+#=#=#=# Syncrun started 2020-12-17T12:35:19Z
+#=#=#=#=# Propagation starts 2020-12-17T12:35:20Z (last step: 521 msec, total: 521 msec)
+#=#=#=# Syncrun finished 2020-12-17T12:35:20Z (last step: 60 msec, total: 581 msec)
+#=#=#=# Syncrun started 2020-12-17T14:35:25Z
+#=#=#=#=# Propagation starts 2020-12-17T14:35:25Z (last step: 538 msec, total: 538 msec)
+#=#=#=# Syncrun finished 2020-12-17T14:35:25Z (last step: 61 msec, total: 600 msec)
+#=#=#=# Syncrun started 2020-12-17T16:35:30Z
+#=#=#=#=# Propagation starts 2020-12-17T16:35:30Z (last step: 578 msec, total: 578 msec)
+#=#=#=# Syncrun finished 2020-12-17T16:35:30Z (last step: 60 msec, total: 639 msec)
+#=#=#=# Syncrun started 2020-12-17T18:35:35Z
+#=#=#=#=# Propagation starts 2020-12-17T18:35:35Z (last step: 641 msec, total: 641 msec)
+#=#=#=# Syncrun finished 2020-12-17T18:35:35Z (last step: 61 msec, total: 702 msec)
+#=#=#=# Syncrun started 2020-12-17T20:35:40Z
+#=#=#=#=# Propagation starts 2020-12-17T20:35:40Z (last step: 485 msec, total: 485 msec)
+#=#=#=# Syncrun finished 2020-12-17T20:35:40Z (last step: 59 msec, total: 544 msec)
+#=#=#=# Syncrun started 2020-12-17T22:35:45Z
+#=#=#=#=# Propagation starts 2020-12-17T22:35:46Z (last step: 495 msec, total: 495 msec)
+#=#=#=# Syncrun finished 2020-12-17T22:35:46Z (last step: 63 msec, total: 559 msec)
+#=#=#=# Syncrun started 2020-12-18T00:35:50Z
+#=#=#=#=# Propagation starts 2020-12-18T00:35:51Z (last step: 521 msec, total: 521 msec)
+#=#=#=# Syncrun finished 2020-12-18T00:35:51Z (last step: 61 msec, total: 582 msec)
+#=#=#=# Syncrun started 2020-12-18T02:35:55Z
+#=#=#=#=# Propagation starts 2020-12-18T02:35:56Z (last step: 534 msec, total: 534 msec)
+#=#=#=# Syncrun finished 2020-12-18T02:35:56Z (last step: 56 msec, total: 591 msec)
+#=#=#=# Syncrun started 2020-12-18T04:36:00Z
+#=#=#=#=# Propagation starts 2020-12-18T04:36:01Z (last step: 612 msec, total: 612 msec)
+#=#=#=# Syncrun finished 2020-12-18T04:36:01Z (last step: 63 msec, total: 675 msec)
+#=#=#=# Syncrun started 2020-12-18T06:36:06Z
+#=#=#=#=# Propagation starts 2020-12-18T06:36:06Z (last step: 657 msec, total: 657 msec)
+#=#=#=# Syncrun finished 2020-12-18T06:36:06Z (last step: 62 msec, total: 719 msec)
+#=#=#=# Syncrun started 2020-12-18T08:36:11Z
+#=#=#=#=# Propagation starts 2020-12-18T08:36:11Z (last step: 525 msec, total: 525 msec)
+#=#=#=# Syncrun finished 2020-12-18T08:36:11Z (last step: 62 msec, total: 587 msec)
+#=#=#=# Syncrun started 2020-12-18T10:36:16Z
+#=#=#=#=# Propagation starts 2020-12-18T10:36:16Z (last step: 574 msec, total: 574 msec)
+#=#=#=# Syncrun finished 2020-12-18T10:36:16Z (last step: 66 msec, total: 640 msec)
+#=#=#=# Syncrun started 2020-12-18T12:36:21Z
+#=#=#=#=# Propagation starts 2020-12-18T12:36:21Z (last step: 608 msec, total: 608 msec)
+#=#=#=# Syncrun finished 2020-12-18T12:36:21Z (last step: 64 msec, total: 673 msec)
+#=#=#=# Syncrun started 2020-12-18T14:36:26Z
+#=#=#=#=# Propagation starts 2020-12-18T14:36:27Z (last step: 592 msec, total: 592 msec)
+#=#=#=# Syncrun finished 2020-12-18T14:36:27Z (last step: 64 msec, total: 657 msec)
+#=#=#=# Syncrun started 2020-12-18T16:36:31Z
+#=#=#=#=# Propagation starts 2020-12-18T16:36:32Z (last step: 585 msec, total: 585 msec)
+#=#=#=# Syncrun finished 2020-12-18T16:36:32Z (last step: 57 msec, total: 643 msec)
+#=#=#=# Syncrun started 2020-12-18T18:36:36Z
+#=#=#=#=# Propagation starts 2020-12-18T18:36:37Z (last step: 736 msec, total: 736 msec)
+#=#=#=# Syncrun finished 2020-12-18T18:36:37Z (last step: 63 msec, total: 800 msec)
+#=#=#=# Syncrun started 2020-12-18T20:36:41Z
+#=#=#=#=# Propagation starts 2020-12-18T20:36:42Z (last step: 654 msec, total: 654 msec)
+#=#=#=# Syncrun finished 2020-12-18T20:36:42Z (last step: 65 msec, total: 719 msec)
+#=#=#=# Syncrun started 2020-12-18T22:36:46Z
+#=#=#=#=# Propagation starts 2020-12-18T22:36:47Z (last step: 527 msec, total: 527 msec)
+#=#=#=# Syncrun finished 2020-12-18T22:36:47Z (last step: 63 msec, total: 591 msec)
+#=#=#=# Syncrun started 2020-12-19T00:36:52Z
+#=#=#=#=# Propagation starts 2020-12-19T00:36:52Z (last step: 571 msec, total: 571 msec)
+#=#=#=# Syncrun finished 2020-12-19T00:36:52Z (last step: 63 msec, total: 634 msec)
+#=#=#=# Syncrun started 2020-12-19T02:36:57Z
+#=#=#=#=# Propagation starts 2020-12-19T02:36:57Z (last step: 590 msec, total: 590 msec)
+#=#=#=# Syncrun finished 2020-12-19T02:36:57Z (last step: 59 msec, total: 649 msec)
+#=#=#=# Syncrun started 2020-12-19T04:37:02Z
+#=#=#=#=# Propagation starts 2020-12-19T04:37:02Z (last step: 695 msec, total: 695 msec)
+#=#=#=# Syncrun finished 2020-12-19T04:37:02Z (last step: 61 msec, total: 757 msec)
+#=#=#=# Syncrun started 2020-12-19T06:37:07Z
+#=#=#=#=# Propagation starts 2020-12-19T06:37:07Z (last step: 681 msec, total: 681 msec)
+#=#=#=# Syncrun finished 2020-12-19T06:37:07Z (last step: 57 msec, total: 739 msec)
+#=#=#=# Syncrun started 2020-12-19T08:37:12Z
+#=#=#=#=# Propagation starts 2020-12-19T08:37:13Z (last step: 694 msec, total: 694 msec)
+#=#=#=# Syncrun finished 2020-12-19T08:37:13Z (last step: 66 msec, total: 760 msec)
+#=#=#=# Syncrun started 2020-12-19T10:37:17Z
+#=#=#=#=# Propagation starts 2020-12-19T10:37:18Z (last step: 628 msec, total: 628 msec)
+#=#=#=# Syncrun finished 2020-12-19T10:37:18Z (last step: 65 msec, total: 694 msec)
+#=#=#=# Syncrun started 2020-12-19T12:11:42Z
+#=#=#=#=# Propagation starts 2020-12-19T12:11:43Z (last step: 727 msec, total: 727 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:11:43Z (last step: 40 msec, total: 767 msec)
+#=#=#=# Syncrun started 2020-12-19T12:29:26Z
+#=#=#=#=# Propagation starts 2020-12-19T12:29:27Z (last step: 164 msec, total: 164 msec)
+12:48:16||ESP32/ESP32_CAM_FindcenterBeam_SumEdge/ESP32_CAM_FindcenterBeam_SumEdge.ino|64|1|1608380964|91273362a04e6e9fee0572f4b243664c|4804|01136608oc10bbc458f2|4||204|4458|1607011407|fd58d314-8860-43eb-9898-df24c7c6a57b|
+#=#=#=# Syncrun finished 2020-12-19T12:29:28Z (last step: 1783 msec, total: 1947 msec)
+#=#=#=# Syncrun started 2020-12-19T12:30:07Z
+#=#=#=#=# Propagation starts 2020-12-19T12:30:07Z (last step: 248 msec, total: 248 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:30:07Z (last step: 7 msec, total: 256 msec)
+#=#=#=# Syncrun started 2020-12-19T12:33:53Z
+#=#=#=#=# Propagation starts 2020-12-19T12:33:53Z (last step: 151 msec, total: 151 msec)
+12:52:43||ESP32/ESP32_CAM_FindcenterBeam_SumEdge/ESP32_CAM_FindcenterBeam_SumEdge.ino|64|1|1608381231|af699869fd1406500c4e5cd5a9b59365|4805|01136608oc10bbc458f2|4||204|4804|1608380964|da5ec693-7e33-400b-9421-a3505849a399|
+#=#=#=# Syncrun finished 2020-12-19T12:33:54Z (last step: 1005 msec, total: 1156 msec)
+#=#=#=# Syncrun started 2020-12-19T12:34:37Z
+#=#=#=#=# Propagation starts 2020-12-19T12:34:37Z (last step: 207 msec, total: 207 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:34:37Z (last step: 7 msec, total: 214 msec)
+#=#=#=# Syncrun started 2020-12-19T12:35:20Z
+#=#=#=#=# Propagation starts 2020-12-19T12:35:20Z (last step: 163 msec, total: 163 msec)
+12:54:10||ESP32/ESP32_CAM_FindcenterBeam_SumEdge/ESP32_CAM_FindcenterBeam_SumEdge.ino|64|1|1608381318|62e9b1b62bfeb456947ccc179e63d5fb|4797|01136608oc10bbc458f2|4||204|4805|1608381231|3120cf4b-f2cc-47ad-b9d2-b2264599617b|
+#=#=#=# Syncrun finished 2020-12-19T12:35:21Z (last step: 991 msec, total: 1154 msec)
+#=#=#=# Syncrun started 2020-12-19T12:36:07Z
+#=#=#=#=# Propagation starts 2020-12-19T12:36:07Z (last step: 207 msec, total: 207 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:36:07Z (last step: 7 msec, total: 215 msec)
+#=#=#=# Syncrun started 2020-12-19T12:36:11Z
+#=#=#=#=# Propagation starts 2020-12-19T12:36:11Z (last step: 70 msec, total: 70 msec)
+12:55:00||ESP32/ESP32_CAM_FindcenterBeam_SumEdge/ESP32_CAM_FindcenterBeam_SumEdge.ino|64|1|1608381369|35458c86c014d0cdccf2e9885870d11b|4801|01136608oc10bbc458f2|4||204|4797|1608381318|dd2cb363-be91-464d-868b-d49d15763f61|
+#=#=#=# Syncrun finished 2020-12-19T12:36:12Z (last step: 969 msec, total: 1040 msec)
+#=#=#=# Syncrun started 2020-12-19T12:37:07Z
+#=#=#=#=# Propagation starts 2020-12-19T12:37:07Z (last step: 208 msec, total: 208 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:37:07Z (last step: 7 msec, total: 216 msec)
+#=#=#=# Syncrun started 2020-12-19T12:44:06Z
+#=#=#=#=# Propagation starts 2020-12-19T12:44:06Z (last step: 153 msec, total: 153 msec)
+13:02:56||ESP32/ESP32_CAM_FindcenterBeam_SumEdge/ESP32_CAM_FindcenterBeam_SumEdge.ino|64|1|1608381844|7eca7c982c033b939a734787a932472f|4813|01136608oc10bbc458f2|4||204|4801|1608381369|4e17392c-80a8-41ad-89b0-eacbe608f5ae|
+#=#=#=# Syncrun finished 2020-12-19T12:44:07Z (last step: 1071 msec, total: 1225 msec)
+#=#=#=# Syncrun started 2020-12-19T12:44:41Z
+#=#=#=#=# Propagation starts 2020-12-19T12:44:42Z (last step: 222 msec, total: 222 msec)
+13:03:31||ESP32/ESP32_CAM_FindcenterBeam_SumEdge/ESP32_CAM_FindcenterBeam_SumEdge.ino|64|1|1608381879|271bbbdee04125246ab562ec60d17333|4817|01136608oc10bbc458f2|4||204|4813|1608381844|a26f4b2e-c93b-4e2f-8fef-51c07df5f1c9|
+#=#=#=# Syncrun finished 2020-12-19T12:44:43Z (last step: 1025 msec, total: 1247 msec)
+#=#=#=# Syncrun started 2020-12-19T12:45:37Z
+#=#=#=#=# Propagation starts 2020-12-19T12:45:37Z (last step: 206 msec, total: 206 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:45:37Z (last step: 7 msec, total: 214 msec)
+#=#=#=# Syncrun started 2020-12-19T12:47:17Z
+#=#=#=#=# Propagation starts 2020-12-19T12:47:17Z (last step: 112 msec, total: 112 msec)
+13:06:07||ESP32/ESP32_CAM_FindcenterBeam_SumEdge/ESP32_CAM_FindcenterBeam_SumEdge.ino|64|1|1608382035|50b33df691d13084692103f15cfee1b2|4816|01136608oc10bbc458f2|4||204|4817|1608381879|7ee85293-2d96-486d-9e7f-4ac0c1266aaa|
+#=#=#=# Syncrun finished 2020-12-19T12:47:18Z (last step: 1030 msec, total: 1142 msec)
+#=#=#=# Syncrun started 2020-12-19T12:48:07Z
+#=#=#=#=# Propagation starts 2020-12-19T12:48:07Z (last step: 206 msec, total: 206 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:48:07Z (last step: 7 msec, total: 214 msec)
+#=#=#=# Syncrun started 2020-12-19T12:48:34Z
+#=#=#=#=# Propagation starts 2020-12-19T12:48:34Z (last step: 151 msec, total: 151 msec)
+13:07:24||ESP32/ESP32_CAM_FindcenterBeam_SumEdge/ESP32_CAM_FindcenterBeam_SumEdge.ino|64|1|1608382112|3c38da79b96739896c4b7d881342548e|4817|01136608oc10bbc458f2|4||204|4816|1608382035|675c43c9-0d8a-45bb-b3c2-2f30b9511ace|
+#=#=#=# Syncrun finished 2020-12-19T12:48:35Z (last step: 987 msec, total: 1138 msec)
+#=#=#=# Syncrun started 2020-12-19T12:49:07Z
+#=#=#=#=# Propagation starts 2020-12-19T12:49:07Z (last step: 207 msec, total: 207 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:49:07Z (last step: 8 msec, total: 215 msec)
+#=#=#=# Syncrun started 2020-12-19T12:49:40Z
+#=#=#=#=# Propagation starts 2020-12-19T12:49:40Z (last step: 160 msec, total: 160 msec)
+13:08:30||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY|8|1|1608382178||4096|01143954oc10bbc458f2|4||201|0|0|e91813bb-d07d-427a-9504-cefcdb8a14fc|
+13:08:31||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/camera_pins.h|8|1|1608382178|aae3c95273c8f46b60ef77f5c32b2c87|2637|01143956oc10bbc458f2|4||201|0|0|e664c0fe-9d61-4996-a0b9-5edb8b902f2e|
+13:08:31||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|8|1|1608382178|87596c017e9050c868cbe397fce4692d|4817|01143955oc10bbc458f2|4||201|0|0|ab1fafe2-f64b-4a7c-b213-c605fcecc182|
+#=#=#=# Syncrun finished 2020-12-19T12:49:42Z (last step: 1846 msec, total: 2006 msec)
+#=#=#=# Syncrun started 2020-12-19T12:49:58Z
+#=#=#=#=# Propagation starts 2020-12-19T12:49:58Z (last step: 218 msec, total: 218 msec)
+13:08:48||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608382196|758124d97232008d5f4c54676310f82d|5039|01143955oc10bbc458f2|4||204|4817|1608382178|3f53293f-ba09-447f-82a1-bf5f702c76a3|
+#=#=#=# Syncrun finished 2020-12-19T12:50:00Z (last step: 1378 msec, total: 1597 msec)
+#=#=#=# Syncrun started 2020-12-19T12:50:37Z
+#=#=#=#=# Propagation starts 2020-12-19T12:50:37Z (last step: 239 msec, total: 239 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:50:37Z (last step: 7 msec, total: 247 msec)
+#=#=#=# Syncrun started 2020-12-19T12:51:14Z
+#=#=#=#=# Propagation starts 2020-12-19T12:51:14Z (last step: 152 msec, total: 152 msec)
+13:10:04||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608382272|f81a325eb1e47954060b02d7ac75a75f|5343|01143955oc10bbc458f2|4||204|5039|1608382196|3cda7ba4-a6f5-4fe0-ba7b-80ea289a34ac|
+#=#=#=# Syncrun finished 2020-12-19T12:51:15Z (last step: 996 msec, total: 1148 msec)
+#=#=#=# Syncrun started 2020-12-19T12:52:07Z
+#=#=#=#=# Propagation starts 2020-12-19T12:52:07Z (last step: 208 msec, total: 208 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:52:07Z (last step: 8 msec, total: 216 msec)
+#=#=#=# Syncrun started 2020-12-19T12:52:20Z
+#=#=#=#=# Propagation starts 2020-12-19T12:52:20Z (last step: 69 msec, total: 69 msec)
+13:11:10||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608382338|a4d3277f48087681f88aa96cea09c4ba|5342|01143955oc10bbc458f2|4||204|5343|1608382272|d17a08fe-13ee-4ad1-8f34-18dc642a0c8e|
+#=#=#=# Syncrun finished 2020-12-19T12:52:21Z (last step: 948 msec, total: 1017 msec)
+#=#=#=# Syncrun started 2020-12-19T12:53:07Z
+#=#=#=#=# Propagation starts 2020-12-19T12:53:07Z (last step: 207 msec, total: 207 msec)
+#=#=#=# Syncrun finished 2020-12-19T12:53:07Z (last step: 8 msec, total: 216 msec)
+#=#=#=# Syncrun started 2020-12-19T12:59:35Z
+#=#=#=#=# Propagation starts 2020-12-19T12:59:35Z (last step: 152 msec, total: 152 msec)
+13:18:25||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608382773|a829d68d164806cd8be40aa3f146316f|5347|01143955oc10bbc458f2|4||204|5342|1608382338|7be1b7c8-ce70-41be-a89b-560db5fb9e7f|
+#=#=#=# Syncrun finished 2020-12-19T12:59:36Z (last step: 1061 msec, total: 1213 msec)
+#=#=#=# Syncrun started 2020-12-19T13:00:07Z
+#=#=#=#=# Propagation starts 2020-12-19T13:00:07Z (last step: 214 msec, total: 214 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:00:07Z (last step: 7 msec, total: 221 msec)
+#=#=#=# Syncrun started 2020-12-19T13:12:33Z
+#=#=#=#=# Propagation starts 2020-12-19T13:12:33Z (last step: 225 msec, total: 225 msec)
+13:31:23||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608383551|7059739fb2d2648a110d84ca10158dc6|5215|01143955oc10bbc458f2|4||204|5347|1608382773|224789c9-1846-4504-9c4e-3998e9244555|
+#=#=#=# Syncrun finished 2020-12-19T13:12:34Z (last step: 1029 msec, total: 1254 msec)
+#=#=#=# Syncrun started 2020-12-19T13:13:07Z
+#=#=#=#=# Propagation starts 2020-12-19T13:13:07Z (last step: 208 msec, total: 208 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:13:07Z (last step: 8 msec, total: 216 msec)
+#=#=#=# Syncrun started 2020-12-19T13:13:24Z
+#=#=#=#=# Propagation starts 2020-12-19T13:13:24Z (last step: 151 msec, total: 151 msec)
+13:32:14||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608383602|472ca8749fb3c05bf5c53459cb6381bb|5127|01143955oc10bbc458f2|4||204|5215|1608383551|835f0669-7c5c-469e-8f32-2d1e0e908c70|
+#=#=#=# Syncrun finished 2020-12-19T13:13:25Z (last step: 995 msec, total: 1146 msec)
+#=#=#=# Syncrun started 2020-12-19T13:13:43Z
+#=#=#=#=# Propagation starts 2020-12-19T13:13:43Z (last step: 209 msec, total: 209 msec)
+13:32:33||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608383621|09f41c5b14a0d27447017c420d41e1d6|4904|01143955oc10bbc458f2|4||204|5127|1608383602|58314d37-aa7e-427c-a29b-671c4d6947a9|
+#=#=#=# Syncrun finished 2020-12-19T13:13:44Z (last step: 993 msec, total: 1203 msec)
+#=#=#=# Syncrun started 2020-12-19T13:14:31Z
+#=#=#=#=# Propagation starts 2020-12-19T13:14:31Z (last step: 250 msec, total: 250 msec)
+13:33:21||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608383669|293cb668f382e534df7ff9632377f464|4904|01143955oc10bbc458f2|4||204|4904|1608383621|0629bf54-bb20-4153-8a58-165cc65dbe95|
+#=#=#=# Syncrun finished 2020-12-19T13:14:32Z (last step: 1315 msec, total: 1565 msec)
+#=#=#=# Syncrun started 2020-12-19T13:15:07Z
+#=#=#=#=# Propagation starts 2020-12-19T13:15:07Z (last step: 207 msec, total: 207 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:15:07Z (last step: 8 msec, total: 216 msec)
+#=#=#=# Syncrun started 2020-12-19T13:16:39Z
+#=#=#=#=# Propagation starts 2020-12-19T13:16:39Z (last step: 69 msec, total: 69 msec)
+13:35:29||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608383797|2f1dd976cf708924178534ca2decb2a6|4826|01143955oc10bbc458f2|4||204|4904|1608383669|46121b47-9209-4b41-bff1-f0770d8f1980|
+#=#=#=# Syncrun finished 2020-12-19T13:16:40Z (last step: 1053 msec, total: 1123 msec)
+#=#=#=# Syncrun started 2020-12-19T13:17:37Z
+#=#=#=#=# Propagation starts 2020-12-19T13:17:37Z (last step: 210 msec, total: 210 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:17:37Z (last step: 9 msec, total: 219 msec)
+#=#=#=# Syncrun started 2020-12-19T13:18:35Z
+#=#=#=#=# Propagation starts 2020-12-19T13:18:35Z (last step: 153 msec, total: 153 msec)
+13:37:25||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608383913|288e581811b22b24dabf7e34e4f9b819|4999|01143955oc10bbc458f2|4||204|4826|1608383797|f1f16e59-688e-4acf-af91-455f073afa23|
+#=#=#=# Syncrun finished 2020-12-19T13:18:36Z (last step: 1070 msec, total: 1223 msec)
+#=#=#=# Syncrun started 2020-12-19T13:19:07Z
+#=#=#=#=# Propagation starts 2020-12-19T13:19:07Z (last step: 212 msec, total: 212 msec)
+||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608383946|288e581811b22b24dabf7e34e4f9b819|5001|01143955oc10bbc458f2|3|Local file changed during sync.|0|4999|1608383913||
+#=#=#=# Syncrun finished 2020-12-19T13:19:07Z (last step: 9 msec, total: 221 msec)
+#=#=#=# Syncrun started 2020-12-19T13:19:08Z
+#=#=#=#=# Propagation starts 2020-12-19T13:19:08Z (last step: 167 msec, total: 167 msec)
+13:37:58||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608383946|404fa7de5743ab22d3acfca8a2083a02|5001|01143955oc10bbc458f2|4||204|4999|1608383913|af68c8dd-7759-4f90-a885-2651bfb739a3|
+#=#=#=# Syncrun finished 2020-12-19T13:19:09Z (last step: 933 msec, total: 1101 msec)
+#=#=#=# Syncrun started 2020-12-19T13:20:07Z
+#=#=#=#=# Propagation starts 2020-12-19T13:20:07Z (last step: 220 msec, total: 220 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:20:07Z (last step: 8 msec, total: 229 msec)
+#=#=#=# Syncrun started 2020-12-19T13:20:32Z
+#=#=#=#=# Propagation starts 2020-12-19T13:20:32Z (last step: 153 msec, total: 153 msec)
+13:39:22||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608384030|8ae513f2bd4139d9044af7acaa1c694c|5001|01143955oc10bbc458f2|4||204|5001|1608383946|a89ea414-f06c-4647-b36a-ca4de6465c3b|
+#=#=#=# Syncrun finished 2020-12-19T13:20:33Z (last step: 1037 msec, total: 1191 msec)
+#=#=#=# Syncrun started 2020-12-19T13:21:07Z
+#=#=#=#=# Propagation starts 2020-12-19T13:21:07Z (last step: 207 msec, total: 207 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:21:07Z (last step: 8 msec, total: 215 msec)
+#=#=#=# Syncrun started 2020-12-19T13:32:26Z
+#=#=#=#=# Propagation starts 2020-12-19T13:32:26Z (last step: 117 msec, total: 117 msec)
+13:51:16||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608384744|418dedb7fabbcbe7027ab6fb0dc6444a|5385|01143955oc10bbc458f2|4||204|5001|1608384030|1c77e57a-35c7-4a9c-be2e-800a58aa12ef|
+#=#=#=# Syncrun finished 2020-12-19T13:32:27Z (last step: 1060 msec, total: 1178 msec)
+#=#=#=# Syncrun started 2020-12-19T13:33:07Z
+#=#=#=#=# Propagation starts 2020-12-19T13:33:07Z (last step: 208 msec, total: 208 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:33:07Z (last step: 7 msec, total: 216 msec)
+#=#=#=# Syncrun started 2020-12-19T13:34:13Z
+#=#=#=#=# Propagation starts 2020-12-19T13:34:14Z (last step: 114 msec, total: 114 msec)
+13:53:03||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608384851|06786ca30ff095f3b436e4099d4d0144|5271|01143955oc10bbc458f2|4||204|5385|1608384744|3405b3a5-a68b-454f-9c9a-397cf05ce34c|
+#=#=#=# Syncrun finished 2020-12-19T13:34:15Z (last step: 959 msec, total: 1074 msec)
+#=#=#=# Syncrun started 2020-12-19T13:35:07Z
+#=#=#=#=# Propagation starts 2020-12-19T13:35:07Z (last step: 210 msec, total: 210 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:35:07Z (last step: 7 msec, total: 217 msec)
+#=#=#=# Syncrun started 2020-12-19T13:35:10Z
+#=#=#=#=# Propagation starts 2020-12-19T13:35:10Z (last step: 75 msec, total: 75 msec)
+13:54:00||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608384908|1d2ad273bd821715cc62eaa5bfaf3200|5270|01143955oc10bbc458f2|4||204|5271|1608384851|d39dea91-6faf-4041-ba5f-be4bfaf28e31|
+#=#=#=# Syncrun finished 2020-12-19T13:35:11Z (last step: 1028 msec, total: 1103 msec)
+#=#=#=# Syncrun started 2020-12-19T13:35:54Z
+#=#=#=#=# Propagation starts 2020-12-19T13:35:54Z (last step: 252 msec, total: 252 msec)
+13:54:44||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608384952|7d904b823ad7c0828c751fee0384bfb8|5270|01143955oc10bbc458f2|4||204|5270|1608384908|3cce4b0a-13b1-4b5b-abda-b6910bb67e5f|
+#=#=#=# Syncrun finished 2020-12-19T13:35:55Z (last step: 954 msec, total: 1206 msec)
+#=#=#=# Syncrun started 2020-12-19T13:36:37Z
+#=#=#=#=# Propagation starts 2020-12-19T13:36:37Z (last step: 208 msec, total: 208 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:36:37Z (last step: 7 msec, total: 216 msec)
+#=#=#=# Syncrun started 2020-12-19T13:37:19Z
+#=#=#=#=# Propagation starts 2020-12-19T13:37:19Z (last step: 152 msec, total: 152 msec)
+13:56:09||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608385037|ed425da62d12ad0b18beec7757ddf47b|5271|01143955oc10bbc458f2|4||204|5270|1608384952|70c1ee7f-6ba8-4603-b6d0-5acea2c6b5ba|
+#=#=#=# Syncrun finished 2020-12-19T13:37:20Z (last step: 1000 msec, total: 1152 msec)
+#=#=#=# Syncrun started 2020-12-19T13:38:07Z
+#=#=#=#=# Propagation starts 2020-12-19T13:38:07Z (last step: 209 msec, total: 209 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:38:07Z (last step: 8 msec, total: 218 msec)
+#=#=#=# Syncrun started 2020-12-19T13:44:47Z
+#=#=#=#=# Propagation starts 2020-12-19T13:44:47Z (last step: 112 msec, total: 112 msec)
+14:03:36||ESP32/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY/ESP32_CAM_FindcenterBeam_SumEdge_LEDARRAY.ino|64|1|1608385485|7c2aec660cc6af78522222efefcd5a03|5271|01143955oc10bbc458f2|4||204|5271|1608385037|5802e781-42e7-49e9-83fa-013fe07c0eb8|
+#=#=#=# Syncrun finished 2020-12-19T13:44:48Z (last step: 1134 msec, total: 1246 msec)
+#=#=#=# Syncrun started 2020-12-19T13:45:37Z
+#=#=#=#=# Propagation starts 2020-12-19T13:45:37Z (last step: 207 msec, total: 207 msec)
+#=#=#=# Syncrun finished 2020-12-19T13:45:37Z (last step: 7 msec, total: 215 msec)
+#=#=#=# Syncrun started 2020-12-19T15:45:42Z
+#=#=#=#=# Propagation starts 2020-12-19T15:45:42Z (last step: 186 msec, total: 186 msec)
+#=#=#=# Syncrun finished 2020-12-19T15:45:42Z (last step: 48 msec, total: 235 msec)
+#=#=#=# Syncrun started 2020-12-19T17:45:47Z
+#=#=#=#=# Propagation starts 2020-12-19T17:45:47Z (last step: 191 msec, total: 191 msec)
+#=#=#=# Syncrun finished 2020-12-19T17:45:47Z (last step: 48 msec, total: 240 msec)
+#=#=#=# Syncrun started 2020-12-19T19:45:52Z
+#=#=#=#=# Propagation starts 2020-12-19T19:45:52Z (last step: 185 msec, total: 185 msec)
+#=#=#=# Syncrun finished 2020-12-19T19:45:52Z (last step: 48 msec, total: 234 msec)
+#=#=#=# Syncrun started 2020-12-19T21:45:57Z
+#=#=#=#=# Propagation starts 2020-12-19T21:45:57Z (last step: 255 msec, total: 255 msec)
+#=#=#=# Syncrun finished 2020-12-19T21:45:57Z (last step: 48 msec, total: 304 msec)
+#=#=#=# Syncrun started 2020-12-19T23:46:02Z
+#=#=#=#=# Propagation starts 2020-12-19T23:46:02Z (last step: 250 msec, total: 250 msec)
+#=#=#=# Syncrun finished 2020-12-19T23:46:03Z (last step: 47 msec, total: 297 msec)
+#=#=#=# Syncrun started 2020-12-20T01:46:12Z
+#=#=#=#=# Propagation starts 2020-12-20T01:46:13Z (last step: 186 msec, total: 186 msec)
+#=#=#=# Syncrun finished 2020-12-20T01:46:13Z (last step: 48 msec, total: 235 msec)
+#=#=#=# Syncrun started 2020-12-20T03:46:17Z
+#=#=#=#=# Propagation starts 2020-12-20T03:46:18Z (last step: 194 msec, total: 194 msec)
+#=#=#=# Syncrun finished 2020-12-20T03:46:18Z (last step: 48 msec, total: 243 msec)
+#=#=#=# Syncrun started 2020-12-20T05:46:22Z
+#=#=#=#=# Propagation starts 2020-12-20T05:46:23Z (last step: 191 msec, total: 191 msec)
+#=#=#=# Syncrun finished 2020-12-20T05:46:23Z (last step: 48 msec, total: 239 msec)
+#=#=#=# Syncrun started 2020-12-20T07:46:28Z
+#=#=#=#=# Propagation starts 2020-12-20T07:46:28Z (last step: 275 msec, total: 275 msec)
+#=#=#=# Syncrun finished 2020-12-20T07:46:28Z (last step: 49 msec, total: 324 msec)
+#=#=#=# Syncrun started 2020-12-20T09:46:33Z
+#=#=#=#=# Propagation starts 2020-12-20T09:46:33Z (last step: 244 msec, total: 244 msec)
+#=#=#=# Syncrun finished 2020-12-20T09:46:33Z (last step: 48 msec, total: 292 msec)
+#=#=#=# Syncrun started 2020-12-20T11:46:43Z
+#=#=#=#=# Propagation starts 2020-12-20T11:46:43Z (last step: 214 msec, total: 214 msec)
+#=#=#=# Syncrun finished 2020-12-20T11:46:43Z (last step: 48 msec, total: 263 msec)
+#=#=#=# Syncrun started 2020-12-20T13:46:48Z
+#=#=#=#=# Propagation starts 2020-12-20T13:46:48Z (last step: 163 msec, total: 163 msec)
+#=#=#=# Syncrun finished 2020-12-20T13:46:48Z (last step: 49 msec, total: 213 msec)
+#=#=#=# Syncrun started 2020-12-20T15:46:53Z
+#=#=#=#=# Propagation starts 2020-12-20T15:46:53Z (last step: 170 msec, total: 170 msec)
+#=#=#=# Syncrun finished 2020-12-20T15:46:53Z (last step: 47 msec, total: 218 msec)
+#=#=#=# Syncrun started 2020-12-20T17:46:58Z
+#=#=#=#=# Propagation starts 2020-12-20T17:46:58Z (last step: 261 msec, total: 261 msec)
+#=#=#=# Syncrun finished 2020-12-20T17:46:58Z (last step: 49 msec, total: 310 msec)
+#=#=#=# Syncrun started 2020-12-20T19:47:03Z
+#=#=#=#=# Propagation starts 2020-12-20T19:47:03Z (last step: 254 msec, total: 254 msec)
+#=#=#=# Syncrun finished 2020-12-20T19:47:03Z (last step: 48 msec, total: 303 msec)
+#=#=#=# Syncrun started 2020-12-20T21:47:13Z
+#=#=#=#=# Propagation starts 2020-12-20T21:47:13Z (last step: 218 msec, total: 218 msec)
+#=#=#=# Syncrun finished 2020-12-20T21:47:13Z (last step: 48 msec, total: 267 msec)
+#=#=#=# Syncrun started 2020-12-20T23:47:18Z
+#=#=#=#=# Propagation starts 2020-12-20T23:47:19Z (last step: 249 msec, total: 249 msec)
+#=#=#=# Syncrun finished 2020-12-20T23:47:19Z (last step: 48 msec, total: 298 msec)
+#=#=#=# Syncrun started 2020-12-21T01:47:23Z
+#=#=#=#=# Propagation starts 2020-12-21T01:47:24Z (last step: 304 msec, total: 304 msec)
+#=#=#=# Syncrun finished 2020-12-21T01:47:24Z (last step: 50 msec, total: 355 msec)
+#=#=#=# Syncrun started 2020-12-21T03:47:28Z
+#=#=#=#=# Propagation starts 2020-12-21T03:47:29Z (last step: 245 msec, total: 245 msec)
+#=#=#=# Syncrun finished 2020-12-21T03:47:29Z (last step: 48 msec, total: 293 msec)
+#=#=#=# Syncrun started 2020-12-21T05:47:34Z
+#=#=#=#=# Propagation starts 2020-12-21T05:47:34Z (last step: 270 msec, total: 270 msec)
+#=#=#=# Syncrun finished 2020-12-21T05:47:34Z (last step: 48 msec, total: 319 msec)
+#=#=#=# Syncrun started 2020-12-21T07:34:34Z
+#=#=#=#=# Propagation starts 2020-12-21T07:34:34Z (last step: 351 msec, total: 351 msec)
+07:53:27||INVENTOR/07_OPENTRONS_Autofocus_objectivemount_v0.stl|8|1|1608536072|10483d4fddd573b5cc292cf24fbf0bb3|139684|01147138oc10bbc458f2|4||201|0|0|606da74f-54a5-4644-b82d-c928de73d578|
+#=#=#=# Syncrun finished 2020-12-21T07:34:36Z (last step: 1785 msec, total: 2136 msec)
+#=#=#=# Syncrun started 2020-12-21T07:35:09Z
+#=#=#=#=# Propagation starts 2020-12-21T07:35:09Z (last step: 283 msec, total: 283 msec)
+#=#=#=# Syncrun finished 2020-12-21T07:35:09Z (last step: 9 msec, total: 292 msec)
+#=#=#=# Syncrun started 2020-12-21T09:30:15Z
+#=#=#=#=# Propagation starts 2020-12-21T09:30:15Z (last step: 281 msec, total: 281 msec)
+||PYTHON/opentrons_drive_measurefocus.py|8|1|1608543014||1913||3|Local file changed during sync.|0|0|0||
+#=#=#=# Syncrun finished 2020-12-21T09:30:15Z (last step: 58 msec, total: 339 msec)
+#=#=#=# Syncrun started 2020-12-21T09:30:17Z
+#=#=#=#=# Propagation starts 2020-12-21T09:30:17Z (last step: 220 msec, total: 220 msec)
+09:49:11||PYTHON/opentrons_drive_measurefocus.py|8|1|1608543014|7b92b870415f1f92ceb7b2dfd7d023b0|1913|01147193oc10bbc458f2|4||201|0|0|0d486c54-d695-4ea8-ba1b-21da0dbf26fb|
+#=#=#=# Syncrun finished 2020-12-21T09:30:18Z (last step: 959 msec, total: 1179 msec)
+#=#=#=# Syncrun started 2020-12-21T09:31:03Z
+#=#=#=#=# Propagation starts 2020-12-21T09:31:03Z (last step: 180 msec, total: 180 msec)
+#=#=#=# Syncrun finished 2020-12-21T09:31:03Z (last step: 9 msec, total: 189 msec)
+#=#=#=# Syncrun started 2020-12-21T09:40:51Z
+#=#=#=#=# Propagation starts 2020-12-21T09:40:51Z (last step: 176 msec, total: 176 msec)
+09:59:44||PYTHON/opentrons_drive_measurefocus.py|64|1|1608543649|9fbd6f8c9a9b5dd19b2114090981df48|2347|01147193oc10bbc458f2|4||204|1913|1608543014|1538646f-c1ac-4f35-87f8-8685fed4e558|
+#=#=#=# Syncrun finished 2020-12-21T09:40:52Z (last step: 1048 msec, total: 1224 msec)
+#=#=#=# Syncrun started 2020-12-21T09:41:33Z
+#=#=#=#=# Propagation starts 2020-12-21T09:41:33Z (last step: 177 msec, total: 177 msec)
+#=#=#=# Syncrun finished 2020-12-21T09:41:33Z (last step: 9 msec, total: 186 msec)
+#=#=#=# Syncrun started 2020-12-21T09:42:33Z
+#=#=#=#=# Propagation starts 2020-12-21T09:42:33Z (last step: 181 msec, total: 181 msec)
+10:01:27||PYTHON/myscanpos.npy|8|2|1608543719|ee639cdb997f8c214a44820d614ad534|128|01147196oc10bbc458f2|4||200|0|0|7588f24a-677b-40d3-b916-9a50354bbee8|
+10:01:27||PYTHON/opentrons_drive_measurefocus.py|64|2|1608543681|7ba6f7b5f2a3c433af55b36b45fd507b|2366|01147193oc10bbc458f2|4||200|2347|1608543649|da303e73-fac3-419e-8937-17ab28d4c155|
+#=#=#=# Syncrun finished 2020-12-21T09:42:33Z (last step: 424 msec, total: 606 msec)
+#=#=#=# Syncrun started 2020-12-21T09:43:33Z
+#=#=#=#=# Propagation starts 2020-12-21T09:43:33Z (last step: 184 msec, total: 184 msec)
+10:02:27||PYTHON/opentrons_drive_measurefocus.py|64|2|1608543789|4049258170a579faff4bbb22c7374180|2371|01147193oc10bbc458f2|4||200|2366|1608543681|35c6acc4-0f66-4909-b879-574d12b34df5|
+#=#=#=# Syncrun finished 2020-12-21T09:43:33Z (last step: 292 msec, total: 477 msec)
+#=#=#=# Syncrun started 2020-12-21T09:44:33Z
+#=#=#=#=# Propagation starts 2020-12-21T09:44:33Z (last step: 183 msec, total: 183 msec)
+10:03:27||PYTHON/myscanpos.npy|64|2|1608543796|30e706434717b2225b9995309270bcd9|767|01147196oc10bbc458f2|4||200|128|1608543719|5f305343-5fbb-41f9-8a06-40ce04d30d47|
+#=#=#=# Syncrun finished 2020-12-21T09:44:33Z (last step: 308 msec, total: 492 msec)
+#=#=#=# Syncrun started 2020-12-21T09:46:03Z
+#=#=#=#=# Propagation starts 2020-12-21T09:46:03Z (last step: 300 msec, total: 300 msec)
+||PYTHON/RESULTS/scan_2020-12-21_10-45-29|8|2|1608545091|5fe07343869a6|0|01147200oc10bbc458f2|4||0|0|0||
+10:04:57||PYTHON/RESULTS/scan_2020-12-21_10-45-29/scan_xyz_0_0.0_0.0_500.jpg|8|2|1608543931|b56becd549989711a1597f2f9e2a4a4a|914791|01147203oc10bbc458f2|4||200|0|0|338f8f94-990f-40fb-9767-65a7b6311509|
+10:04:57||PYTHON/RESULTS/scan_2020-12-21_10-45-29/scan_xyz_1_0.0_0.023_500.jpg|8|2|1608543932|a62eb4a3cdab5549a38b50e54bad5ae0|911476|01147202oc10bbc458f2|4||200|0|0|da033255-ff3e-49d2-81c8-00067fc999ff|
+10:04:57||PYTHON/RESULTS/scan_2020-12-21_10-45-29/scan_xyz_2_0.0_0.046_500.jpg|8|2|1608543933|fbe332f903d580a9b5c80f270ce0b1fa|912148|01147201oc10bbc458f2|4||200|0|0|99db5850-5aed-453b-8003-74b924cc5df1|
+10:04:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608543916|e305c1644328e6258cd77a7dbd338d63|2370|01147193oc10bbc458f2|4||200|2371|1608543789|ddb36233-9a3a-4cd8-83ce-25bdd3d05cff|
+10:04:57||PYTHON/RESULTS/scan_2020-12-21_10-45-29/scan_xyz_3_0.0_0.069_500.jpg|8|2|1608543934|736663945f1f3e53f41c0fb0b4296d88|911488|01147204oc10bbc458f2|4||200|0|0|eb7ae4f1-b487-434d-9c66-239b66d2c0bf|
+#=#=#=# Syncrun finished 2020-12-21T09:46:04Z (last step: 975 msec, total: 1276 msec)
+#=#=#=# Syncrun started 2020-12-21T09:46:06Z
+#=#=#=#=# Propagation starts 2020-12-21T09:46:06Z (last step: 324 msec, total: 324 msec)
+10:05:00||PYTHON/RESULTS/scan_2020-12-21_10-45-29/scan_xyz_4_0.0_0.092_500.jpg|8|2|1608543936|f9fa4268afa297e4c3785b390149d8ff|915608|01147205oc10bbc458f2|4||200|0|0|cd15b1fb-9a41-4d1f-8436-2ae28fcb83dc|
+10:05:00||PYTHON/RESULTS/scan_2020-12-21_10-45-29/scan_xyz_6_0.0_0.138_500.jpg|8|2|1608543938|5c527fbe2fd20f7eca3d34f2acb94e1e|918049|01147206oc10bbc458f2|4||200|0|0|c181cb1d-4c7b-45b5-8d2d-000f8b191b4f|
+10:05:00||PYTHON/RESULTS/scan_2020-12-21_10-45-29/scan_xyz_5_0.0_0.11499999999999999_500.jpg|8|2|1608543937|a594309503ff38275d01222eae1a56b2|914594|01147207oc10bbc458f2|4||200|0|0|b1902b6b-0b14-4bfe-86d4-9cea913d8625|
+#=#=#=# Syncrun finished 2020-12-21T09:46:07Z (last step: 921 msec, total: 1246 msec)
+#=#=#=# Syncrun started 2020-12-21T09:46:09Z
+#=#=#=#=# Propagation starts 2020-12-21T09:46:09Z (last step: 388 msec, total: 388 msec)
+10:05:03||PYTHON/RESULTS/scan_2020-12-21_10-45-29/scan_xyz_7_0.0_0.161_500.jpg|8|2|1608543939|5b4e2ca0bbc36931a99f9ca27cbcc77a|920731|01147208oc10bbc458f2|4||200|0|0|cbdee081-7430-4359-baa8-2cdaf1a86675|
+#=#=#=# Syncrun finished 2020-12-21T09:46:10Z (last step: 365 msec, total: 753 msec)
+#=#=#=# Syncrun started 2020-12-21T09:47:03Z
+#=#=#=#=# Propagation starts 2020-12-21T09:47:03Z (last step: 189 msec, total: 189 msec)
+10:05:57||PYTHON/myscanpos.npy|64|2|1608543970|ce6b0c0ea80cc80bc66dac5023e594d4|767|01147196oc10bbc458f2|4||200|767|1608543796|3684f887-6c28-416b-b6ae-0af6e4db6b77|
+10:05:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608543958|bc962c5e3962b3e036600cd1e2b59a35|2375|01147193oc10bbc458f2|4||200|2370|1608543916|5e5936b4-af3f-4127-94da-ad9e400b0202|
+#=#=#=# Syncrun finished 2020-12-21T09:47:03Z (last step: 447 msec, total: 637 msec)
+#=#=#=# Syncrun started 2020-12-21T09:49:03Z
+#=#=#=#=# Propagation starts 2020-12-21T09:49:03Z (last step: 182 msec, total: 182 msec)
+10:07:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608544120|4771328d8c6de3fb5ed6f5ef6cbbb5d2|2386|01147193oc10bbc458f2|4||200|2375|1608543958|3ab2eb28-e2a6-4f3d-acb0-c6e9370cdd44|
+#=#=#=# Syncrun finished 2020-12-21T09:49:03Z (last step: 263 msec, total: 445 msec)
+#=#=#=# Syncrun started 2020-12-21T09:50:03Z
+#=#=#=#=# Propagation starts 2020-12-21T09:50:03Z (last step: 180 msec, total: 180 msec)
+10:08:57||PYTHON/myscanpos.npy|64|2|1608544165|875d43da89d5483bd0fc5e2ba6bcfc38|745|01147196oc10bbc458f2|4||200|767|1608543970|19ada03d-d675-490b-b6b3-58da0d0a2e2c|
+#=#=#=# Syncrun finished 2020-12-21T09:50:03Z (last step: 342 msec, total: 522 msec)
+#=#=#=# Syncrun started 2020-12-21T09:54:43Z
+#=#=#=#=# Propagation starts 2020-12-21T09:54:43Z (last step: 143 msec, total: 143 msec)
+10:13:36||PYTHON/opentrons_serialmonitor.py|8|1|1608544481|9c8c15ff85ba446ba65cf30d3ba26425|2386|01147214oc10bbc458f2|4||201|0|0|eba615df-d2fb-4c4b-b984-47de115a08bf|
+#=#=#=# Syncrun finished 2020-12-21T09:54:44Z (last step: 809 msec, total: 952 msec)
+#=#=#=# Syncrun started 2020-12-21T09:55:33Z
+#=#=#=#=# Propagation starts 2020-12-21T09:55:33Z (last step: 177 msec, total: 177 msec)
+#=#=#=# Syncrun finished 2020-12-21T09:55:33Z (last step: 9 msec, total: 187 msec)
+#=#=#=# Syncrun started 2020-12-21T09:55:58Z
+#=#=#=#=# Propagation starts 2020-12-21T09:55:58Z (last step: 182 msec, total: 182 msec)
+10:14:52||PYTHON/opentrons_serialmonitor.py|64|1|1608544556|fb1e5d49f278aff9e6b12ec05df38a78|927|01147214oc10bbc458f2|4||204|2386|1608544481|da1e2e0a-87c2-4823-be65-51ebcd55d67b|
+#=#=#=# Syncrun finished 2020-12-21T09:55:59Z (last step: 893 msec, total: 1075 msec)
+#=#=#=# Syncrun started 2020-12-21T09:56:07Z
+#=#=#=#=# Propagation starts 2020-12-21T09:56:07Z (last step: 142 msec, total: 142 msec)
+10:15:00||PYTHON/opentrons_serialmonitor.py|64|1|1608544565|56aba8d58f65b064cc78aa10d40ed659|740|01147214oc10bbc458f2|4||204|927|1608544556|f711afba-6488-4025-88c2-bd14ec778c38|
+#=#=#=# Syncrun finished 2020-12-21T09:56:08Z (last step: 872 msec, total: 1015 msec)
+#=#=#=# Syncrun started 2020-12-21T09:57:03Z
+#=#=#=#=# Propagation starts 2020-12-21T09:57:03Z (last step: 188 msec, total: 188 msec)
+#=#=#=# Syncrun finished 2020-12-21T09:57:03Z (last step: 9 msec, total: 197 msec)
+#=#=#=# Syncrun started 2020-12-21T09:58:33Z
+#=#=#=#=# Propagation starts 2020-12-21T09:58:33Z (last step: 182 msec, total: 182 msec)
+10:17:27||PYTHON/opentrons_serialmonitor.py|64|2|1608544678|76849494473bf83079703c8ed53817c1|664|01147214oc10bbc458f2|4||200|740|1608544565|ee173780-834f-4599-866d-a0cb8121833d|
+#=#=#=# Syncrun finished 2020-12-21T09:58:33Z (last step: 295 msec, total: 478 msec)
+#=#=#=# Syncrun started 2020-12-21T10:08:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:08:33Z (last step: 180 msec, total: 180 msec)
+10:27:27||PYTHON/opentrons_drive_measurefocus.py|64|2|1608545268|4f5c8df0806d0bfb92bb72fc6d83ce1f|2415|01147193oc10bbc458f2|4||200|2386|1608544120|041f36f4-32e8-4df1-b58b-98d21537d5f3|
+#=#=#=# Syncrun finished 2020-12-21T10:08:33Z (last step: 271 msec, total: 452 msec)
+#=#=#=# Syncrun started 2020-12-21T10:09:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:09:33Z (last step: 201 msec, total: 201 msec)
+10:28:27||PYTHON/myscanpos_y.npy|8|2|1608545336|59850bb9beb4436438e14b72e439421f|136|01147220oc10bbc458f2|4||200|0|0|b0167154-3a5d-42bf-b62f-6796fa84be5b|
+10:28:27||PYTHON/myscanpos_z.npy|8|2|1608545336|bf51dd7c6c2f63b9e78050dc6a8d6969|288|01147221oc10bbc458f2|4||200|0|0|20a60dc3-fec5-4a63-b4eb-eacd26aaec0f|
+#=#=#=# Syncrun finished 2020-12-21T10:09:33Z (last step: 378 msec, total: 580 msec)
+#=#=#=# Syncrun started 2020-12-21T10:11:43Z
+#=#=#=#=# Propagation starts 2020-12-21T10:11:43Z (last step: 97 msec, total: 97 msec)
+10:30:37||PYTHON/opentrons_drive_measurefocus.py|64|1|1608545501|e47fd7a3b4d151c31d5b6c948001f031|2395|01147193oc10bbc458f2|4||204|2415|1608545268|cb81d5f7-c1e0-4bbd-a688-2227148933d6|
+#=#=#=# Syncrun finished 2020-12-21T10:11:44Z (last step: 789 msec, total: 886 msec)
+#=#=#=# Syncrun started 2020-12-21T10:12:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:12:33Z (last step: 178 msec, total: 178 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:12:33Z (last step: 9 msec, total: 187 msec)
+#=#=#=# Syncrun started 2020-12-21T10:13:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:13:33Z (last step: 183 msec, total: 183 msec)
+10:32:27||PYTHON/myscanpos_z.npy|64|2|1608545545|3d2f87486a88a01920d9edb46c1068ac|288|01147221oc10bbc458f2|4||200|288|1608545336|f4f2b077-7803-4fb2-bb3c-8ad067e13b2d|
+10:32:27||PYTHON/myscanpos_y.npy|64|2|1608545545|8ae4e06939f04709d9ff1bdebdc673a5|136|01147220oc10bbc458f2|4||200|136|1608545336|f755aa2c-50a7-4ab6-8582-5b4144d837b2|
+#=#=#=# Syncrun finished 2020-12-21T10:13:33Z (last step: 392 msec, total: 575 msec)
+#=#=#=# Syncrun started 2020-12-21T10:14:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:14:33Z (last step: 191 msec, total: 191 msec)
+10:33:27||PYTHON/opentrons_drive_measurefocus.py|64|2|1608545640|b7969716ade23bec1cfffd9caf1b31e7|2330|01147193oc10bbc458f2|4||200|2395|1608545501|501e4f17-976e-47ae-83db-867d75cc8b64|
+#=#=#=# Syncrun finished 2020-12-21T10:14:33Z (last step: 285 msec, total: 477 msec)
+#=#=#=# Syncrun started 2020-12-21T10:15:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:15:33Z (last step: 182 msec, total: 182 msec)
+10:34:27||PYTHON/myscanpos_z.npy|64|2|1608545710|40c420bfc38259a18608baefb8f55318|288|01147221oc10bbc458f2|4||200|288|1608545545|160c0b52-38fc-44d5-abdf-848d8f9756d8|
+10:34:27||PYTHON/myscanpos_y.npy|64|2|1608545710|c904a1d847197bf85f38fd8d97cf149c|448|01147220oc10bbc458f2|4||200|136|1608545545|809e9ced-6d40-4643-804d-91b2e3c05a1c|
+#=#=#=# Syncrun finished 2020-12-21T10:15:33Z (last step: 392 msec, total: 575 msec)
+#=#=#=# Syncrun started 2020-12-21T10:16:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:16:33Z (last step: 186 msec, total: 186 msec)
+10:35:27||PYTHON/opentrons_drive_measurefocus.py|64|2|1608545748|33aa22bcd678968820c0bf0f45c4c63d|2392|01147193oc10bbc458f2|4||200|2330|1608545640|41c447bd-71ba-437e-8e8c-01d803758ec1|
+#=#=#=# Syncrun finished 2020-12-21T10:16:33Z (last step: 258 msec, total: 445 msec)
+#=#=#=# Syncrun started 2020-12-21T10:17:13Z
+#=#=#=#=# Propagation starts 2020-12-21T10:17:14Z (last step: 190 msec, total: 190 msec)
+10:36:07||PYTHON/myscanpos_z.npy|64|2|1608545793|5114b94d5b4491c27c07c6b958cc746e|288|01147221oc10bbc458f2|4||200|288|1608545710|c6872dbd-a42a-4d7a-99be-ce82818128b0|
+10:36:07||PYTHON/myscanpos_y.npy|64|2|1608545793|2e7657e4ebbba45569d65be0c1c2db31|448|01147220oc10bbc458f2|4||200|448|1608545710|2fed4fb1-f9db-4537-8fbf-23e436b670c4|
+10:36:07||PYTHON/opentrons_drive_measurefocus.py|64|1|1608545831|c4867f6810aafbab6a7c07c62d20af3d|2433|01147193oc10bbc458f2|4||204|2392|1608545748|04b0d3ed-a8c4-4819-b66b-5d65d4e8ecbd|
+#=#=#=# Syncrun finished 2020-12-21T10:17:15Z (last step: 982 msec, total: 1173 msec)
+#=#=#=# Syncrun started 2020-12-21T10:17:16Z
+#=#=#=#=# Propagation starts 2020-12-21T10:17:17Z (last step: 149 msec, total: 149 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:17:17Z (last step: 14 msec, total: 164 msec)
+#=#=#=# Syncrun started 2020-12-21T10:17:38Z
+#=#=#=#=# Propagation starts 2020-12-21T10:17:38Z (last step: 150 msec, total: 150 msec)
+10:36:32||PYTHON/opentrons_drive_measurefocus.py|64|1|1608545856|9c878e8872ce4be27d61174305253993|2434|01147193oc10bbc458f2|4||204|2433|1608545831|44a46a17-57ea-4a70-9c83-fb9944c977b9|
+#=#=#=# Syncrun finished 2020-12-21T10:17:39Z (last step: 880 msec, total: 1031 msec)
+#=#=#=# Syncrun started 2020-12-21T10:18:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:18:33Z (last step: 202 msec, total: 202 msec)
+||PYTHON/opentrons_drive_measurefocus.py|64|1|1608545912|9c878e8872ce4be27d61174305253993|2434|01147193oc10bbc458f2|3|Local file changed during sync.|0|2434|1608545856||
+#=#=#=# Syncrun finished 2020-12-21T10:18:33Z (last step: 20 msec, total: 222 msec)
+#=#=#=# Syncrun started 2020-12-21T10:18:34Z
+#=#=#=#=# Propagation starts 2020-12-21T10:18:34Z (last step: 145 msec, total: 145 msec)
+10:37:28||PYTHON/opentrons_drive_measurefocus.py|64|1|1608545912|d505b79916f87620c7402fb090a36a36|2434|01147193oc10bbc458f2|4||204|2434|1608545856|fdd1bb79-1dce-456f-afc5-e116e3dcb115|
+#=#=#=# Syncrun finished 2020-12-21T10:18:35Z (last step: 832 msec, total: 977 msec)
+#=#=#=# Syncrun started 2020-12-21T10:19:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:19:33Z (last step: 177 msec, total: 177 msec)
+10:38:27||PYTHON/myscanpos_y.npy|64|2|1608545902|c713949f23c99c5854c26f563a2cf9c0|448|01147220oc10bbc458f2|4||200|448|1608545793|4e12b3cd-d329-4f32-8e34-ff94aaf407e6|
+10:38:27||PYTHON/myscanpos_z.npy|64|2|1608545902|b6eacd6b38b829db7a3d842d3c8a0de1|288|01147221oc10bbc458f2|4||200|288|1608545793|623a2943-f651-4941-8f58-64935cde8ee8|
+10:38:27||PYTHON/opentrons_drive_measurefocus.py|64|2|1608545927|2c506968bade5a9841800050728d3bae|2446|01147193oc10bbc458f2|4||200|2434|1608545912|2133e2c3-ce44-4900-baa2-778333202b65|
+#=#=#=# Syncrun finished 2020-12-21T10:19:34Z (last step: 458 msec, total: 635 msec)
+#=#=#=# Syncrun started 2020-12-21T10:20:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:20:33Z (last step: 185 msec, total: 185 msec)
+10:39:27||PYTHON/myscanpos_y.npy|64|2|1608546000|c454a7ebb31b5beac1a1b4b7e5fafe5c|448|01147220oc10bbc458f2|4||200|448|1608545902|d8e8add7-fe6a-44e6-80fb-9a56f66b6a98|
+10:39:27||PYTHON/myscanpos_z.npy|64|2|1608546000|ccb64ede24ab6636251608293d8aef77|288|01147221oc10bbc458f2|4||200|288|1608545902|e7da4c0a-8e96-47ce-99f6-01b5a171f29f|
+10:39:27||PYTHON/opentrons_drive_measurefocus.py|64|2|1608545953|6577ef287b472300a12f33d9e5d3d98e|2446|01147193oc10bbc458f2|4||200|2446|1608545927|ca6df003-5f06-429a-aa30-d5826d875344|
+#=#=#=# Syncrun finished 2020-12-21T10:20:34Z (last step: 452 msec, total: 638 msec)
+#=#=#=# Syncrun started 2020-12-21T10:26:40Z
+#=#=#=#=# Propagation starts 2020-12-21T10:26:41Z (last step: 136 msec, total: 136 msec)
+10:45:34||PYTHON/opentrons_drive_measurefocus.py|64|1|1608546398|37e8db8fdce3c004962a023041bb275c|2504|01147193oc10bbc458f2|4||204|2446|1608545953|997e2c25-89a6-4029-94e7-747a54778f1d|
+#=#=#=# Syncrun finished 2020-12-21T10:26:42Z (last step: 1215 msec, total: 1352 msec)
+#=#=#=# Syncrun started 2020-12-21T10:27:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:27:33Z (last step: 178 msec, total: 178 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:27:33Z (last step: 9 msec, total: 187 msec)
+#=#=#=# Syncrun started 2020-12-21T10:28:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:28:33Z (last step: 182 msec, total: 182 msec)
+10:47:27||PYTHON/myscanpos_y.npy|64|2|1608546459|4e3ab261b83c6ae8e45b92fe89187c38|448|01147220oc10bbc458f2|4||200|448|1608546000|88b9eaae-7bfd-4aa5-bb0d-70d2703f06d0|
+10:47:27||PYTHON/myscanpos_z.npy|64|2|1608546459|3e778ec965c9be03b7c786b708b87c7a|288|01147221oc10bbc458f2|4||200|288|1608546000|4df5e84d-4832-4307-9b65-e3f37d7e0117|
+#=#=#=# Syncrun finished 2020-12-21T10:28:33Z (last step: 360 msec, total: 543 msec)
+#=#=#=# Syncrun started 2020-12-21T10:29:32Z
+#=#=#=#=# Propagation starts 2020-12-21T10:29:32Z (last step: 136 msec, total: 136 msec)
+10:48:26||PYTHON/opentrons_drive_measurefocus.py|64|1|1608546570|27203b0212084096213ea2a100fa9724|2504|01147193oc10bbc458f2|4||204|2504|1608546398|57b6e098-1c90-4555-b6b5-8f718a4dfd29|
+#=#=#=# Syncrun finished 2020-12-21T10:29:33Z (last step: 894 msec, total: 1030 msec)
+#=#=#=# Syncrun started 2020-12-21T10:30:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:30:33Z (last step: 301 msec, total: 301 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:30:33Z (last step: 54 msec, total: 356 msec)
+#=#=#=# Syncrun started 2020-12-21T10:32:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:32:33Z (last step: 149 msec, total: 149 msec)
+10:51:27||PYTHON/opentrons_drive_measurefocus.py|64|1|1608546751|da824f604ab94c67d642fa0d24cb5977|2785|01147193oc10bbc458f2|4||204|2504|1608546570|ffd298c6-26df-4d77-8708-18acbaeb5927|
+#=#=#=# Syncrun finished 2020-12-21T10:32:34Z (last step: 966 msec, total: 1116 msec)
+#=#=#=# Syncrun started 2020-12-21T10:33:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:33:33Z (last step: 177 msec, total: 177 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:33:33Z (last step: 10 msec, total: 188 msec)
+#=#=#=# Syncrun started 2020-12-21T10:33:46Z
+#=#=#=#=# Propagation starts 2020-12-21T10:33:46Z (last step: 94 msec, total: 94 msec)
+10:52:40||PYTHON/opentrons_drive_measurefocus.py|64|1|1608546824|1e5aed4b501d462039b11556924c16d8|3142|01147193oc10bbc458f2|4||204|2785|1608546751|93b68e9e-4533-4fa4-8fdb-9e88bf9aae01|
+#=#=#=# Syncrun finished 2020-12-21T10:33:47Z (last step: 832 msec, total: 926 msec)
+#=#=#=# Syncrun started 2020-12-21T10:34:13Z
+#=#=#=#=# Propagation starts 2020-12-21T10:34:13Z (last step: 371 msec, total: 371 msec)
+10:53:07||PYTHON/opentrons_drive_measurefocus.py|64|1|1608546851|db02c047d149e4f92c6a2c517fd9de72|3167|01147193oc10bbc458f2|4||204|3142|1608546824|c742590f-a185-40c1-ba84-0c7023f0b070|
+#=#=#=# Syncrun finished 2020-12-21T10:34:14Z (last step: 979 msec, total: 1351 msec)
+#=#=#=# Syncrun started 2020-12-21T10:35:03Z
+#=#=#=#=# Propagation starts 2020-12-21T10:35:03Z (last step: 177 msec, total: 177 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:35:03Z (last step: 9 msec, total: 187 msec)
+#=#=#=# Syncrun started 2020-12-21T10:35:32Z
+#=#=#=#=# Propagation starts 2020-12-21T10:35:33Z (last step: 198 msec, total: 198 msec)
+10:54:26||PYTHON/opentrons_drive_measurefocus.py|64|1|1608546930|0f24bf132423006a71da32888dec6e12|3165|01147193oc10bbc458f2|4||204|3167|1608546851|ffa7df4c-e93a-495e-8edb-352b43e7244f|
+#=#=#=# Syncrun finished 2020-12-21T10:35:34Z (last step: 1130 msec, total: 1329 msec)
+#=#=#=# Syncrun started 2020-12-21T10:36:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:36:33Z (last step: 178 msec, total: 178 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:36:33Z (last step: 10 msec, total: 188 msec)
+#=#=#=# Syncrun started 2020-12-21T10:40:03Z
+#=#=#=#=# Propagation starts 2020-12-21T10:40:03Z (last step: 178 msec, total: 178 msec)
+10:58:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608547165|3ad3f353ccc99bfa658a8d39b125ea61|3165|01147193oc10bbc458f2|4||200|3165|1608546930|993dac6c-c7b1-4804-8cda-4deed890d11b|
+#=#=#=# Syncrun finished 2020-12-21T10:40:03Z (last step: 262 msec, total: 440 msec)
+#=#=#=# Syncrun started 2020-12-21T10:41:03Z
+#=#=#=#=# Propagation starts 2020-12-21T10:41:03Z (last step: 188 msec, total: 188 msec)
+10:59:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608547190|f615508d4af3b1cf9d0ec54cdc38b5e5|3154|01147193oc10bbc458f2|4||200|3165|1608547165|a3f9b225-b694-4ed9-846e-1435ca45e441|
+#=#=#=# Syncrun finished 2020-12-21T10:41:03Z (last step: 257 msec, total: 445 msec)
+#=#=#=# Syncrun started 2020-12-21T10:42:03Z
+#=#=#=#=# Propagation starts 2020-12-21T10:42:03Z (last step: 186 msec, total: 186 msec)
+11:00:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608547278|8717d9b4877fcb9be4164a6dea8461f1|3157|01147193oc10bbc458f2|4||200|3154|1608547190|01a085c8-73be-4d12-9132-f23a3488a6e9|
+#=#=#=# Syncrun finished 2020-12-21T10:42:03Z (last step: 273 msec, total: 459 msec)
+#=#=#=# Syncrun started 2020-12-21T10:43:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:43:33Z (last step: 186 msec, total: 186 msec)
+11:02:27||PYTHON/opentrons_drive_measurefocus.py|64|2|1608547371|f8429f7f713ef827066d0cd29b83b72f|3170|01147193oc10bbc458f2|4||200|3157|1608547278|55afb560-8418-4619-9f9a-f2a398c6b996|
+#=#=#=# Syncrun finished 2020-12-21T10:43:33Z (last step: 281 msec, total: 467 msec)
+#=#=#=# Syncrun started 2020-12-21T10:44:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:44:33Z (last step: 184 msec, total: 184 msec)
+11:03:27||PYTHON/opentrons_drive_measurefocus.py|64|2|1608547412|6f2743c3dabebf1d071a9a74f93c3a1a|3172|01147193oc10bbc458f2|4||200|3170|1608547371|634797d4-e583-4676-bbf8-330554ae9499|
+#=#=#=# Syncrun finished 2020-12-21T10:44:33Z (last step: 258 msec, total: 442 msec)
+#=#=#=# Syncrun started 2020-12-21T10:47:03Z
+#=#=#=#=# Propagation starts 2020-12-21T10:47:03Z (last step: 199 msec, total: 199 msec)
+11:05:57||PYTHON/myscanpos_y.npy|64|2|1608547575|80ecbfb20027dc07c91a196857176b37|448|01147220oc10bbc458f2|4||200|448|1608546459|47216ce6-ca6b-4d4c-9d29-5bbebfd3fe45|
+11:05:57||PYTHON/myscanpos_z.npy|64|2|1608547575|45bfc63f38471f09626398037885351d|288|01147221oc10bbc458f2|4||200|288|1608546459|29299dc6-87e0-4f28-ae64-06c312a99e42|
+#=#=#=# Syncrun finished 2020-12-21T10:47:03Z (last step: 365 msec, total: 564 msec)
+#=#=#=# Syncrun started 2020-12-21T10:47:13Z
+#=#=#=#=# Propagation starts 2020-12-21T10:47:14Z (last step: 121 msec, total: 121 msec)
+11:06:07||PYTHON/opentrons_drive_measurefocus.py|64|1|1608547631|29faaef7f76b36425b677281edec4531|3202|01147193oc10bbc458f2|4||204|3172|1608547412|810d4975-f175-4bd0-948e-7da78647d52a|
+#=#=#=# Syncrun finished 2020-12-21T10:47:14Z (last step: 975 msec, total: 1097 msec)
+#=#=#=# Syncrun started 2020-12-21T10:48:03Z
+#=#=#=#=# Propagation starts 2020-12-21T10:48:03Z (last step: 182 msec, total: 182 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:48:03Z (last step: 9 msec, total: 191 msec)
+#=#=#=# Syncrun started 2020-12-21T10:50:18Z
+#=#=#=#=# Propagation starts 2020-12-21T10:50:18Z (last step: 143 msec, total: 143 msec)
+11:09:11||PYTHON/opentrons_drive_measurefocus.py|64|1|1608547816|2cfd2196651d72cc42fb6a8763f8c686|3517|01147193oc10bbc458f2|4||204|3202|1608547631|be4cc79f-5673-428e-a8dd-120b16765e03|
+#=#=#=# Syncrun finished 2020-12-21T10:50:19Z (last step: 925 msec, total: 1069 msec)
+#=#=#=# Syncrun started 2020-12-21T10:51:03Z
+#=#=#=#=# Propagation starts 2020-12-21T10:51:03Z (last step: 191 msec, total: 191 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:51:03Z (last step: 10 msec, total: 202 msec)
+#=#=#=# Syncrun started 2020-12-21T10:51:51Z
+#=#=#=#=# Propagation starts 2020-12-21T10:51:51Z (last step: 92 msec, total: 92 msec)
+11:10:45||PYTHON/opentrons_drive_measurefocus.py|64|1|1608547909|439cd9b50c3d204513890d4d89047d9f|3512|01147193oc10bbc458f2|4||204|3517|1608547816|dc6dd15e-d38d-486e-bd0f-c4135fc63c21|
+#=#=#=# Syncrun finished 2020-12-21T10:51:52Z (last step: 883 msec, total: 976 msec)
+#=#=#=# Syncrun started 2020-12-21T10:52:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:52:33Z (last step: 178 msec, total: 178 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:52:33Z (last step: 9 msec, total: 188 msec)
+#=#=#=# Syncrun started 2020-12-21T10:54:01Z
+#=#=#=#=# Propagation starts 2020-12-21T10:54:01Z (last step: 178 msec, total: 178 msec)
+11:12:55||PYTHON/opentrons_drive_measurefocus.py|64|1|1608548039|c1bbde6e8040a083f703af6e27a099c1|3494|01147193oc10bbc458f2|4||204|3512|1608547909|e12fd5a7-bb92-49fe-9b5d-83a7041bd602|
+#=#=#=# Syncrun finished 2020-12-21T10:54:02Z (last step: 839 msec, total: 1017 msec)
+#=#=#=# Syncrun started 2020-12-21T10:54:33Z
+#=#=#=#=# Propagation starts 2020-12-21T10:54:33Z (last step: 177 msec, total: 177 msec)
+#=#=#=# Syncrun finished 2020-12-21T10:54:33Z (last step: 10 msec, total: 188 msec)
+#=#=#=# Syncrun started 2020-12-21T11:10:23Z
+#=#=#=#=# Propagation starts 2020-12-21T11:10:23Z (last step: 168 msec, total: 168 msec)
+11:29:17||PYTHON/opentrons_drive_measurefocus.py|64|1|1608549021|b004cbd1e10d4fbbae5bd3937b0d6ccd|4139|01147193oc10bbc458f2|4||204|3494|1608548039|b885536d-0194-4b75-a8c5-d9a7a68496ac|
+#=#=#=# Syncrun finished 2020-12-21T11:10:24Z (last step: 893 msec, total: 1062 msec)
+#=#=#=# Syncrun started 2020-12-21T11:11:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:11:03Z (last step: 188 msec, total: 188 msec)
+#=#=#=# Syncrun finished 2020-12-21T11:11:03Z (last step: 9 msec, total: 197 msec)
+#=#=#=# Syncrun started 2020-12-21T11:12:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:12:03Z (last step: 177 msec, total: 177 msec)
+11:30:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608549075|7bb7f76535027940dfb2c79f5da90686|4140|01147193oc10bbc458f2|4||200|4139|1608549021|33b52d23-8cad-42e5-9a2b-7158e3c83bc0|
+#=#=#=# Syncrun finished 2020-12-21T11:12:04Z (last step: 498 msec, total: 676 msec)
+#=#=#=# Syncrun started 2020-12-21T11:17:33Z
+#=#=#=#=# Propagation starts 2020-12-21T11:17:33Z (last step: 188 msec, total: 188 msec)
+11:36:27||PYTHON/opentrons_drive_measurefocus.py|64|2|1608549424|4b021629d04091b4ef7ad6281df23911|4142|01147193oc10bbc458f2|4||200|4140|1608549075|86049325-8e56-4e79-ab1c-99c9c6d5b430|
+#=#=#=# Syncrun finished 2020-12-21T11:17:33Z (last step: 283 msec, total: 472 msec)
+#=#=#=# Syncrun started 2020-12-21T11:20:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:20:03Z (last step: 187 msec, total: 187 msec)
+11:38:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608549563|6555f1883a7911f9f2f1f9cb82c66052|4090|01147193oc10bbc458f2|4||200|4142|1608549424|38c97d40-dce1-456c-86f4-b7ef97222a2e|
+#=#=#=# Syncrun finished 2020-12-21T11:20:03Z (last step: 311 msec, total: 499 msec)
+#=#=#=# Syncrun started 2020-12-21T11:21:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:21:03Z (last step: 190 msec, total: 190 msec)
+11:39:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608549611|596a1e7b9e89f4354b7d29b554255321|4106|01147193oc10bbc458f2|4||200|4090|1608549563|e23680b9-76da-4963-8598-e17e46e178bb|
+#=#=#=# Syncrun finished 2020-12-21T11:21:03Z (last step: 274 msec, total: 465 msec)
+#=#=#=# Syncrun started 2020-12-21T11:22:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:22:03Z (last step: 183 msec, total: 183 msec)
+11:40:57||PYTHON/myscanpos_z.npy|64|2|1608549658|7f7e0d9acf233274672897822ecec12c|288|01147221oc10bbc458f2|4||200|288|1608547575|5d349909-213f-4ae1-9251-0107ed28a360|
+11:40:57||PYTHON/myscanpos_y.npy|64|2|1608549658|36048539870caba3a9e51ec3f94f12df|448|01147220oc10bbc458f2|4||200|448|1608547575|55c4bc89-9836-4c28-9b75-b33ff910440a|
+#=#=#=# Syncrun finished 2020-12-21T11:22:03Z (last step: 374 msec, total: 557 msec)
+#=#=#=# Syncrun started 2020-12-21T11:23:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:23:03Z (last step: 187 msec, total: 187 msec)
+11:41:57||PYTHON/myscanpos_y.npy|64|2|1608549734|2d16b195939c1b7005419b9bec36cae2|448|01147220oc10bbc458f2|4||200|448|1608549658|24d558aa-3c24-4920-8ca0-2379679ac797|
+11:41:57||PYTHON/myscanpos_z.npy|64|2|1608549734|acb7e901756e2818716f4e9620cac85d|288|01147221oc10bbc458f2|3|Access is denied.
+|200|288|1608549658|965405a0-f6c3-4645-9e73-1cf48dfaea8d|
+#=#=#=# Syncrun finished 2020-12-21T11:23:03Z (last step: 353 msec, total: 540 msec)
+#=#=#=# Syncrun started 2020-12-21T11:23:05Z
+#=#=#=#=# Propagation starts 2020-12-21T11:23:06Z (last step: 137 msec, total: 137 msec)
+||PYTHON/myscanpos_z.npy|64|2|1608549734|acb7e901756e2818716f4e9620cac85d|288|01147221oc10bbc458f2|4||0|288|1608549658||
+#=#=#=# Syncrun finished 2020-12-21T11:23:06Z (last step: 36 msec, total: 174 msec)
+#=#=#=# Syncrun started 2020-12-21T11:24:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:24:03Z (last step: 186 msec, total: 186 msec)
+11:42:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608549770|affdc6f6a8a936a39e857b7f55fa9f4c|4102|01147193oc10bbc458f2|4||200|4106|1608549611|ebb9584c-c27c-43aa-965f-7c299f1a4cd1|
+#=#=#=# Syncrun finished 2020-12-21T11:24:03Z (last step: 235 msec, total: 422 msec)
+#=#=#=# Syncrun started 2020-12-21T11:25:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:25:03Z (last step: 194 msec, total: 194 msec)
+11:43:57||PYTHON/myscanpos_y.npy|64|2|1608549853|a1fb8a8b9a17e122660b305f6d5caf5a|448|01147220oc10bbc458f2|4||200|448|1608549734|4706c33f-5570-44cd-ad7c-457487adb08f|
+11:43:57||PYTHON/myscanpos_z.npy|64|2|1608549853|5338669188e7c75b5d366b01c1863a81|288|01147221oc10bbc458f2|4||200|288|1608549734|3d621111-99f2-407f-aabc-84ae25ad0b6e|
+#=#=#=# Syncrun finished 2020-12-21T11:25:04Z (last step: 401 msec, total: 596 msec)
+#=#=#=# Syncrun started 2020-12-21T11:26:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:26:03Z (last step: 190 msec, total: 190 msec)
+11:44:57||PYTHON/opentrons_drive_measurefocus.py|64|2|1608549936|777b19769414738cd16135b25f9e2e74|4100|01147193oc10bbc458f2|4||200|4102|1608549770|b11675c0-f597-4404-aab1-3716315fd268|
+#=#=#=# Syncrun finished 2020-12-21T11:26:03Z (last step: 300 msec, total: 491 msec)
+#=#=#=# Syncrun started 2020-12-21T11:28:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:28:03Z (last step: 187 msec, total: 187 msec)
+11:46:57||PYTHON/myscanpos_z.npy|64|2|1608550047|678c027dac8b957ff2a3cc6c9c50b83f|288|01147221oc10bbc458f2|3|Access is denied.
+|200|288|1608549853|70555c51-afad-4f6c-a4fe-6291f4951629|
+11:46:57||PYTHON/myscanpos_y.npy|64|2|1608550047|942fd0759f8dad28d184f73efe8fa7c0|448|01147220oc10bbc458f2|4||200|448|1608549853|e0e49f8e-5e9c-4891-bbdb-11b02e0f541b|
+#=#=#=# Syncrun finished 2020-12-21T11:28:03Z (last step: 393 msec, total: 580 msec)
+#=#=#=# Syncrun started 2020-12-21T11:28:06Z
+#=#=#=#=# Propagation starts 2020-12-21T11:28:06Z (last step: 160 msec, total: 160 msec)
+||PYTHON/myscanpos_z.npy|64|2|1608550047|678c027dac8b957ff2a3cc6c9c50b83f|288|01147221oc10bbc458f2|4||0|288|1608549853||
+#=#=#=# Syncrun finished 2020-12-21T11:28:06Z (last step: 36 msec, total: 196 msec)
+#=#=#=# Syncrun started 2020-12-21T11:30:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:30:03Z (last step: 189 msec, total: 189 msec)
+11:48:57||PYTHON/myscanpos_y.npy|64|2|1608550164|0d1a7cee036caab1d2854e51a195700d|448|01147220oc10bbc458f2|4||200|448|1608550047|10b51fb0-a38c-4212-996e-d794859be9cf|
+11:48:57||PYTHON/myscanpos_z.npy|64|2|1608550164|b8ddd39bdcfc0215d1326a95b70ca056|288|01147221oc10bbc458f2|4||200|288|1608550047|6ab115dd-8302-451c-9b88-0804f1dc5141|
+#=#=#=# Syncrun finished 2020-12-21T11:30:03Z (last step: 343 msec, total: 533 msec)
+#=#=#=# Syncrun started 2020-12-21T11:55:03Z
+#=#=#=#=# Propagation starts 2020-12-21T11:55:03Z (last step: 400 msec, total: 400 msec)
+||PYTHON/RESULTS/scan_2020-12-21_12-49-48|8|2|1608552837|5fe091856df5b|0|01147288oc10bbc458f2|4||0|0|0||
+12:13:57||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_0.jpg|8|2|1608551398|17999f7d2443940c9f128874b698a3f8|166542|01147291oc10bbc458f2|4||200|0|0|2fc142d3-6d17-45e6-8c6e-fbb6d9f192e0|
+12:13:57||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_1.jpg|8|2|1608551406|e750750d2c483a99a6a3cffbdcda1b39|149117|01147292oc10bbc458f2|4||200|0|0|3a06f844-1b50-4801-bdda-6b9c1abb8dd5|
+12:13:57||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_10.jpg|8|2|1608551430|c4c69ff9e9a5e6646c9e5c2e8b636dfa|152087|01147293oc10bbc458f2|4||200|0|0|5b1f74c4-2b37-4cf9-ad8b-fb9d749ec69f|
+12:13:58||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_11.jpg|8|2|1608551431|bfd82f7a921efa90b3f1c4d16ff5b68c|146276|01147294oc10bbc458f2|4||200|0|0|914c2793-e9c7-4829-a7fc-28d21993462e|
+12:13:58||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_12.jpg|8|2|1608551433|bc7806c15cd653a05017e2fd242369e9|144717|01147296oc10bbc458f2|4||200|0|0|953a69ff-1c03-4030-aebb-f45e06c3f3d7|
+12:13:59||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_13.jpg|8|2|1608551435|ca88e73cf2b0a9fc94533f3c3398efe2|140256|01147295oc10bbc458f2|4||200|0|0|7ad2ce26-67ba-498b-a67f-5b33b6416cc5|
+12:13:59||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_14.jpg|8|2|1608551439|d394883ea4d83fe8a90c7ec76ad3047c|174520|01147297oc10bbc458f2|4||200|0|0|76582be7-423a-4e01-b904-5957cbe5a0c9|
+12:13:59||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_15.jpg|8|2|1608551440|ce270ea78f0141a6f12a4298510f53de|168029|01147298oc10bbc458f2|4||200|0|0|f8e86374-7238-4bfe-86e2-074b97cde361|
+12:13:59||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_16.jpg|8|2|1608551441|1b5b08d55803550ec8dfa001ea2f1893|159764|01147299oc10bbc458f2|4||200|0|0|317fe2ed-c891-4eee-9fe9-507de69c8fd3|
+12:13:59||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_17.jpg|8|2|1608551443|2fe748dfc34e6cbdc05bfec233facb9d|145393|01147300oc10bbc458f2|4||200|0|0|00c7b06c-9890-428e-8120-70a22cd1262c|
+12:13:59||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_18.jpg|8|2|1608551446|cda5efb0a1c55a8014d4f9d68da52dbd|146410|01147301oc10bbc458f2|4||200|0|0|871c8f9a-26a9-47ff-ac57-787f32a3e227|
+12:13:59||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_19.jpg|8|2|1608551448|5cea41fc795703f56e610f5d4ba1f3b3|134786|01147302oc10bbc458f2|4||200|0|0|6be87b98-a2e5-432a-ad3d-49f52de3e8f0|
+12:14:00||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_2.jpg|8|2|1608551408|09e71f7e6118072a455a9bf5071ffb2e|158446|01147303oc10bbc458f2|4||200|0|0|014b2a96-36e4-4381-bdc8-da0da14a8e02|
+12:14:00||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_20.jpg|8|2|1608551451|73e1068a8f2d64d2843499d98f795944|133233|01147304oc10bbc458f2|4||200|0|0|82fe4e49-c339-483e-b26a-13fe6e85c931|
+12:14:00||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_21.jpg|8|2|1608551454|2d7fd56c7e999a04a94c06d8b5279bc9|147118|01147305oc10bbc458f2|4||200|0|0|ed17f249-a248-4c67-a001-d348dbffcbef|
+12:14:00||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_22.jpg|8|2|1608551458|f7468f0d4a2295824a6a5cfbb611bf5c|175561|01147306oc10bbc458f2|3|The process cannot access the file because it is being used by another process.
+|200|0|0|521668d7-4ab9-49c5-8100-bef03709eb13|
+12:14:01||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_23.jpg|8|2|1608551461|5a94dee788f888e63d51671793434a1c|192985|01147307oc10bbc458f2|4||200|0|0|739fd762-ae4a-4a0e-9db0-31c1abf91d3e|
+12:14:01||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_24.jpg|8|2|1608551464|060291b12d4067193b70cb95a32a41a7|194307|01147308oc10bbc458f2|4||200|0|0|8e8221f2-6206-4d94-b2c3-496de38f3854|
+12:14:01||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_25.jpg|8|2|1608551466|e7470653817dada01a457c4f63bea6fe|201283|01147309oc10bbc458f2|4||200|0|0|6518a13b-b1d7-48fb-9e8e-cc445ff3abd2|
+12:14:01||PYTHON/myscanpos_y.npy|64|2|1608551501|54de813484ec5e6570ec1c845fcb9b73|448|01147220oc10bbc458f2|4||200|448|1608550164|4590ed46-3dfa-4c43-b165-76fee79fb004|
+12:14:01||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_26.jpg|8|2|1608551468|61b57d84b7c40c7f5eb6123b9acf7885|202324|01147310oc10bbc458f2|4||200|0|0|6b08fd9c-5925-4f09-ae71-b803212d5ade|
+12:14:01||PYTHON/myscanpos_z.npy|64|2|1608551501|f6b56cf225c8560570e905021c33bf54|288|01147221oc10bbc458f2|4||200|288|1608550164|5037fc1a-2697-4a9b-9d1b-18d768355b68|
+12:14:02||PYTHON/opentrons_drive_measurefocus.py|64|2|1608551385|4c6f0958d9d9df69d9e0ed382b2543a1|4543|01147193oc10bbc458f2|4||200|4100|1608549936|1aab2cf6-a54d-4601-b3d2-28a732fd9182|
+#=#=#=# Syncrun finished 2020-12-21T11:55:08Z (last step: 4819 msec, total: 5219 msec)
+#=#=#=# Syncrun started 2020-12-21T11:55:12Z
+#=#=#=#=# Propagation starts 2020-12-21T11:55:12Z (last step: 353 msec, total: 353 msec)
+||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_22.jpg|8|2|1608551458|f7468f0d4a2295824a6a5cfbb611bf5c|175561|01147306oc10bbc458f2|4||0|0|0||
+12:14:06||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_27.jpg|8|2|1608551472|32a38424a01c3be36a20733589a0c8a0|151299|01147311oc10bbc458f2|4||200|0|0|8f5088dc-21cc-486b-95b4-598709c107cd|
+12:14:06||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_28.jpg|8|2|1608551475|ccd62770b73db57115f8afd176866ae6|155568|01147312oc10bbc458f2|4||200|0|0|e3b91d42-7aab-4755-a4d9-9d14ac705512|
+12:14:06||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_29.jpg|8|2|1608551476|c830a5f87db797ab9101aceaee3a33a2|161646|01147313oc10bbc458f2|4||200|0|0|04d4ce54-f55e-4974-a37e-e50f81d258c9|
+12:14:06||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_3.jpg|8|2|1608551411|d71a760154e90f87a4dc05100922ede3|164556|01147314oc10bbc458f2|4||200|0|0|b5773654-d121-4101-9761-296db3bebc5e|
+12:14:07||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_30.jpg|8|2|1608551480|e25be26055134bc9e2f150a7dccde048|144861|01147315oc10bbc458f2|4||200|0|0|67307d34-e313-4203-8c59-f311e4f4246e|
+12:14:07||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_31.jpg|8|2|1608551482|84f811da35c8657b39c18f937ae2adee|143224|01147316oc10bbc458f2|4||200|0|0|094bdc24-0066-4356-9bf7-5ce86a48a1c4|
+12:14:07||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_32.jpg|8|2|1608551487|648287d5d969be53be55edaa8a690b46|157626|01147317oc10bbc458f2|4||200|0|0|dcaa819d-a3da-44df-a042-90f93f84d078|
+12:14:07||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_33.jpg|8|2|1608551488|04fd8196f4130fe2a1772bfd3e1121cb|150717|01147319oc10bbc458f2|4||200|0|0|b451a778-36d0-4a93-9717-a599ace53c9a|
+12:14:08||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_34.jpg|8|2|1608551490|2617d89160f7503f8bd5469279a6ad71|148498|01147318oc10bbc458f2|4||200|0|0|1a88554b-46d4-4b9b-b717-81fb96bbea16|
+12:14:08||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_35.jpg|8|2|1608551492|13c9aad158c306b849a20ec0c6c157d0|169027|01147320oc10bbc458f2|3|The process cannot access the file because it is being used by another process.
+|200|0|0|1f57383a-a7db-4d28-88eb-8e0dea9da5d7|
+12:14:08||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_36.jpg|8|2|1608551495|2ba52e5a1c0654ba9f9bd0d153b4c9df|154502|01147321oc10bbc458f2|4||200|0|0|097e36d9-2ce3-4f4a-b700-b9f99d12b906|
+12:14:08||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_37.jpg|8|2|1608551497|82d2566cefee3e8723382270a95f972f|161280|01147322oc10bbc458f2|4||200|0|0|64f4dfd5-efd4-472a-ab09-2193d4095552|
+12:14:08||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_38.jpg|8|2|1608551499|16908c0e399d7de6ba90e3d1a8ae3e9d|158730|01147323oc10bbc458f2|4||200|0|0|e7c3df18-e114-4f1a-83cc-56f709716caf|
+12:14:09||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_39.jpg|8|2|1608551501|3ccd0c7341ec80ff361b038fe1ab1749|183412|01147324oc10bbc458f2|4||200|0|0|b452744e-9b44-4645-aff3-660188d8674c|
+12:14:09||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_4.jpg|8|2|1608551412|1074b088148fa7528fdc917e52a463a1|165469|01147325oc10bbc458f2|4||200|0|0|bdba3ee4-b420-4bcb-a954-4b88ed777a23|
+12:14:09||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_5.jpg|8|2|1608551419|dd8a6ba26559c30c228ca9eec5295efd|154167|01147326oc10bbc458f2|4||200|0|0|1f632943-79fb-41da-8593-2ab3c0956d6a|
+#=#=#=# Syncrun finished 2020-12-21T11:55:16Z (last step: 3734 msec, total: 4088 msec)
+#=#=#=# Syncrun started 2020-12-21T11:55:19Z
+#=#=#=#=# Propagation starts 2020-12-21T11:55:20Z (last step: 364 msec, total: 364 msec)
+||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_35.jpg|8|2|1608551492|13c9aad158c306b849a20ec0c6c157d0|169027|01147320oc10bbc458f2|4||0|0|0||
+12:14:13||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_6.jpg|8|2|1608551421|b5a34d07fe141fb4faae35b932fb5b17|151886|01147327oc10bbc458f2|4||200|0|0|dfbb038b-12ae-4a5a-bebd-68c7d8532e30|
+12:14:13||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_7.jpg|8|2|1608551423|dea639d120163b17f4b3359357f11660|149123|01147328oc10bbc458f2|4||200|0|0|730c71f9-a977-43fa-9777-c72406bd636e|
+12:14:13||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_8.jpg|8|2|1608551425|aa738332efb76f3d48a98a89c8eb5c92|150688|01147329oc10bbc458f2|4||200|0|0|fc824475-3095-4494-be64-d528f5635d45|
+12:14:14||PYTHON/RESULTS/scan_2020-12-21_12-49-48/scan_xyz_9.jpg|8|2|1608551428|180f03b6ed679d71308f10b4f63ba6f3|147650|01147330oc10bbc458f2|4||200|0|0|525a2297-673d-4b53-aa49-20a50e20dbfb|
+#=#=#=# Syncrun finished 2020-12-21T11:55:20Z (last step: 886 msec, total: 1250 msec)
+#=#=#=# Syncrun started 2020-12-21T13:33:48Z
+#=#=#=#=# Propagation starts 2020-12-21T13:33:49Z (last step: 280 msec, total: 280 msec)
+13:52:43||PYTHON/opentrons_drive_measurefocus.py|64|1|1608557626|438ff6101a50144ecd76136e6bf8a526|5173|01147193oc10bbc458f2|4||204|4543|1608551385|6920111a-fd6d-417a-841c-01353ac6a074|
+#=#=#=# Syncrun finished 2020-12-21T13:33:50Z (last step: 1046 msec, total: 1326 msec)
+#=#=#=# Syncrun started 2020-12-21T13:34:36Z
+#=#=#=#=# Propagation starts 2020-12-21T13:34:37Z (last step: 201 msec, total: 201 msec)
+#=#=#=# Syncrun finished 2020-12-21T13:34:37Z (last step: 10 msec, total: 211 msec)
+#=#=#=# Syncrun started 2020-12-21T14:08:35Z
+#=#=#=#=# Propagation starts 2020-12-21T14:08:35Z (last step: 178 msec, total: 178 msec)
+14:27:29||PYTHON/opentrons_drive_measurefocus.py|64|1|1608559713|35d795cbbe8ddfedb18dcfd8e3a703aa|5175|01147193oc10bbc458f2|4||204|5173|1608557626|84424e47-9f82-46d5-9c9f-0b21d3144370|
+#=#=#=# Syncrun finished 2020-12-21T14:08:36Z (last step: 945 msec, total: 1123 msec)
+#=#=#=# Syncrun started 2020-12-21T14:08:50Z
+#=#=#=#=# Propagation starts 2020-12-21T14:08:50Z (last step: 153 msec, total: 153 msec)
+14:27:44||PYTHON/xystepper.py -> PYTHON/xyz_stepper.py|4|1|1604834563|ab5ba17ac4cc39a7be626eaa1c4e18ca|3045|01135076oc10bbc458f2|4||201|0|0|3bd0d4a8-72c7-464c-877f-95cb8d8435de|
+#=#=#=# Syncrun finished 2020-12-21T14:08:51Z (last step: 1439 msec, total: 1593 msec)
+#=#=#=# Syncrun started 2020-12-21T14:09:36Z
+#=#=#=#=# Propagation starts 2020-12-21T14:09:37Z (last step: 182 msec, total: 182 msec)
+#=#=#=# Syncrun finished 2020-12-21T14:09:37Z (last step: 10 msec, total: 193 msec)
+#=#=#=# Syncrun started 2020-12-21T14:13:21Z
+#=#=#=#=# Propagation starts 2020-12-21T14:13:21Z (last step: 148 msec, total: 148 msec)
+14:32:15||PYTHON/xyz_stepper.py|64|1|1608559999|257303bab584bc701538639adcff6f7f|3473|01135076oc10bbc458f2|4||204|3045|1604834563|e30c68b4-5edd-49fa-9088-c3190b4f5104|
+#=#=#=# Syncrun finished 2020-12-21T14:13:22Z (last step: 873 msec, total: 1022 msec)
+#=#=#=# Syncrun started 2020-12-21T14:13:24Z
+#=#=#=#=# Propagation starts 2020-12-21T14:13:24Z (last step: 143 msec, total: 143 msec)
+14:32:18||PYTHON/opentrons_drive_measurefocus.py|64|1|1608560002|421542b33d5b4b605bde0d049047b1be|5059|01147193oc10bbc458f2|4||204|5175|1608559713|305c675b-79c2-4920-8ef0-4ce63865d490|
+#=#=#=# Syncrun finished 2020-12-21T14:13:26Z (last step: 1474 msec, total: 1618 msec)
+#=#=#=# Syncrun started 2020-12-21T14:14:06Z
+#=#=#=#=# Propagation starts 2020-12-21T14:14:07Z (last step: 187 msec, total: 187 msec)
+#=#=#=# Syncrun finished 2020-12-21T14:14:07Z (last step: 11 msec, total: 199 msec)
+#=#=#=# Syncrun started 2020-12-21T14:17:38Z
+#=#=#=#=# Propagation starts 2020-12-21T14:17:38Z (last step: 139 msec, total: 139 msec)
+14:36:32||PYTHON/xyz_stepper.py|64|1|1608560256|3c72d589b65f6dd583fe15f1fb799710|4921|01135076oc10bbc458f2|4||204|3473|1608559999|c36b4088-7744-436f-92e4-f8c60184f22a|
+#=#=#=# Syncrun finished 2020-12-21T14:17:39Z (last step: 877 msec, total: 1016 msec)
+#=#=#=# Syncrun started 2020-12-21T14:18:36Z
+#=#=#=#=# Propagation starts 2020-12-21T14:18:37Z (last step: 185 msec, total: 185 msec)
+#=#=#=# Syncrun finished 2020-12-21T14:18:37Z (last step: 10 msec, total: 195 msec)
+#=#=#=# Syncrun started 2020-12-21T14:24:28Z
+#=#=#=#=# Propagation starts 2020-12-21T14:24:28Z (last step: 175 msec, total: 175 msec)
+14:43:22||PYTHON/xyz_stepper.py|64|1|1608560666|0bf98f861b91028f7f9633dbb44dda88|5033|01135076oc10bbc458f2|4||204|4921|1608560256|b0ef9236-292e-43f9-bb99-484fd88a767d|
+#=#=#=# Syncrun finished 2020-12-21T14:24:29Z (last step: 928 msec, total: 1103 msec)
+#=#=#=# Syncrun started 2020-12-21T14:25:06Z
+#=#=#=#=# Propagation starts 2020-12-21T14:25:07Z (last step: 190 msec, total: 190 msec)
+#=#=#=# Syncrun finished 2020-12-21T14:25:07Z (last step: 10 msec, total: 201 msec)
+#=#=#=# Syncrun started 2020-12-21T14:37:02Z
+#=#=#=#=# Propagation starts 2020-12-21T14:37:02Z (last step: 282 msec, total: 282 msec)
+14:55:56||INVENTOR/OldVersions/07_OPENTRONS_Autofocus_objectivemount_v0.0003.ipt|8|1|1606735637|c67c41b212faa6840cf5f027010accdd|147968|01147764oc10bbc458f2|4||201|0|0|23f51182-8c9b-40b8-8c9f-6e41c3df3e69|
+14:55:56||INVENTOR/07_OPENTRONS_Autofocus_objectivemount_v0.ipt|64|1|1608561420|9edc7271988dbd9ce49e6cac437efcdb|155648|01135013oc10bbc458f2|4||204|147968|1606735637|b98e93ec-2e4e-4e86-b86a-14714dc6969a|
+14:55:56||INVENTOR/OldVersions/07_OPENTRONS_Autofocus_objectivemount_v0.0002.ipt|2|1|1605886927|4584a9052d7f8a194a61f504cf43514f|134656|01135221oc10bbc458f2|4||204|134656|1605886927|ae63ecb5-9b7d-4930-85de-339787b56c56|
+#=#=#=# Syncrun finished 2020-12-21T14:37:08Z (last step: 5754 msec, total: 6037 msec)
+#=#=#=# Syncrun started 2020-12-21T14:38:06Z
+#=#=#=#=# Propagation starts 2020-12-21T14:38:07Z (last step: 291 msec, total: 291 msec)
+#=#=#=# Syncrun finished 2020-12-21T14:38:07Z (last step: 12 msec, total: 303 msec)

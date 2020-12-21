@@ -12,7 +12,7 @@
 #define BLOCK_DIFF_THRESHOLD 0.2
 #define IMAGE_DIFF_THRESHOLD 0.1
 #define DEBUG 1
-
+#define CAMERA_LED_GPIO 16
 
 //uint16_t proc_frame[H][W] = { 0 };
 //uint16_t current_frame[H][W] = { 0 };
@@ -34,6 +34,9 @@ uint16_t sum_proj_conv[HEIGHT] = { 0 };
 void setup() {
   Serial.begin(115200);
   Serial.println(setup_camera(FRAME_SIZE) ? "OK" : "ERR INIT");
+  pinMode (CAMERA_LED_GPIO, OUTPUT);//Specify that LED pin is output
+  digitalWrite(CAMERA_LED_GPIO, HIGH);
+        
 }
 
 /**
