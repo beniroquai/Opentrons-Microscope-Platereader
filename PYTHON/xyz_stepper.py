@@ -139,6 +139,7 @@ class xyzStepper:
                     break
             except:
                 print("Save the current slice as focus position")
+                focuspos,focusval=0,0
                 break
             
         # save them for later
@@ -198,11 +199,8 @@ class xyzStepper:
         while np.abs(aimedfocus-focuspos)>0:
             # if the distance is positive, the curent sample is too high, hence we 
             # we must move the focus down, which corresponds to an increased iz value
-            if (focuspos-aimedfocus)>0:
-                iz += (abs((focuspos-aimedfocus))*2)**2
+            iz += np.sign(focuspos-aimedfocus)*(abs((focuspos-aimedfocus)))**2
                 
-            else:
-                iz -= (abs((focuspos-aimedfocus))*2)**2
             self.go_to_z(iz)
             time.sleep(.1)
             

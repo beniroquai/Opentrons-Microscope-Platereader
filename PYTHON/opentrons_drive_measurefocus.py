@@ -89,24 +89,26 @@ for ix in myscanpos:
 
         Stepper_XYZ.go_to(stepx, stepy)
         time.sleep(1)
-
-        # Read the focus value
-        focuspos, focusval = Stepper_XYZ.measure_focus()
-        
-        print("stepy: "+str(stepy)+", focuspos: "+str(focuspos))
-        myally.append(stepy)
-        myallz.append(focuspos)
-        
-        filename = myfolder+'/scan_xyz_'+str(iscan) + '.jpg'
-        cam.capture(filename)
-        iscan +=1
-        
-        # correct focus:
-        iz = Stepper_XYZ.hold_focus(aimedfocus=myfixfocus, currentz=iz, zstep=3,N_meas =25)
-        
+        if(0):
+            # Read the focus value
+            focuspos, focusval = Stepper_XYZ.measure_focus()
+            
+            print("stepy: "+str(stepy)+", focuspos: "+str(focuspos))
+            myally.append(stepy)
+            myallz.append(focuspos)
+            
+            filename = myfolder+'/scan_xyz_'+str(iscan) + '.jpg'
+            cam.capture(filename)
+            iscan +=1
+            
+            # correct focus:
+            iz = Stepper_XYZ.hold_focus(aimedfocus=myfixfocus, currentz=iz, zstep=3,N_meas =25)
+    time.sleep(2)
                 
 # reset position
 Stepper_XYZ.go_to(0,0)        
+
+Stepper_XYZ.go_to_z(0)        
 
 
 myally = np.array(myally)

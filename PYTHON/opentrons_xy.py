@@ -10,7 +10,7 @@ License GPLv3
 import serial
 import time
 import time, datetime, os
-import xystepper as xy
+import xyz_stepper as xy
 import picamera
 
 # GLOBAL PARAMETERS
@@ -34,14 +34,14 @@ cam.start_preview()
 time.sleep(2)
 
 # parameters for the x/y stage 
-stepsize_x = 0.03 # One STEPSIZE in X/Y of the cheap-stage  is 17.27 µm
-stepsize_y = 0.023 # One STEPSIZE in X/Y of the cheap-stage  is 17.27 µm
+stepsize_x = 3 # One STEPSIZE in X/Y of the cheap-stage  is 17.27 µm
+stepsize_y = 23 # One STEPSIZE in X/Y of the cheap-stage  is 17.27 µm
 myoffsetx = 0  # offset steps for the x dirrection
 myoffsety = 0 # offset steps for the y dirrection
 mybacklashx = 7
 mybacklashy = 45 # this is required to offset the stage from the non-moving rim
-Nx = 50
-Ny = 50
+Nx = 5
+Ny = 5
 stepsizeZ =150
 z_min = 500
 z_max =  600
@@ -58,7 +58,7 @@ os.mkdir(myfolder)
 
 
 # Initialize position of the XY-stages
-Stepper_XY = xy.xyStepper(myserial=serial, mycurrentposition=(0,0), mystepper='xy', backlash=mybacklashx)
+Stepper_XY = xy.xyzStepper(serial_xyz=serial, backlash=mybacklashx)
 
 print('Start programm')
 
@@ -74,19 +74,13 @@ try:
             # go to xy-step
             stepx = stepsize_x*ix+myoffsetx
             stepy = stepsize_y*iy+myoffsety
-            
+            print("Go to:"+str(stepx)+"/"+str(stepy))
             Stepper_XY.go_to(stepx, stepy)
             time.sleep(.5)
     	    # grab a frame and wait until the camera settles
     	    #print('Grabbing frame')
-            for iz in range(z_min,z_max,stepsizeZ):
-                Stepper_XY.go_to_z(iz)
-                time.sleep(.25)
-                filename = myfolder+'/scan_xyz_'+str(iscan) + '_' + str(stepx)+'_'+str(stepy)+'_'+str(iz)+'.jpg'
-                cam.capture(filename)
-                iscan +=1
-                print(filename)
-            Stepper_XY.go_to_z(0)	    
+            
+            #Stepper_XY.go_to_z(0)	    
     # Reset position of X/Y stepper
 except Exception as e: 
     print(e)
