@@ -252,6 +252,23 @@ Add the clutch to the the stepper motor (NEMA 11) and mount on to the Baseplate 
 <a href="#logo" name="logo"><img src="./IMAGES/Z-Stack.gif" width="400"></a>
 </p>
 
+
+## Newest Version inside the OT
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/OT_1.jpg" width="400"></a>
+</p>
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/OT_4.jpg" width="400"></a>
+</p>
+
+# Software
+
+The softare is based on the openflexure server and can be found [here](https://gitlab.com/beniroquai/openflexure-microscope-server).
+
+
+
 ## Plate leveling
 
 Since 3D printers are not really reliable in terms of accuracy and the stage is rather not really flat, I added springs to each corner of the base which holds the well plate. Similar to 3D printer plate leveling, you need to adjust the hight of the plate in the first run manually. This is necessary since the focus range so far is only ~1 mm I would say. I need to improve this ;-) 
@@ -378,11 +395,22 @@ REMARK: All files have been designed using Autodesk Inventor 2019 (EDUCATION)
 
 ## Showcase
 
+### First (poor) result
+
 This is the first manually stitched crystalized sugar on a wellplate ;-)
 
 <p align="center">
 <img src="./IMAGES/Stitch1.jpeg" width="400">
 </p>
+
+### Second (improved) result
+
+HeLa cells in a 24-well plate:
+
+<p align="center">
+<img src="./IMAGES/StitchResultHela.jpeg" width="600">
+</p>
+
 
 
 
