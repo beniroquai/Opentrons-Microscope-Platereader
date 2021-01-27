@@ -47,16 +47,18 @@ void loop() {
   }
 
   if (convolve_gaussian()) {
-    Serial.println("convolve gaussian");
+    //Serial.println("convolve gaussian");
   }
 
   find_max_pix();
+  /*
   Serial.print("My X: ");
   Serial.print(max_x);
   Serial.print("My Y: ");
   Serial.print(max_y);
   
   Serial.println("=================");
+  */
 }
 
 
@@ -92,11 +94,35 @@ bool setup_camera(framesize_t frameSize) {
 
   bool ok = esp_camera_init(&config) == ESP_OK;
 
+  // setup the camera 
   sensor_t *sensor = esp_camera_sensor_get();
+  sensor->set_brightness(sensor, -2);     // -2 to 2
+  sensor->set_contrast(sensor, 2);       // -2 to 2
+  sensor->set_saturation(sensor, 0);     // -2 to 2
+  sensor->set_special_effect(sensor, 2); // 0 to 6 (0 - No Effect, 1 - Negative, 2 - Grayscale, 3 - Red Tint, 4 - Green Tint, 5 - Blue Tint, 6 - Sepia)
+  sensor->set_whitebal(sensor, 0);       // 0 = disable , 1 = enable
+  sensor->set_awb_gain(sensor, 0);       // 0 = disable , 1 = enable
+  sensor->set_wb_mode(sensor, 0);        // 0 to 4 - if awb_gain enabled (0 - Auto, 1 - Sunny, 2 - Cloudy, 3 - Office, 4 - Home)
+  sensor->set_exposure_ctrl(sensor, 1);  // 0 = disable , 1 = enable
+  sensor->set_aec2(sensor, 1);           // 0 = disable , 1 = enable
+  sensor->set_ae_level(sensor, -1);       // -2 to 2
+  sensor->set_aec_value(sensor, 300);    // 0 to 1200
+  sensor->set_gain_ctrl(sensor, 1);      // 0 = disable , 1 = enable
+  sensor->set_agc_gain(sensor, 0);       // 0 to 30
+  sensor->set_gainceiling(sensor, (gainceiling_t)0);  // 0 to 6
+  sensor->set_bpc(sensor, 0);            // 0 = disable , 1 = enable
+  sensor->set_wpc(sensor, 1);            // 0 = disable , 1 = enable
+  sensor->set_raw_gma(sensor, 1);        // 0 = disable , 1 = enable
+  sensor->set_lenc(sensor, 1);           // 0 = disable , 1 = enable
+  sensor->set_hmirror(sensor, 0);        // 0 = disable , 1 = enable
+  sensor->set_vflip(sensor, 0);          // 0 = disable , 1 = enable
+  sensor->set_dcw(sensor, 1);            // 0 = disable , 1 = enable
+  sensor->set_colorbar(sensor, 0);       // 0 = disable , 1 = enable  
   sensor->set_framesize(sensor, frameSize);
 
   return ok;
 }
+
 
 /**
    Capture image and do down-sampling
@@ -239,9 +265,9 @@ void print_frame(uint16_t frame[H][W]) {
   for (int y = 0; y < H; y++) {
     for (int x = 0; x < W; x++) {
       int myval = 0;
-      if (frame[y][x] >200) myval = frame[y][x];
+      if (frame[y][x] >0) myval = frame[y][x];
       Serial.print(myval);
-      Serial.print('\t');
+      Serial.print(',');
     }
 
     Serial.println();
