@@ -81,6 +81,17 @@ This is used in the current version of the setup
 | Camera | Raspberry Pi Camera v2.1 | 22 € | [ebay](https://www.ebay.de/itm/Original-Raspberry-Pi-Camera-Module-V2-8-MP-Megapixel-v2-1-Kamera-Webcam/402312752484?epid=1169173168&hash=item5dabb56d64:g:Mu8AAOSwpnRe~EQ-)  | PLA filament | Prusament, space black, 1.75mm  | 22,50 € | [ebay](https://www.ebay.de/itm/3D-Drucker-Filament-1kg-PLA-1-75mm-Durchmesser-Spule-Rolle-1000g-Made-in-DE/401619975552?var=671364352133)  |
 | Isolated Copper Wire | Kupferlackdraht W210 - Ø 0,20 bis 1,18mm - 100g / Spule Kupfer Trafo Motor CU, 0.1 mm  | 22,50 € | [ebay](https://www.ebay.de/itm/Kupferlackdraht-W210-0-20-bis-1-18mm-100g-Spule-Kupfer-Trafo-Motor-CU/254195767797?var=553567555457&_trkparms=ispr%3D1&hash=item3b2f3f99f5:g:JskAAOSwK~ldoDFU&amdata=enc%3AAQAFAAACcBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkrDx%252B2NLp21dg6hHbHAkGMWoIimBVQNvAzC1tMUTz8GC9HAJ6S1TK1Yh%252BZ9TUiE85b4EyGRRJVrka3wJmHhuKUeHv%252Fxtg1hAoPzYis%252BYBzY%252FlR5eiKBVcXEC%252BlXPzurjQs7xmGQopoVnxLiquqIjjcwQkRAayxfr1fJSOWtzYp0rwfgnSnqbC0wm7%252FNXbaEzdKlmRtuqJZIdzv58NZ2J5zM%252Fc3bqrpqBJaxP7ujek1X%252FVvVfxCbkmOGvgF6j%252FrQnK%252BRxFQvlfuPPBUIb%252FdsRCCy7X5BSSqg0ztNX0KAtzkJlcwgRbDEqNYXptn4T7kVDF2dsd9qqxO1I28vMCnFPOrD0BnK9MjOTpd%252FtLJLAFdYGukDdl%252FH9mqvBpRQ%252FVtZmh%252BlwgJkVpX6OXdxeLBCV%252B7VSLg8R%252FoVa%252BZ2OZQb9dLExUKFN7l8k%252Bwv7IiV%252FvUTNTNrt6ijENKZRtRpPeZyRLFXQ13UfaBHuPhkvUcgqrwk9qOIJGUe1BbWWJ%252FOfHaLQYMpSrbuZ5cH3BQnxEqUD65bn1cDjEvFkKKmu52JNSAzAS3iebtvKqMEWu%252BprqOoSzAa4%252FapaHIB6zlC3qswk5kEtFwmmIeRpqYGlrmWfbjBsfEfgH%252BnCEKHikYJgeUMhqHUC6tnZJIy9MXOWy6LG1XeUNHnhaTt%252FOagRSTXCaPmsH5yZotCIu2OGAF37raSSurz40VMMaOWOK%252B3T5pbzck75%252BWNUICHVswn7aUhdVT213HGkHBrXLxuC%252FDxoG8Cnf1LNxLCxWAOgOvLT3l2Sahg%253D%253D%7Ccksum%3A254195767797ff9db643371141fcaf3aa2c7b44e47d1%7Campid%3APL_CLK%7Cclp%3A2334524)  |
 
+
+[11:41, 17/02/2021] Bénè: Wegen den Bestellungen..da müssen wir mal gucken. Wenn du sowas: https://www.amazon.de/Keenso-XY-Lineartisch-Linearverschiebeb%C3%BChne-Kreuzrollenf%C3%BChrung-Plattformgr%C3%B6%C3%9Fe/dp/B07QYSXLF2/ref=sr_1_1_sspa?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Lineartisch+xy&qid=1612893198&s=diy&sr=1-1-spons&psc=1&smid=A2BTSZU32SZ5O4&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMzREUTJaTUVLRlJXJmVuY3J5cHRlZElkPUEwMzU1OTk1MVpJWEQ1Q1RaTjlTUSZlbmNyeXB0ZWRBZElkPUEwMzIyNzY4MUU2SFZCTUwxV1BVWCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU= in einer Uni-freundlichen Quelle findest, dann los! 😉
+[11:42, 17/02/2021] Bénè: Motoren und Treiber gibts hier :
+[11:43, 17/02/2021] Bénè: https://www.roboter-bausatz.de/p/arduino-uno-cnc-shield-v3
+[11:43, 17/02/2021] Bénè: https://www.roboter-bausatz.de/p/uno-r3-mega328p-ch340g
+[11:44, 17/02/2021] Bénè: 4x https://www.roboter-bausatz.de/p/a4988-schrittmotorentreiber
+[11:45, 17/02/2021] Bénè: https://www.roboter-bausatz.de/p/yourdroid-netzteil-12v-3a-5-5x2-1mm-dc-stecker
+[11:45, 17/02/2021] Bénè: (habs gleich)
+[11:47, 17/02/2021] Bénè: https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-11-Bipolar-200-Steps-Rev-2832mm-38V-067-A-Phase?curr=EUR&gclid=CjwKCAiAmrOBBhA0EiwArn3mfLEW7iHEGaisW2zW_kyyb-ZmBfIeNdApN3UManVw6LnwP5-cm03PaBoCEEgQAvD_BwE
+
+
 Kupferlackdraht W210 - Ø 0,20 bis 1,18mm - 100g / Spule Kupfer Trafo Motor CU
 
 ### Assemble the XY-stage 

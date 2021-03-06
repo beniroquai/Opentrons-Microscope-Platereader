@@ -49,8 +49,7 @@ class xyzStepper:
         g_y = "Y"+str(pos_y)
         g_speed = "F25"
         line = g_dim + " " + g_dist + " "  + g_x + " " + g_y + " " + g_speed
-        l = line.strip() # Strip all EOL characters for consistency
-        print( 'Sending: ' + l)
+        l = line.strip() # Strip all EOL characters for consistency        print( 'Sending: ' + l)
         self.serial_xyz.write((l + '\n').encode()) # Send g-code block to grbl
         grbl_out = self.serial_xyz.readline() # Wait for grbl response with carriage return
         print( ' : ' + (grbl_out.strip()).decode())
