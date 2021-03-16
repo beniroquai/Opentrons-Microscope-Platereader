@@ -7,3 +7,5 @@ SCANS/
 .DS_Store
 DOCUMENTS
 SCANS
+*.owncloudsync.log
+*.db
