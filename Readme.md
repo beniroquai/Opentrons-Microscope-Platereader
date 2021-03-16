@@ -1,6 +1,8 @@
 
 # Opentrons Imaging Unit (XYZ)
 
+**WORK IN PROGRESS - more information will follow soon!**
+
 This device is supposed to help you automatically imaging a multiwell plate using a very simple [GRBL](https://github.com/grbl/grbl)-based Arduino Shield controlled by a Raspberry Pi, which also captures images. Curious how this looks like? Scroll to the very end of the page.
 
 Of course this microscope can be used in a different setting as well.
