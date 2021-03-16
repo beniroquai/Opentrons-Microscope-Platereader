@@ -1,3 +1,6 @@
 SCANS/
 *.zip
 .zip
+*.db
+*.db-shm
+*.db-wal

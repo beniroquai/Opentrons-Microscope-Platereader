@@ -13,37 +13,131 @@ Of course this microscope can be used in a different setting as well.
 ***Features:***
 
 - Move camera in XY
-- Move CCTV lens as microscope objective in Z using a voice coil motor
+- Flexure-based focusing of a 10x objective lens
 - Fast
-- Costs ~200-300 €
+- Costs ~300-400 €
 - All 3D printed + off-the-shelf components 
 - Minimum of tools required 
+- Use GRBL as the motion protocol
+- Use the [openflexure microscope server](https://openflexure.org/projects/microscope/) as the control software
 
-The idea to use a CCTV lens as a microscope objective lens was further described e.g. in this publication free to read on [PLoS One](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194063)
+## Further reading 
+- Low-cost stage scanner: [PLoS One](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194063)
+- MicroscoPi: Biorxiv
+- 
 
 
+# Table of Content
+
+- **[Electronics](#Electronics)**
+- **[Software](#Software)**
+- **[Hardware](#Hardware)**
+- **[Bill of materials](#Results)**
+- **[Results](#Results)**
+
+
+## Quickstart
+
+This guide assumes, you have assembled the microscope already. 
+
+### Preparing the microscope
+
+- Plugin the powersupply in the Raspberry Pi (USB) and CNC Shield (12V)
+- Connect the USB cable with the CNC Shield and Raspberry Pi 
+- Check all wires if there is a non-connected wire somewhere
+- Place the microscope objective lens inside the objective slot 
+- Connect the raspberry Pi ribbon cable with the Raspberry Pi according to [this explanation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
+- Get the tools you need to level the bed (Hex keys for M5 and M3) 
+- Place a multwell plate in the try and add some "gum" to avoid slipping of the well-plate 
+
+### Starting the openflexure microscope server  
+
+- connect the microscope to your computer using a LAN cable (or to your home network router)
+- Open up a terminal (MAC/Linux) or command line propmt (CMD, windows)
+- enter `ssh UC2@UC2Pal015`, where `UC2` is the username and `UC2Pal015` is the hostname
+- if everything works correctly, the commandline asks you for the password which is: `youseetoo`
+- after hitting enter, you are connected to the microscope using SSH
+- go to the folder, where the microscope software sits and start the server:
+	- `cd /home/UC2/OFM/openflexure-microscope-server/openflexure_microscope/api` 
+	- `python 3.7 app.py`
+- If everything goes right, the server should start and outputs something like : `server started on http://localhost:5000`
+- You can access this using your browser by typing:  `http://UC2Pal015:5000` the website for the microscope should appear 
+
+
+### Troubleshotting
+
+**The camera does not work:**
+Check all wired connections and their correct orientation
+
+**The Stage does not work:**
+Check all connections (USB, 12V of CNC Shield) and the Settings which are accessible using: 
+`nano /home/UC2/OFM/openflexure-microscope-server/openflexure_microscope/openflexure/settings/microscope_configuration.json`
+
+and have a look at the port and type of the stage:
+
+```py
+{
+  "camera": {
+    "type": "PiCamera"
+  },
+  "stage": {
+    "port": "/dev/ttyACM0",
+    "type": "grbl"
+  }
+}
+```
+
+If you have connected the stage properly and type `dmesg | tail` in the SSH terminal, you will receive something like:
+```
+UC2@UC2Pal015:~/OFM/openflexure-microscope-server/openflexure_microscope/openflexure/settings $ dmesg | tail
+[87673.997032]  r5:60000013 r4:80109b18
+[87673.997048] [<80109ae4>] (arch_cpu_idle) from [<80920660>] (default_idle_call+0x40/0x48)
+[87673.997062] [<80920620>] (default_idle_call) from [<8015504c>] (do_idle+0x124/0x168)
+[87673.997073] [<80154f28>] (do_idle) from [<80155368>] (cpu_startup_entry+0x28/0x30)
+[87673.997084]  r10:00000000 r9:410fd034 r8:0000406a r7:80eaf350 r6:10c0387d r5:00000002
+[87673.997090]  r4:0000008a r3:60000093
+[87673.997102] [<80155340>] (cpu_startup_entry) from [<8010fd10>] (secondary_start_kernel+0x160/0x16c)
+[87673.997116] [<8010fbb0>] (secondary_start_kernel) from [<001027cc>] (0x1027cc)
+[87673.997124]  r5:00000055 r4:2f10806a
+[87673.997136] ---[ end trace 715e6d19da8dbf53 ]---
+```
+where there will be something like `ttyACM0` or `ttyUSB1` representing the Arduino hosting the GRBL board. Use this for the settings above and add `/dev/` to it.
 
 
 ## Software
 
-We use the GLBR code to control the microscope - so you can use it from any computer equipped with a serial (e.g. USB) connection. 
 
-In order to use the CNC Shield, download the [GRBL](https://github.com/grbl/grbl) library and flash it onto the Arduino. 
+### Hardware control software for the motors/light sources
 
-The Python code [here](./PYTHON/opentrons_xy.py) gives a very simple xyz scan.
 
+We use the GLBR code to control the microscope - so you can use it from any computer equipped with a serial (e.g. USB) connection. In order to make it work you "simply" need to flash the GBRL code which is also available on [Github]() on your Arduino Uno + CNC Shield V3. Therefore:
+1. Connect it to the Computer using a USB cable
+2. Open the arduino IDE
+3. Copy the GRBL library in the Arduino Library folder
+3. Open the `grblUpload.ino` Demo in the `EXAMPLES` folder and upload it
+
+We slightly modified the standard GRBL firmware which to match the homing and PWM for laser/LEDs. You can find the [GRBL Library here](https://github.com/beniroquai/grbl/tree/master/grbl)
+
+### 
+
+
+
+
+
+ http://gitlab.com/openflexure/openflexure-microscope-server/-/tree/opentrons-grbl
+ 
+ 
  
 #### Adapting GLBR
 
-Adjust the PWM Frequency:
+Adjust the PWM Frequency, Swap XY Order of Homing:
 https://github.com/grbl/grbl/issues/914
 
 
+## HARDWARE
+
 ## Bill of material
 
-
-
-## HARDWARE
 
 ### 3D printing files 
 
@@ -93,156 +187,6 @@ This is used in the current version of the setup
 
 
 Kupferlackdraht W210 - Ø 0,20 bis 1,18mm - 100g / Spule Kupfer Trafo Motor CU
-
-### Assemble the XY-stage 
-
-These are more-less all components you would need for the XY-stage to operate. The Z-focus assembly is explained below
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_6.jpg" width="400"></a>
-</p>
-
-Insert the linear Bearings (e.g. IGUS Drylin). If your printer adds to much extra air you can make the bearings larger by using some tape such that they fit in the wholes very very stiff. You can use 2 per hole. Mount the metal washer for the spindel drive. 
-
-The "imaging unit" which has the raspberry pi camera, the CCTV lens and the focusing mechanism will be explained in a dedicated tutorial below. 
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_7.jpg" width="400"></a>
-</p>
-
-
-In case the holes for the 6mm rods are not large enough widen them a bit with e.g. a screwdriver. 
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_8.jpg" width="400"></a>
-</p>
-
-Same with the holes for the motor
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_9.jpg" width="400"></a>
-</p>
-
-Add the clutch to the the stepper motor (NEMA 11) and mount on to the Baseplate as such:
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_10.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_11.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_12.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_13.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_14.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_15.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_16.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_17.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_18.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_19.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_20.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_20.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_21.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_22.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_23.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_24.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_25.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_26.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_27.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_28.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_29.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_30.jpg" width="400"></a>
-</p>
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_31.jpg" width="400"></a>
-</p>
-
-
-
-### Build the voicecoil motor (VCM) driven focusing unit 
-
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_1.jpg" width="400"></a>
-</p>
-
-
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_2.jpg" width="400"></a>
-</p>
-
-
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_3.jpg" width="400"></a>
-</p>
-
-
-
-<p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Opentrons_4.jpg" width="400"></a>
-</p>
 
 ## XYZ Stage in Action
 
