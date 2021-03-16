@@ -5,9 +5,8 @@ This device is supposed to help you automatically imaging a multiwell plate usin
 
 Of course this microscope can be used in a different setting as well.
 
-
 <p align="left">
-<a href="#logo" name="logo"><img src="./IMAGES/Assembly_Opentrons_Imagingunit_v0.png" width="600"></a>
+<a href="#logo" name="logo"><img src="./IMAGES/Opentronsscope.png" width="600"></a>
 </p>
 
 ***Features:***
@@ -24,11 +23,13 @@ Of course this microscope can be used in a different setting as well.
 ## Further reading 
 - Low-cost stage scanner: [PLoS One](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194063)
 - MicroscoPi: Biorxiv
-- 
+- Incubot: HardwareX
+- Opentrons
 
 
 # Table of Content
 
+- **[Quickstart](#Quickstart)**
 - **[Electronics](#Electronics)**
 - **[Software](#Software)**
 - **[Hardware](#Hardware)**
@@ -36,7 +37,7 @@ Of course this microscope can be used in a different setting as well.
 - **[Results](#Results)**
 
 
-## Quickstart
+## ⛏ Quickstart
 
 This guide assumes, you have assembled the microscope already. 
 
@@ -67,7 +68,7 @@ This guide assumes, you have assembled the microscope already.
 ### Troubleshotting
 
 **The camera does not work:**
-Check all wired connections and their correct orientation
+Check all wired connections and their correct orientation and reboot.
 
 **The Stage does not work:**
 Check all connections (USB, 12V of CNC Shield) and the Settings which are accessible using: 
@@ -104,13 +105,14 @@ UC2@UC2Pal015:~/OFM/openflexure-microscope-server/openflexure_microscope/openfle
 where there will be something like `ttyACM0` or `ttyUSB1` representing the Arduino hosting the GRBL board. Use this for the settings above and add `/dev/` to it.
 
 
-## Software
+# Software
+
+The software is based on already available open-source projects. We use `GRBL` for the hardware control using an Arduino and the `OpenFlexure Microscope Server` for the GUI and I/O control.
+
+## Hardware control software for the motors/light sources
 
 
-### Hardware control software for the motors/light sources
-
-
-We use the GLBR code to control the microscope - so you can use it from any computer equipped with a serial (e.g. USB) connection. In order to make it work you "simply" need to flash the GBRL code which is also available on [Github]() on your Arduino Uno + CNC Shield V3. Therefore:
+We use the GLBR code to control the microscope - so you can use it from any computer equipped with a serial (e.g. USB) connection. In order to make it work you "simply" need to flash the GBRL code which is also available on [Github](https://github.com/grbl/grbl/) on your Arduino Uno + CNC Shield V3. Therefore:
 1. Connect it to the Computer using a USB cable
 2. Open the arduino IDE
 3. Copy the GRBL library in the Arduino Library folder
@@ -118,51 +120,85 @@ We use the GLBR code to control the microscope - so you can use it from any comp
 
 We slightly modified the standard GRBL firmware which to match the homing and PWM for laser/LEDs. You can find the [GRBL Library here](https://github.com/beniroquai/grbl/tree/master/grbl)
 
-### 
+## GUI and general I/O using the Openflexure Microscope Server
+
+The beautiful [openflexure microscope server](http://gitlab.com/openflexure/openflexure-microscope-server/-/tree/opentrons-grbl) developed by Bowman et al. hosts a number of very helpful features:
+
+- Extending functionality using customized extensions
+- Web browser-based control of the microscope (from any device)
+- Native raspberry pi camera flatfielding 
+- Python/Javascript/VUE.js based
+- User-friendly UI
+
+### Setting up the Raspberry Pi
+
+The people from OpenFlexure provide a ready-to-use SD-card which we are going to use here as a start. This makes it easier to start with all dependencies already installed. Therefore go ahead and perform the following steps: 
+
+1. Download the [OpenFlexure Lite image](https://build.openflexure.org/raspbian-openflexure/armhf/lite/latest)
+2. Format a micro SD card (use rather large SD card, 64 GB) and "burn" the image on the SD card using e.g. Win32Disk on Windows or Etcher
+3. Insert the SD card into the Raspberry PI  and let it boot
+3.1 For further details please have a look [here](https://openflexure.org/projects/microscope/build#install-the-os)
+4. If you are connected to the Pi using a LAN connection, you should be able to access it on `microscope.local` (e.g. SSH)
+4.1 The credentials are:
+- username: `pi`
+- password: `openflexure`
+
+
+	
 
 
 
 
-
- http://gitlab.com/openflexure/openflexure-microscope-server/-/tree/opentrons-grbl
  
  
  
-#### Adapting GLBR
-
-Adjust the PWM Frequency, Swap XY Order of Homing:
-https://github.com/grbl/grbl/issues/914
 
 
-## HARDWARE
+
+# HARDWARE
 
 ## Bill of material
 
+Below you will find all components necessary to build this device
 
 ### 3D printing files 
 
+All these files need be printed. We used a Prusa i3 MK3 using PLA Prusmant (Galaxy Black) at layer height 0.3 mm and infill 80%. 
+
+
 |  Type | Details  |  Price | Link  |
 |---|---|---|---|
-| Wellplate Base | Carries the MTP and performs coarse focus using springloaded screws|  4 € | [Amazon](./STL/04_OPENTRONS_Microscope_wellplate_base.stl)  |
-| Spring for CCTV lens | Realizes low-cost refocusing (print at 100µm layer height) |  4 € | [Amazon](./STL/01_Autofocus_CCTV12mm_spring_1.stl)  |
-| Magnet holder | Carries the focusing unit and the camera |  4 € | [Amazon](./STL/01_Autofocus_Magnet_holder_v0.stl)  |
-| Slide X  | Moving in X direction |  4 € | [Amazon](./STL/01_Slide_camera_x_v0.stl)  |
-| Slide Y |  Moving in Y direction |  4 € | [Amazon](./STL/01_Slide_camera_y_v0.stl)  |
-| Base for microscope  | Holds everything together |  4 € | [Amazon](./STL/02_Opentrons_Microscope_Base_v0.stl)  |
-
-
-
+| Base for microscope  | Holds everything together |  4 € | [Opentronscope_opentrons_gear2.stl](./STL/Opentronscope_opentrons_gear2.stl)  |
+| Optics Module | Holds all optics + camera |  4 € | [Opentronscope_01_opticsmodule.stl](./STL/Opentronscope_01_opticsmodule.stl)  |
+| Focusing mechanism | |  4 € | [Opentronscope_01_Slide_camera_flexure_v1.stl](./STL/Opentronscope_01_Slide_camera_flexure_v1.stl)  |
+| Y-slide for the camera module | |  4 € | [Opentronscope_01_Slide_camera_v1.stl](./STL/Opentronscope_01_Slide_camera_v1.stl)  |
+| Camera slide | |  4 € | [Opentronscope_01_Slide_camera_y_v0.stl](./STL/Opentronscope_01_Slide_camera_y_v0.stl)  |
+| Base for the microscope | |  4 € | [Opentronscope_02_Opentrons_Microscope_Base_v0.stl](./STL/Opentronscope_02_Opentrons_Microscope_Base_v0.stl)  |
+| X-slide | |  4 € | [Opentronscope_03_Support_Xslide.stl](./STL/Opentronscope_03_Support_Xslide.stl)  |
+| Rail fastener | |  4 € | [Opentronscope_04_Mount_Rail_Fastener.stl](./STL/Opentronscope_04_Mount_Rail_Fastener.stl)  |
+| Base for wellplate | |  4 € | [Opentronscope_04_OPENTRONS_Microscope_wellplate_base.stl](./STL/Opentronscope_04_OPENTRONS_Microscope_wellplate_base.stl)  |
+| Illumination arm | |  4 € | [Opentronscope_06_Fluorescence_Arm.stl](./STL/Opentronscope_06_Fluorescence_Arm.stl)  |
+| BAseplate | |  4 € | [Opentronscope_09_Opentrons_Microscope_Baseplate.stl](./STL/Opentronscope_09_Opentrons_Microscope_Baseplate.stl)  |
+| Module for fluorescence and reflection measurements | |  4 € | [Opentronscope_10_OPENTRONS_LED_FLUO_MODULE.stl](./STL/Opentronscope_10_OPENTRONS_LED_FLUO_MODULE.stl)  |
+| Gear 1  | |  4 € | [Opentronscope_opentrons_gear1.stl](./STL/Opentronscope_opentrons_gear1.stl)  |
+| Gearbox for focusing | |  4 € | [Opentronscope_opentrons_Gearbox.stl](./STL/Opentronscope_opentrons_Gearbox.stl)  |
+
 
 
 ### Bill of material
 
 This is used in the current version of the setup
 
+Opentronscope_00_objectivelens_10x
+Opentronscope_00_spindel_bearings_2
+
+Opentronscope_00_spindel_slide_1
+
 |  Type | Details  |  Price | Link  |
 |---|---|---|---|
-| Linear Bearing | Igus Drylin rj4jp-01-06, inner diameter 6mm! |  4 € | [Amazon](https://www.amazon.de/-/en/Upgrade-Bearings-instead-Printer-RJ4JP-01-08/dp/B07MCPZ8KP/ref=pd_lpo_60_t_1/258-0350583-5681770?_encoding=UTF8&pd_rd_i=B07MCPZ8KP&pd_rd_r=2ee44f97-c7b3-4e8c-ae48-a6095f439df0&pd_rd_w=F5EFL&pd_rd_wg=wuDuQ&pf_rd_p=d5c9797d-0238-4119-b220-af4cc3420918&pf_rd_r=BXAHKMVH6RH4B413EET0&psc=1&refRID=BXAHKMVH6RH4B413EET0)  |
-| 4x Rod 6 mm diameter | e.g. Thorlabs (or alike) |  15 € | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=ER12)  |
-| 2x Stepper Motor  | Nema 11  |  15 € | [Ebay](https://www.ebay.de/itm/Nema-11-Mini-Stepper-Motor-Schrittmotor-6Ncm-0-67A-31mm-4-Draht-fur-3D-Drucker/392191218406?hash=item5b506b12e6:g:P9wAAOSwlB1fmTgi)  |
+| 3x Linear Bearing | MGN12H Linear Block |  8 € | [Amazon]()  |
+| 3x Linear Guide Rail | MGN12 (2*20cm, 1*30cm) |  8 € | [Amazon]()  |
+| 3x Stepper Motor  | Nema 11  |  15 € | [Ebay](https://www.ebay.de/itm/Nema-11-Mini-Stepper-Motor-Schrittmotor-6Ncm-0-67A-31mm-4-Draht-fur-3D-Drucker/392191218406?hash=item5b506b12e6:g:P9wAAOSwlB1fmTgi)  |
 | 2x Spindle drive  | T8 Trapezgewindespindel Messingmutter 3D Drucker Fräse Spindel Mutter 300mm |  8 € | [Ebay](https://www.ebay.de/itm/T8-Trapezgewindespindel-Messingmutter-3D-Drucker-Fr%C3%A4se-Spindel-Mutter-100-1000MM/153427964107?ssPageName=STRK%3AMEBIDX%3AIT&var=453365285064&_trksid=p2057872.m2749.l2649)  |
 | CNC Shield |  CNC V3 Shield + UNO R3 + A4988 Driver Module Board für Arduino 3D Drucker |  15 € | [Ebay](-Module-Board-fur-Arduino-3D-Drucker/362683690575?_trkparms=ispr%3D1&hash=item5471a1ee4f:g:GnYAAOSwiTNdLvRk&amdata=enc%3AAQAFAAACYBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkBSh1VzQSTzkTiSV5EE%252FHQdv468Xx0js2egPJhqf0j7fywX70Ijgo0L0ajyjNlmeJWy1dONTLs09E8PgyaqbxKiU%252FQPg7DG%252BFdK1XmUoG4gBLxaztxVEPttqeK6XH%252FwDKE1XxkL%252F%252F5YUIn7KgrwcPrtVZuPrl%252Bhvl4xRV9MdCbSaZ9nlfiVzZqC9mmdYPwcKYYKvADiSZ%252FKVPyKQ6AO%252FV4OW0Hu48Z3fYCmWOBHbF7wa3VxbHlx4HHlyfi4NkEmtrhpMdGa9EiEKbzcPUwCwaSxxMAOkcOKdLTYIDb1buAqzqqLSU2KftABdQM1HGVs6dhxRTzW9uWl6GGindn%252FFkgQ1PuoIaXF23QCZqf1GtIgYlMjOWfQhvQJ0wePxaGRI61t9ujegpfIgJenPJISPJZ1wWMl2BEBSt0oEzBxzQFAqTwgCj9MAzkM1XS%252F5jsoTbG7Zk15nd1%252BSrci036YFTrfQVWSsgstiQ9vz2hXJNOvrKiG4k82ydvDNYn2k2fvWeB%252BluRc%252FE8Rn4vZeLV%252F5A9JCMMrua%252Ba6fRM63scpIUUF7P%252Fn5w6IWp8Vc2TgAM6TZGELuvXd5KbPGIeApY7A%252BuFGBDpQLRnGTUA439YsUi584qmW7e2RwSaeGBv310JlpZrcb7DiN318VgcJWQ3m7e5D5Lj77FPVafIUH3WsesKyiVWBfVCcr5MMhU7oUCa7ZawFmJxMKyK3%252BNVTriUtEte8xrWU5eLFAXU%252F0yi5nOKHP%252BqT%252FIL%252BHJvn4x6t6eP3X%7Ccksum%3A3626836905753a6171c7ac06403fa89107608cac8b83%7Campid%3APL_CLK%7Cclp%3A2334524)  |
 | M3, M4 Screws | Screw Set |  12 € | [Ebay](https://www.ebay.de/itm/Schrauben-Set-520tlg-Edelstahl-Schrauben-Muttern-M3-M4-M5-Linsenkopfschrauben/383726480774?_trkparms=ispr%3D1&hash=item5957e16d86:g:G5sAAOSwVFpfZIpI&amdata=enc%3AAQAFAAACcBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickkxFtV7J5P58ubuVigtBH%252Fe6pb1LxAKCnCULXdvRrl4LVsR3MjfE7wqRxrrBJlBysxXCQuNVptPKS9BmNaHKDLIeQv9NKj6IvrJW%252FufTTddFXGF8U%252BnasvpahEx2Fwxrry8XZyS4eQQvsN4mA59aRp9J7k6D4K06%252FFcobu4rHnfQ1VDPT8wflsYId3xtETX7pohjCj3dUHx%252B2xdTjlELu04rULIiL6TUEAeM14OltNcoB1t2%252Fh8V8LKjZEnZdlr%252F%252FRXMuJEQYYDBP%252BBnRL5njzYMyjhWI4zWNk15%252BO1Dp35UhzgbADwjZ0qAo99s3c3Ti6IYmF969jgsb%252BGsP1O7z0Hr%252BpldAp1SHfquGj6eFoy%252FGQNJEId0Py85H1LaFn6Hyci2zHqyBgOacd3mquWr7LNT%252F%252FwpC%252FdQKhGyC2IC0Em1d%252BmmZ6ooQu3vmdiJsgBl3Xo3aLS%252BgW8Wt9gV9q8CMkm20NLpQ6jZyrsf%252FIuilQiHFyzw1J4VLI9n0%252BL6%252FBAH3YJmF%252B73OfglDgtfXR6JsIfmQWs%252FZHZiL3amLq0SmiL8EMrSxXt%252BIJ%252BiGbRoPXdxz3szICKQI4q9q%252FD722ZzcNie8%252FzhMVivT30E1KgYJfz%252FAfU7gvNCXLVDGSFbcWoPzhKkeHwScOm%252BdH7lynZeiltxRDBO87crSnuH9QoeU7MYThFdOChZ32I32GDoDan46MhW38X80oeXGp6BhDrkOgATOEQNgh3vOFRSl5P2ew7vYL%252Bv4da0aJy2ThL5WfIGHbt9qjkwQjEBY4JexecOA7qQ%253D%253D%7Ccksum%3A38372648077480f9cf3eb2fe485292adf88c008d37c8%7Campid%3APL_CLK%7Cclp%3A2334524)  |
