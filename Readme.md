@@ -28,6 +28,14 @@ Of course this microscope can be used in a different setting as well.
 - Incubot: HardwareX
 - Opentrons
 
+## In-Action
+
+You can directly control the microscope from the opentrons notebook. You can have a glimpse in the example notebook [here](./PYTHON/2021_03_25-Opentrons_OFM_Longtime_Ethanol_Sugar_v0.ipynb)
+
+<p align="left">
+<a href="#logo" name="logo"><img src="./IMAGES/OFM_Opentrons.gif" width="600"></a>
+</p>
+
 
 # Table of Content
 
@@ -36,6 +44,7 @@ Of course this microscope can be used in a different setting as well.
 - **[Software](#Software)**
 - **[Hardware](#Hardware)**
 - **[Bill of materials](#Results)**
+- **[First Use](#First Use)**
 - **[Results](#Results)**
 
 
@@ -105,6 +114,18 @@ UC2@UC2Pal015:~/OFM/openflexure-microscope-server/openflexure_microscope/openfle
 [87673.997136] ---[ end trace 715e6d19da8dbf53 ]---
 ```
 where there will be something like `ttyACM0` or `ttyUSB1` representing the Arduino hosting the GRBL board. Use this for the settings above and add `/dev/` to it.
+
+### First Use
+
+1. Control 
+2. Page Up/down, scrol => Z stage
+3. KEys x/y 
+4. homing 
+
+
+
+### Extensions
+
 
 
 # Software
