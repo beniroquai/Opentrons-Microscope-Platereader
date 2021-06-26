@@ -10,83 +10,107 @@ License GPLv3
 import serial
 import time
 import time, datetime, os
-import xyz_stepper as xy
-import picamera
+#import picamera
 
+
+'''
+Define the XYZ Stepper class
+'''
+class xyzStepper:
+    mycurrentposition = 0
+    max_steps = 100
+    mystepper = 'x'
+    backlash = 0
+    highspeed = 2500
+    lowspeed = 2500 
+    '''
+    X -> backwards
+    x -> forwards
+    '''
+
+    def __init__(self, serial_xyz = "/dev/ttyUSB0",
+                 mycurrentposition=0, backlash=0):
+
+        self.mycurrentposition = mycurrentposition
+        self.backlash = backlash
+        
+        print('Initializing XYZ-stepper')
+        self.serial_xyz = serial.Serial(serial_xyz,115200) # Open grbl serial port
+        self.serial_xyz.write("\r\n\r\n".encode())# Wake up grbl
+        time.sleep(1)   # Wait for grbl to initialize 
+        self.serial_xyz.flushInput()  # Flush startup text in serial input
+        
+
+    def go_to(self, pos_x, pos_y):
+        #
+        # Stream g-code to grbl
+        g_dim = "G20"
+        g_dist = "G90" # G91 is for incremental, G90 is for absolute distance
+        g_x = "X"+str(pos_x)
+        g_y = "Y"+str(pos_y)
+        g_speed = "F25"
+        line = g_dim + " " + g_dist + " "  + g_x + " " + g_y + " " + g_speed
+        l = line.strip() # Strip all EOL characters for consistency        print( 'Sending: ' + l)
+        self.serial_xyz.write((l + '\n').encode()) # Send g-code block to grbl
+        grbl_out = self.serial_xyz.readline() # Wait for grbl response with carriage return
+        print( ' : ' + (grbl_out.strip()).decode())
+
+        self.mycurrentposition = (pos_x, pos_y)
+
+#        time.sleep(abs(self.mystepstogo)*.01+.5)
+
+  
+
+#%%
+
+
+### ATTENTION: replace 'usb' with something which looks like an Arduino
+
+import serial.tools.list_ports as ports
+com_ports = list(ports.comports()) # create a list of com ['COM1','COM2'] 
+for i in com_ports:            
+    if str(i).find('usb'):
+        serialport = i.device
+        print(serialport)
+        
+        
+#%%
+'''
+initiliaze camera
+'''
 # GLOBAL PARAMETERS
 mydatafolder = './RESULTS/'
 
-# Connect GLBR to Raspi: https://github.com/grbl/grbl/issues/1316
-
-# Initialize the USB-Serial connection
-serial = serial.Serial("/dev/ttyUSB0",115200)
-time.sleep(1) # connect to ARduino
-
-# Wake up grbl
-serial.write("\r\n\r\n".encode())
-
-# initiliaze camera
-cam = picamera.PiCamera()
-cam.resolution = (3280, 2464)
-cam.resolution = (1640, 922)
-cam.start_preview()
-# Camera warm-up time
-time.sleep(2)
+# cam = picamera.PiCamera()
+# cam.resolution = (3280, 2464)
+# cam.resolution = (1640, 922)
+# cam.start_preview()
+# # Camera warm-up time
+# time.sleep(2)
 
 # parameters for the x/y stage 
-stepsize_x = 3 # One STEPSIZE in X/Y of the cheap-stage  is 17.27 µm
-stepsize_y = 23 # One STEPSIZE in X/Y of the cheap-stage  is 17.27 µm
-myoffsetx = 0  # offset steps for the x dirrection
-myoffsety = 0 # offset steps for the y dirrection
-mybacklashx = 7
-mybacklashy = 45 # this is required to offset the stage from the non-moving rim
-Nx = 5
-Ny = 5
-stepsizeZ =150
-z_min = 500
-z_max =  600
+stepsize = 3 
 
-
+'''
+File IO
+'''
 # create folder for measurements
 try: 
 	os.mkdir(mydatafolder)	
 except: 
 	print('Folder already exists')
 todaystr = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+
 myfolder = mydatafolder + 'scan_'+todaystr
 os.mkdir(myfolder)
 
 
-# Initialize position of the XY-stages
-Stepper_XY = xy.xyzStepper(serial_xyz=serial, backlash=mybacklashx)
+'''
+Initialize position of the XY-stages
+'''
+Stepper_XY = xyzStepper(serial_xyz=serialport)
+stepx = 10
+stepy = 10
+Stepper_XY.go_to(stepx, stepy)
 
-print('Start programm')
 
-# Flush anything which is on the pipe..
-serial.flushInput()
-
-iscan = 0
-try:
-    # move stepper forward/backward in X
-    for ix in range(Nx):
-        for iy in range(Ny):
-            #print('going to position X/Y :' + str(ix)+'/'+str(iy))
-            # go to xy-step
-            stepx = stepsize_x*ix+myoffsetx
-            stepy = stepsize_y*iy+myoffsety
-            print("Go to:"+str(stepx)+"/"+str(stepy))
-            Stepper_XY.go_to(stepx, stepy)
-            time.sleep(.5)
-    	    # grab a frame and wait until the camera settles
-    	    #print('Grabbing frame')
-            
-            #Stepper_XY.go_to_z(0)	    
-    # Reset position of X/Y stepper
-except Exception as e: 
-    print(e)
-    Stepper_XY.go_to_z(0)
-    Stepper_XY.go_to(myoffsetx, myoffsety)
-
-# return to the home coordinates 
-Stepper_XY.go_to_z(0)
-Stepper_XY.go_to(myoffsetx, myoffsety)
